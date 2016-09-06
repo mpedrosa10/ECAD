@@ -1,0 +1,607 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{79FEBF99-2C23-4215-B2A4-C809C09800BE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ECAD.My.MyApplication</StartupObject>
+    <RootNamespace>ECAD</RootNamespace>
+    <AssemblyName>ECAD</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ECAD.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ECAD.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Images\Ecad_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Telerik.WinControls, Version=2016.2.608.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>lib\RCWF\2016.2.608.40\Telerik.WinControls.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.GridView, Version=2016.2.608.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>lib\RCWF\2016.2.608.40\Telerik.WinControls.GridView.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Aqua, Version=2016.2.608.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Office2013Light, Version=2016.2.608.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.TelerikMetroBlue, Version=2016.2.608.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Windows7, Version=2016.2.608.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Windows8, Version=2016.2.608.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>lib\RCWF\2016.2.608.40\Telerik.WinControls.Themes.Windows8.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.UI, Version=2016.2.608.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>lib\RCWF\2016.2.608.40\Telerik.WinControls.UI.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="TelerikCommon, Version=2016.2.608.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <HintPath>lib\RCWF\2016.2.608.40\TelerikCommon.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Helpers\GeneralFunctions.vb" />
+    <Compile Include="Helpers\LocalizationHelper.vb" />
+    <Compile Include="Helpers\LogHelper.vb" />
+    <Compile Include="Helpers\ScalingHelper.vb" />
+    <Compile Include="Localization\ECADFormStrings.de.Designer.vb">
+      <DependentUpon>ECADFormStrings.de.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Localization\ECADFormStrings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ECADFormStrings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CustomersData.Designer.vb">
+      <DependentUpon>CustomersData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CustomersData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\DesignSummary SubForms\AnodeData.Designer.vb">
+      <DependentUpon>AnodeData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DesignSummary SubForms\AnodeData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\DesignSummary SubForms\CathodeData.Designer.vb">
+      <DependentUpon>CathodeData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DesignSummary SubForms\CathodeData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\DesignSummary SubForms\ElectrolyteData.Designer.vb">
+      <DependentUpon>ElectrolyteData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DesignSummary SubForms\ElectrolyteData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\DesignSummary SubForms\HistoryMainForm.Designer.vb">
+      <DependentUpon>HistoryMainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DesignSummary SubForms\HistoryMainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\DesignSummary SubForms\MwDesign.Designer.vb">
+      <DependentUpon>MwDesign.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DesignSummary SubForms\MwDesign.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\DesignSummary SubForms\PiecePartData.Designer.vb">
+      <DependentUpon>PiecePartData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DesignSummary SubForms\PiecePartData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\DesignSummary SubForms\RangeData.Designer.vb">
+      <DependentUpon>RangeData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DesignSummary SubForms\RangeData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\DesignSummary SubForms\RoutingData.Designer.vb">
+      <DependentUpon>RoutingData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DesignSummary SubForms\RoutingData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\DesignSummary SubForms\RoutingOpcodesData.Designer.vb">
+      <DependentUpon>RoutingOpcodesData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DesignSummary SubForms\RoutingOpcodesData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\DesignSummary SubForms\SubsfSummarySpecData.Designer.vb">
+      <DependentUpon>SubsfSummarySpecData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DesignSummary SubForms\SubsfSummarySpecData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\DesignSummary SubForms\SummaryDesignComment.Designer.vb">
+      <DependentUpon>SummaryDesignComment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DesignSummary SubForms\SummaryDesignComment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\DesignSummary SubForms\PictureThumbnail.Designer.vb">
+      <DependentUpon>PictureThumbnail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DesignSummary SubForms\PictureThumbnail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\DesignSummary SubForms\ESRGraphing.Designer.vb">
+      <DependentUpon>ESRGraphing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DesignSummary SubForms\ESRGraphing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\DesignSummary SubForms\FileChooser.Designer.vb">
+      <DependentUpon>FileChooser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DesignSummary SubForms\FileChooser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\DesignSummary SubForms\PartHistory.Designer.vb">
+      <DependentUpon>PartHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DesignSummary SubForms\PartHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\DesignSummary SubForms\PartsFiles.Designer.vb">
+      <DependentUpon>PartsFiles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DesignSummary SubForms\PartsFiles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\DesignSummary SubForms\PictureDrawings.Designer.vb">
+      <DependentUpon>PictureDrawings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DesignSummary SubForms\PictureDrawings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\DesignSummary SubForms\TabbingData.Designer.vb">
+      <DependentUpon>TabbingData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DesignSummary SubForms\TabbingData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\DesignSummary SubForms\TissueData.Designer.vb">
+      <DependentUpon>TissueData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DesignSummary SubForms\TissueData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\DesignSummary.Designer.vb">
+      <DependentUpon>DesignSummary.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DesignSummary.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Home.Designer.vb">
+      <DependentUpon>Home.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Views\Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ScratchPad SubForms\AddExtraFields.Designer.vb">
+      <DependentUpon>AddExtraFields.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ScratchPad SubForms\AddExtraFields.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ScratchPad SubForms\DCDesignWizard.Designer.vb">
+      <DependentUpon>DCDesignWizard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ScratchPad SubForms\DCDesignWizard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ScratchPad SubForms\DesignWizard.Designer.vb">
+      <DependentUpon>DesignWizard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ScratchPad SubForms\DesignWizard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ScratchPad SubForms\DisplayValues.Designer.vb">
+      <DependentUpon>DisplayValues.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ScratchPad SubForms\DisplayValues.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ScratchPad SubForms\Evaluation.Designer.vb">
+      <DependentUpon>Evaluation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ScratchPad SubForms\Evaluation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ScratchPad SubForms\NewScratchDesign.Designer.vb">
+      <DependentUpon>NewScratchDesign.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ScratchPad SubForms\NewScratchDesign.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ScratchPad SubForms\OracleRoutingCosts.Designer.vb">
+      <DependentUpon>OracleRoutingCosts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ScratchPad SubForms\OracleRoutingCosts.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ScratchPad SubForms\RenameOrCopyScratch.Designer.vb">
+      <DependentUpon>RenameOrCopyScratch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ScratchPad SubForms\RenameOrCopyScratch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ScratchPad SubForms\RenameScratch.Designer.vb">
+      <DependentUpon>RenameScratch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ScratchPad SubForms\RenameScratch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ScratchPad SubForms\ReservePartNumber.Designer.vb">
+      <DependentUpon>ReservePartNumber.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ScratchPad SubForms\ReservePartNumber.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ScratchPad SubForms\ScratchCatalogueIndex.Designer.vb">
+      <DependentUpon>ScratchCatalogueIndex.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ScratchPad SubForms\ScratchCatalogueIndex.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ScratchPad SubForms\ScratchCleanup.Designer.vb">
+      <DependentUpon>ScratchCleanup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ScratchPad SubForms\ScratchCleanup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ScratchPad SubForms\ScratchList.Designer.vb">
+      <DependentUpon>ScratchList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ScratchPad SubForms\ScratchList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ScratchPad SubForms\ScratchTransfer.Designer.vb">
+      <DependentUpon>ScratchTransfer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ScratchPad SubForms\ScratchTransfer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ScratchPad SubForms\SpecificationSetup.Designer.vb">
+      <DependentUpon>SpecificationSetup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ScratchPad SubForms\SpecificationSetup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ScratchPad SubForms\TissueSel.Designer.vb">
+      <DependentUpon>TissueSel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ScratchPad SubForms\TissueSel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ScratchPad SubForms\TransferToScratch.Designer.vb">
+      <DependentUpon>TransferToScratch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ScratchPad SubForms\TransferToScratch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ScratchPad.Designer.vb">
+      <DependentUpon>ScratchPad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ScratchPad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Splash.Designer.vb">
+      <DependentUpon>Splash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Splash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\SubForms\FlashStatus.Designer.vb">
+      <DependentUpon>FlashStatus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SubForms\FlashStatus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\SubForms\Override.Designer.vb">
+      <DependentUpon>Override.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SubForms\Override.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Localization\ECADFormStrings.de.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ECADFormStrings.de.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localization\ECADFormStrings.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ECADFormStrings.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\CustomersData.resx">
+      <DependentUpon>CustomersData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\DesignSummary SubForms\AnodeData.resx">
+      <DependentUpon>AnodeData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\DesignSummary SubForms\CathodeData.resx">
+      <DependentUpon>CathodeData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\DesignSummary SubForms\ElectrolyteData.resx">
+      <DependentUpon>ElectrolyteData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\DesignSummary SubForms\HistoryMainForm.resx">
+      <DependentUpon>HistoryMainForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\DesignSummary SubForms\MwDesign.resx">
+      <DependentUpon>MwDesign.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\DesignSummary SubForms\PiecePartData.resx">
+      <DependentUpon>PiecePartData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\DesignSummary SubForms\RangeData.resx">
+      <DependentUpon>RangeData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\DesignSummary SubForms\RoutingData.resx">
+      <DependentUpon>RoutingData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\DesignSummary SubForms\RoutingOpcodesData.resx">
+      <DependentUpon>RoutingOpcodesData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\DesignSummary SubForms\SubsfSummarySpecData.resx">
+      <DependentUpon>SubsfSummarySpecData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\DesignSummary SubForms\SummaryDesignComment.resx">
+      <DependentUpon>SummaryDesignComment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\DesignSummary SubForms\PictureThumbnail.resx">
+      <DependentUpon>PictureThumbnail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\DesignSummary SubForms\ESRGraphing.resx">
+      <DependentUpon>ESRGraphing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\DesignSummary SubForms\FileChooser.resx">
+      <DependentUpon>FileChooser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\DesignSummary SubForms\PartHistory.resx">
+      <DependentUpon>PartHistory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\DesignSummary SubForms\PartsFiles.resx">
+      <DependentUpon>PartsFiles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\DesignSummary SubForms\PictureDrawings.resx">
+      <DependentUpon>PictureDrawings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\DesignSummary SubForms\TabbingData.resx">
+      <DependentUpon>TabbingData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\DesignSummary SubForms\TissueData.resx">
+      <DependentUpon>TissueData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\DesignSummary.resx">
+      <DependentUpon>DesignSummary.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Home.resx">
+      <DependentUpon>Home.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ScratchPad SubForms\AddExtraFields.resx">
+      <DependentUpon>AddExtraFields.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ScratchPad SubForms\DCDesignWizard.resx">
+      <DependentUpon>DCDesignWizard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ScratchPad SubForms\DesignWizard.resx">
+      <DependentUpon>DesignWizard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ScratchPad SubForms\DisplayValues.resx">
+      <DependentUpon>DisplayValues.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ScratchPad SubForms\Evaluation.resx">
+      <DependentUpon>Evaluation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ScratchPad SubForms\NewScratchDesign.resx">
+      <DependentUpon>NewScratchDesign.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ScratchPad SubForms\OracleRoutingCosts.resx">
+      <DependentUpon>OracleRoutingCosts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ScratchPad SubForms\RenameOrCopyScratch.resx">
+      <DependentUpon>RenameOrCopyScratch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ScratchPad SubForms\RenameScratch.resx">
+      <DependentUpon>RenameScratch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ScratchPad SubForms\ReservePartNumber.resx">
+      <DependentUpon>ReservePartNumber.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ScratchPad SubForms\ScratchCatalogueIndex.resx">
+      <DependentUpon>ScratchCatalogueIndex.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ScratchPad SubForms\ScratchCleanup.resx">
+      <DependentUpon>ScratchCleanup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ScratchPad SubForms\ScratchList.resx">
+      <DependentUpon>ScratchList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ScratchPad SubForms\ScratchTransfer.resx">
+      <DependentUpon>ScratchTransfer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ScratchPad SubForms\SpecificationSetup.resx">
+      <DependentUpon>SpecificationSetup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ScratchPad SubForms\TissueSel.resx">
+      <DependentUpon>TissueSel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ScratchPad SubForms\TransferToScratch.resx">
+      <DependentUpon>TransferToScratch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ScratchPad.resx">
+      <DependentUpon>ScratchPad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Splash.resx">
+      <DependentUpon>Splash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SubForms\FlashStatus.resx">
+      <DependentUpon>FlashStatus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SubForms\Override.resx">
+      <DependentUpon>Override.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\ECAD.png" />
+    <EmbeddedResource Include="Images\kemet_logo-small.jpg" />
+    <SplashScreen Include="Images\Splash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ActiveDirectoryLibrary\ActiveDirectoryLibrary.vbproj">
+      <Project>{ebca5b8f-05a8-4569-abeb-95959ee0756f}</Project>
+      <Name>ActiveDirectoryLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controls\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\Ecad_icon.ico" />
+    <Content Include="Images\preview_32.png" />
+    <Content Include="Images\print_32.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

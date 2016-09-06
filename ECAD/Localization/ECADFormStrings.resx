@@ -1,0 +1,3651 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdditionalFields_Title" xml:space="preserve">
+    <value>Additional Fields</value>
+  </data>
+  <data name="AgeingData_Title" xml:space="preserve">
+    <value>Ageing Data</value>
+  </data>
+  <data name="Anodes_Title" xml:space="preserve">
+    <value>Anodes</value>
+  </data>
+  <data name="ASLog_Title" xml:space="preserve">
+    <value>AS Log</value>
+  </data>
+  <data name="AssemblyNotes_Title" xml:space="preserve">
+    <value>Assembly Notes</value>
+  </data>
+  <data name="AutoExport_Title" xml:space="preserve">
+    <value>Auto-Export</value>
+  </data>
+  <data name="BatchCards_Title" xml:space="preserve">
+    <value>Batch Cards</value>
+  </data>
+  <data name="BlockCosts_Title" xml:space="preserve">
+    <value>Block Costs</value>
+  </data>
+  <data name="Cathodes_Title" xml:space="preserve">
+    <value>Cathodes</value>
+  </data>
+  <data name="ChangeNotes_Title" xml:space="preserve">
+    <value>Change Notes</value>
+  </data>
+  <data name="Customers_Title" xml:space="preserve">
+    <value>Customers</value>
+  </data>
+  <data name="DesignIndex_Title" xml:space="preserve">
+    <value>Design Index</value>
+  </data>
+  <data name="DesignSummary_Title" xml:space="preserve">
+    <value>Design Summary</value>
+  </data>
+  <data name="Electrolytes_Title" xml:space="preserve">
+    <value>Electrolytes</value>
+  </data>
+  <data name="Global_1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Global_2" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Global_3" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Global_Abort" xml:space="preserve">
+    <value>Abort</value>
+  </data>
+  <data name="Global_Build" xml:space="preserve">
+    <value>Build</value>
+  </data>
+  <data name="Global_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Global_CelsiusDegrees" xml:space="preserve">
+    <value>ºC</value>
+  </data>
+  <data name="Global_Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Global_Ignore" xml:space="preserve">
+    <value>Ignore</value>
+  </data>
+  <data name="Units_MicroFarad" xml:space="preserve">
+    <value>µF</value>
+  </data>
+  <data name="Global_Negative" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="Global_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Global_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Global_Percentage" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="Global_Positive" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="Global_R" xml:space="preserve">
+    <value>R</value>
+  </data>
+  <data name="Global_Retry" xml:space="preserve">
+    <value>Retry</value>
+  </data>
+  <data name="Global_U" xml:space="preserve">
+    <value>U</value>
+  </data>
+  <data name="Global_V" xml:space="preserve">
+    <value>V</value>
+  </data>
+  <data name="Global_Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="Global_Volts" xml:space="preserve">
+    <value>Volts</value>
+  </data>
+  <data name="Global_Width" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="Global_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="HistoryViewer_Title" xml:space="preserve">
+    <value>History Viewer</value>
+  </data>
+  <data name="Home_CapacitorDesign" xml:space="preserve">
+    <value>Capacitor Design</value>
+  </data>
+  <data name="Home_Copyright" xml:space="preserve">
+    <value>© Kemet Electronics Ltd 2007 (Originally BHC Aerovox Ltd 1998)
+The content of this program and accompanying manuals is confidential.
+Its use is restricted to employees of the KEMET Corporation and associated companies.</value>
+  </data>
+  <data name="Home_DataProcessing" xml:space="preserve">
+    <value>Data Processing</value>
+  </data>
+  <data name="Home_DesignData" xml:space="preserve">
+    <value>Design Data</value>
+  </data>
+  <data name="Home_DesignMaterials" xml:space="preserve">
+    <value>Design Materials</value>
+  </data>
+  <data name="Home_EcadWelcomes" xml:space="preserve">
+    <value>Ecad welcomes $ADUserFullName</value>
+  </data>
+  <data name="Home_GlobalSystem" xml:space="preserve">
+    <value>Global System</value>
+  </data>
+  <data name="Home_LogOut" xml:space="preserve">
+    <value>Log Out</value>
+  </data>
+  <data name="Home_Quit" xml:space="preserve">
+    <value>Are you sure you want to quit ECAD?</value>
+  </data>
+  <data name="Home_Quit_Title" xml:space="preserve">
+    <value>Quit ECAD</value>
+  </data>
+  <data name="Home_Title" xml:space="preserve">
+    <value>ECAD</value>
+  </data>
+  <data name="ImportDesigns_Title" xml:space="preserve">
+    <value>Import Scratch Designs</value>
+  </data>
+  <data name="InitDb_Title" xml:space="preserve">
+    <value>Init Db</value>
+  </data>
+  <data name="InputPartMasters_Title" xml:space="preserve">
+    <value>Input Part Masters</value>
+  </data>
+  <data name="Login_Error" xml:space="preserve">
+    <value>Incorrect login data</value>
+  </data>
+  <data name="Login_Name" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="Login_Password" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="Login_Title" xml:space="preserve">
+    <value>Log In to ECAD</value>
+  </data>
+  <data name="OracleExport_Title" xml:space="preserve">
+    <value>Oracle Export</value>
+  </data>
+  <data name="Parameters_Title" xml:space="preserve">
+    <value>Parameters</value>
+  </data>
+  <data name="PartsFiles_TitleWindow" xml:space="preserve">
+    <value>Parts Files</value>
+  </data>
+  <data name="Pictures_Title" xml:space="preserve">
+    <value>Pictures</value>
+  </data>
+  <data name="PieceParts_Title" xml:space="preserve">
+    <value>Piece Parts</value>
+  </data>
+  <data name="Print_Title" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="ProductSelector_Title" xml:space="preserve">
+    <value>Product Selector</value>
+  </data>
+  <data name="Ranges_Title" xml:space="preserve">
+    <value>Ranges</value>
+  </data>
+  <data name="RecreateSummary_Title" xml:space="preserve">
+    <value>Recreate Summary</value>
+  </data>
+  <data name="RifaCadData_Title" xml:space="preserve">
+    <value>RifaCad Data</value>
+  </data>
+  <data name="ScratchPad_Title" xml:space="preserve">
+    <value>Scratch Pad</value>
+  </data>
+  <data name="ScratchP_Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="ScratchP_Anode_Vertical" xml:space="preserve">
+    <value>A
+N
+O
+D
+E
+</value>
+  </data>
+  <data name="ScratchP_ASNo" xml:space="preserve">
+    <value>AS No.</value>
+  </data>
+  <data name="ScratchP_Cap" xml:space="preserve">
+    <value>Cap</value>
+  </data>
+  <data name="ScratchP_Cath" xml:space="preserve">
+    <value>CATH.</value>
+  </data>
+  <data name="ScratchP_ClearApps" xml:space="preserve">
+    <value>Clear Apps</value>
+  </data>
+  <data name="ScratchP_Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="ScratchP_DeleteScratch" xml:space="preserve">
+    <value>Delete Scratch</value>
+  </data>
+  <data name="ScratchP_DesApp" xml:space="preserve">
+    <value>Des App</value>
+  </data>
+  <data name="ScratchP_Dia" xml:space="preserve">
+    <value>Dia</value>
+  </data>
+  <data name="ScratchP_DimensionDwg" xml:space="preserve">
+    <value>Dimension Dwg</value>
+  </data>
+  <data name="ScratchP_Evaluate" xml:space="preserve">
+    <value>Evaluate</value>
+  </data>
+  <data name="ScratchP_Factor" xml:space="preserve">
+    <value>Factor</value>
+  </data>
+  <data name="ScratchP_GoToSummary" xml:space="preserve">
+    <value>Go To Summary</value>
+  </data>
+  <data name="ScratchP_Hold" xml:space="preserve">
+    <value>Hold</value>
+  </data>
+  <data name="ScratchP_Issue" xml:space="preserve">
+    <value>Issue</value>
+  </data>
+  <data name="ScratchP_Len" xml:space="preserve">
+    <value>Len</value>
+  </data>
+  <data name="ScratchP_Live" xml:space="preserve">
+    <value>Live</value>
+  </data>
+  <data name="ScratchP_MaxLen" xml:space="preserve">
+    <value>Max len.</value>
+  </data>
+  <data name="ScratchP_Melinex" xml:space="preserve">
+    <value>Melinex</value>
+  </data>
+  <data name="ScratchP_MinGain" xml:space="preserve">
+    <value>Min gain</value>
+  </data>
+  <data name="ScratchP_NewDesign" xml:space="preserve">
+    <value>New Design</value>
+  </data>
+  <data name="ScratchP_Obs" xml:space="preserve">
+    <value>Obs,</value>
+  </data>
+  <data name="ScratchP_Outline" xml:space="preserve">
+    <value>Outline</value>
+  </data>
+  <data name="ScratchP_PartsFile" xml:space="preserve">
+    <value>Parts File</value>
+  </data>
+  <data name="ScratchP_PercentageFit" xml:space="preserve">
+    <value>% FIT</value>
+  </data>
+  <data name="ScratchP_PrevSpec" xml:space="preserve">
+    <value>Prev. Spec</value>
+  </data>
+  <data name="ScratchP_PrintCost" xml:space="preserve">
+    <value>Print Cost</value>
+  </data>
+  <data name="ScratchP_PrintDesign" xml:space="preserve">
+    <value>Print Design</value>
+  </data>
+  <data name="ScratchP_PrintEsr" xml:space="preserve">
+    <value>Print Esr</value>
+  </data>
+  <data name="ScratchP_QAApp" xml:space="preserve">
+    <value>QA App</value>
+  </data>
+  <data name="ScratchP_Refresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="ScratchP_Rename" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="ScratchP_Routing" xml:space="preserve">
+    <value>Routing</value>
+  </data>
+  <data name="ScratchP_SDApp" xml:space="preserve">
+    <value>SDApp</value>
+  </data>
+  <data name="ScratchP_ShowAllRecs" xml:space="preserve">
+    <value>Show All Recs</value>
+  </data>
+  <data name="ScratchP_ShowSpec" xml:space="preserve">
+    <value>Show Spec</value>
+  </data>
+  <data name="ScratchP_SpecDrawing" xml:space="preserve">
+    <value>Spec. Drawing</value>
+  </data>
+  <data name="ScratchP_SQApp" xml:space="preserve">
+    <value>SQApp</value>
+  </data>
+  <data name="ScratchP_StdLength" xml:space="preserve">
+    <value>Std. Length</value>
+  </data>
+  <data name="ScratchP_Summary" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="ScratchP_Tissue_Vertical" xml:space="preserve">
+    <value>T
+ I
+S
+S
+U
+E
+</value>
+  </data>
+  <data name="ScratchP_UpdateMain" xml:space="preserve">
+    <value>Update Main</value>
+  </data>
+  <data name="ScratchP_UserGain" xml:space="preserve">
+    <value>User Gain</value>
+  </data>
+  <data name="ScratchP_Vf" xml:space="preserve">
+    <value>Vf</value>
+  </data>
+  <data name="ScratchP_WindingDetails" xml:space="preserve">
+    <value>Winding Details</value>
+  </data>
+  <data name="ScratchP_WindingPicture" xml:space="preserve">
+    <value>Winding Picture</value>
+  </data>
+  <data name="StandardWidths_Title" xml:space="preserve">
+    <value>Standard Widths</value>
+  </data>
+  <data name="SystemData_Title" xml:space="preserve">
+    <value>System Data</value>
+  </data>
+  <data name="Tabbing_Title" xml:space="preserve">
+    <value>Tabbing</value>
+  </data>
+  <data name="Tissues_Title" xml:space="preserve">
+    <value>Tissues</value>
+  </data>
+  <data name="Units_MicroFaradPerSquareCm" xml:space="preserve">
+    <value>µF/cm²</value>
+  </data>
+  <data name="Units_Mm" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="UpdateCosts_Title" xml:space="preserve">
+    <value>Update Costs</value>
+  </data>
+  <data name="UsersApprovals_Title" xml:space="preserve">
+    <value>Users / Approvals</value>
+  </data>
+  <data name="CustomersData_Title" xml:space="preserve">
+    <value>Customer Data</value>
+  </data>
+  <data name="Customers_Active" xml:space="preserve">
+    <value>Active?</value>
+  </data>
+  <data name="Customers_RefreshPRMS" xml:space="preserve">
+    <value>Refresh PRMS Data</value>
+  </data>
+  <data name="CustomersData_WindowTitle" xml:space="preserve">
+    <value>PRMS_Customer_Data</value>
+  </data>
+  <data name="Customers_Addr1" xml:space="preserve">
+    <value>Addr1</value>
+  </data>
+  <data name="Customers_Addr2" xml:space="preserve">
+    <value>Addr2</value>
+  </data>
+  <data name="Customers_Addr3" xml:space="preserve">
+    <value>Addr3</value>
+  </data>
+  <data name="Customers_Addr4" xml:space="preserve">
+    <value>Addr4</value>
+  </data>
+  <data name="Customers_Contact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="Customers_CustomerID" xml:space="preserve">
+    <value>Customer ID</value>
+  </data>
+  <data name="Customers_Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="Customers_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Customers_Phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="Customers_PostCode" xml:space="preserve">
+    <value>PostCode</value>
+  </data>
+  <data name="DesignSummary_ac" xml:space="preserve">
+    <value>ac</value>
+  </data>
+  <data name="DesignSummary_AddToList" xml:space="preserve">
+    <value>Add To List</value>
+  </data>
+  <data name="DesignSummary_Amount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="DesignSummary_Anodes" xml:space="preserve">
+    <value>Anodes</value>
+  </data>
+  <data name="DesignSummary_ASNo" xml:space="preserve">
+    <value>AS No.</value>
+  </data>
+  <data name="DesignSummary_ClearApps" xml:space="preserve">
+    <value>Clear Apps</value>
+  </data>
+  <data name="DesignSummary_Cost" xml:space="preserve">
+    <value>Cost</value>
+  </data>
+  <data name="DesignSummary_Customer" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="DesignSummary_CustPNo" xml:space="preserve">
+    <value>Cust P/No</value>
+  </data>
+  <data name="DesignSummary_Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="DesignSummary_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="DesignSummary_DesApp" xml:space="preserve">
+    <value>Des App</value>
+  </data>
+  <data name="DesignSummary_Detail" xml:space="preserve">
+    <value>Detail</value>
+  </data>
+  <data name="DesignSummary_Dia" xml:space="preserve">
+    <value>Dia</value>
+  </data>
+  <data name="DesignSummary_DimensionDWG" xml:space="preserve">
+    <value>Dimension Dwg</value>
+  </data>
+  <data name="DesignSummary_Dimensions" xml:space="preserve">
+    <value>Dimensions</value>
+  </data>
+  <data name="DesignSummary_Distributor" xml:space="preserve">
+    <value>Distributor</value>
+  </data>
+  <data name="DesignSummary_FV" xml:space="preserve">
+    <value>FV</value>
+  </data>
+  <data name="DesignSummary_Gain" xml:space="preserve">
+    <value>Gain</value>
+  </data>
+  <data name="DesignSummary_GoToScratchPad" xml:space="preserve">
+    <value>Go To Scratch Pad</value>
+  </data>
+  <data name="DesignSummary_Hold" xml:space="preserve">
+    <value>Hold</value>
+  </data>
+  <data name="DesignSummary_Issue" xml:space="preserve">
+    <value>Issue</value>
+  </data>
+  <data name="DesignSummary_Len" xml:space="preserve">
+    <value>Len</value>
+  </data>
+  <data name="DesignSummary_LengthsETC" xml:space="preserve">
+    <value>Lengths etc.</value>
+  </data>
+  <data name="DesignSummary_Live" xml:space="preserve">
+    <value>Live</value>
+  </data>
+  <data name="DesignSummary_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="DesignSummary_Obs" xml:space="preserve">
+    <value>Obs.</value>
+  </data>
+  <data name="DesignSummary_Outline" xml:space="preserve">
+    <value>Outline</value>
+  </data>
+  <data name="DesignSummary_PartsFile" xml:space="preserve">
+    <value>Parts File</value>
+  </data>
+  <data name="DesignSummary_pgeAddData" xml:space="preserve">
+    <value>pgeAddData</value>
+  </data>
+  <data name="DesignSummary_pgeCatData" xml:space="preserve">
+    <value>pgeCatData</value>
+  </data>
+  <data name="DesignSummary_QAApp" xml:space="preserve">
+    <value>QA App</value>
+  </data>
+  <data name="DesignSummary_Range" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="DesignSummary_RatedIR" xml:space="preserve">
+    <value>Rated Ir:</value>
+  </data>
+  <data name="DesignSummary_Routing" xml:space="preserve">
+    <value>Routing</value>
+  </data>
+  <data name="DesignSummary_SpecDrawing" xml:space="preserve">
+    <value>Spec. Drawing</value>
+  </data>
+  <data name="DesignSummary_SpecificationsDetails" xml:space="preserve">
+    <value>Specification Details</value>
+  </data>
+  <data name="DesignSummary_SpecNotes" xml:space="preserve">
+    <value>Spec. Notes</value>
+  </data>
+  <data name="DesignSummary_StockOrders" xml:space="preserve">
+    <value>Stock / Orders</value>
+  </data>
+  <data name="DesignSummary_Style" xml:space="preserve">
+    <value>Style</value>
+  </data>
+  <data name="DesignSummary_SurgeVoltage" xml:space="preserve">
+    <value>Surge Voltage</value>
+  </data>
+  <data name="DesignSummary_Terminals" xml:space="preserve">
+    <value>Terminals</value>
+  </data>
+  <data name="DesignSummary_TestVoltage" xml:space="preserve">
+    <value>Test Voltage</value>
+  </data>
+  <data name="DesignSummary_Thick" xml:space="preserve">
+    <value>Thick</value>
+  </data>
+  <data name="DesignSummary_Transfer" xml:space="preserve">
+    <value>Transfer</value>
+  </data>
+  <data name="DesignSummary_UnitCost" xml:space="preserve">
+    <value>Unit Cost</value>
+  </data>
+  <data name="DesignSummary_Width" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="DesignSummary_WindingMaterials" xml:space="preserve">
+    <value>Winding Materials</value>
+  </data>
+  <data name="DesignSummary_WindingPicture" xml:space="preserve">
+    <value>Winding Picture</value>
+  </data>
+  <data name="DesignSummary_WorkingVoltage" xml:space="preserve">
+    <value>Working Voltage</value>
+  </data>
+  <data name="Global_Ampere" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="Global_Hz" xml:space="preserve">
+    <value>Hz</value>
+  </data>
+  <data name="Unis_MicroFarad" xml:space="preserve">
+    <value>µF</value>
+  </data>
+  <data name="DesignSummary_AnodeNone" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="DesignSummary_Cath" xml:space="preserve">
+    <value>Cath.</value>
+  </data>
+  <data name="DesignSummary_DesignChecked" xml:space="preserve">
+    <value>Design Checked</value>
+  </data>
+  <data name="DesignSummary_NewSpec" xml:space="preserve">
+    <value>New Spec</value>
+  </data>
+  <data name="DesignSummary_Tissues" xml:space="preserve">
+    <value>Tissues</value>
+  </data>
+  <data name="UniMicroFaradPerCm" xml:space="preserve">
+    <value>µF/cm</value>
+  </data>
+  <data name="Units_MeterSquarePerKilogram" xml:space="preserve">
+    <value>m²/Kg</value>
+  </data>
+  <data name="Units_MicroMeter" xml:space="preserve">
+    <value>µm</value>
+  </data>
+  <data name="Units_PerKg" xml:space="preserve">
+    <value>/Kg</value>
+  </data>
+  <data name="Units_PerMeterSquare" xml:space="preserve">
+    <value>/m²</value>
+  </data>
+  <data name="Unit_GramPerCubicCm" xml:space="preserve">
+    <value>g/cm³</value>
+  </data>
+  <data name="Global_Show" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="Global_Store" xml:space="preserve">
+    <value>Store</value>
+  </data>
+  <data name="ScratchP_ActEsrTemp" xml:space="preserve">
+    <value>Act esr temp</value>
+  </data>
+  <data name="ScratchP_ActTrxAtEOLTx" xml:space="preserve">
+    <value>Arc Tr x @ EOL Tx</value>
+  </data>
+  <data name="ScratchP_AfterWrap" xml:space="preserve">
+    <value>After-wrap</value>
+  </data>
+  <data name="ScratchP_AirflowMs" xml:space="preserve">
+    <value>Airflow m/s</value>
+  </data>
+  <data name="ScratchP_AmbientTa" xml:space="preserve">
+    <value>Ambient Ta</value>
+  </data>
+  <data name="ScratchP_ArrheniusT2" xml:space="preserve">
+    <value>Arrhenius T2</value>
+  </data>
+  <data name="ScratchP_ATc" xml:space="preserve">
+    <value>A Tc</value>
+  </data>
+  <data name="ScratchP_AverageTh" xml:space="preserve">
+    <value>Average Th</value>
+  </data>
+  <data name="ScratchP_CanCode" xml:space="preserve">
+    <value>Can Code</value>
+  </data>
+  <data name="ScratchP_CanInt" xml:space="preserve">
+    <value>Can Int Ø</value>
+  </data>
+  <data name="ScratchP_CathExtension" xml:space="preserve">
+    <value>Cath extension</value>
+  </data>
+  <data name="ScratchP_Ctl" xml:space="preserve">
+    <value>Ctl</value>
+  </data>
+  <data name="ScratchP_CurrentPaths" xml:space="preserve">
+    <value>Current paths</value>
+  </data>
+  <data name="ScratchP_DefaultFreqs" xml:space="preserve">
+    <value>Default freqs</value>
+  </data>
+  <data name="ScratchP_DesignNotes" xml:space="preserve">
+    <value>Design Notes:</value>
+  </data>
+  <data name="ScratchP_DisplayCosts" xml:space="preserve">
+    <value>Display costs</value>
+  </data>
+  <data name="ScratchP_EDType" xml:space="preserve">
+    <value>ED Type</value>
+  </data>
+  <data name="ScratchP_Elyte" xml:space="preserve">
+    <value>E'LYTE</value>
+  </data>
+  <data name="ScratchP_ESR" xml:space="preserve">
+    <value>ESR</value>
+  </data>
+  <data name="ScratchP_ESRFactorKe" xml:space="preserve">
+    <value>ESR Factor Ke</value>
+  </data>
+  <data name="ScratchP_FailMode" xml:space="preserve">
+    <value>Fail mode</value>
+  </data>
+  <data name="ScratchP_GetData" xml:space="preserve">
+    <value>Get Data</value>
+  </data>
+  <data name="ScratchP_Hole" xml:space="preserve">
+    <value>Hole Ø</value>
+  </data>
+  <data name="ScratchP_HSink" xml:space="preserve">
+    <value>H/Sink</value>
+  </data>
+  <data name="ScratchP_L1" xml:space="preserve">
+    <value>L1</value>
+  </data>
+  <data name="ScratchP_L2" xml:space="preserve">
+    <value>L2</value>
+  </data>
+  <data name="ScratchP_LifeCalc" xml:space="preserve">
+    <value>Life Calc</value>
+  </data>
+  <data name="ScratchP_LifeFactorLe" xml:space="preserve">
+    <value>Life Factor Le</value>
+  </data>
+  <data name="ScratchP_LifeLop" xml:space="preserve">
+    <value>Life Lop</value>
+  </data>
+  <data name="ScratchP_Mandrel" xml:space="preserve">
+    <value>Mandrel</value>
+  </data>
+  <data name="ScratchP_MaxCapAt90Fit" xml:space="preserve">
+    <value>Max cap @ 90% fit</value>
+  </data>
+  <data name="ScratchP_MaxCoreTm" xml:space="preserve">
+    <value>Max core Tm</value>
+  </data>
+  <data name="ScratchP_MaxESRx" xml:space="preserve">
+    <value>Max ESR (x)</value>
+  </data>
+  <data name="ScratchP_MoreDetail" xml:space="preserve">
+    <value>More detail</value>
+  </data>
+  <data name="ScratchP_NoDot" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="ScratchP_old" xml:space="preserve">
+    <value>old</value>
+  </data>
+  <data name="ScratchP_OpVop" xml:space="preserve">
+    <value>Op. Vop</value>
+  </data>
+  <data name="ScratchP_PhysicalCaseFill" xml:space="preserve">
+    <value>Physical case fill</value>
+  </data>
+  <data name="ScratchP_PreWrapLength" xml:space="preserve">
+    <value>Pre-wrap length</value>
+  </data>
+  <data name="ScratchP_PreWrapTurns" xml:space="preserve">
+    <value>Pre-wrap turns</value>
+  </data>
+  <data name="ScratchP_RelForm" xml:space="preserve">
+    <value>Rel. Form</value>
+  </data>
+  <data name="ScratchP_RHaCperWatt" xml:space="preserve">
+    <value>RHa ºC/Watt</value>
+  </data>
+  <data name="ScratchP_Scrollbar" xml:space="preserve">
+    <value>Scrollbar</value>
+  </data>
+  <data name="ScratchP_StdVfs" xml:space="preserve">
+    <value>Std. Vfs</value>
+  </data>
+  <data name="ScratchP_Swage" xml:space="preserve">
+    <value>Swage</value>
+  </data>
+  <data name="ScratchP_Tab" xml:space="preserve">
+    <value>TAB.</value>
+  </data>
+  <data name="ScratchP_TrCoreRise" xml:space="preserve">
+    <value>Tr (core rise)</value>
+  </data>
+  <data name="ScratchP_TrForCalcIr" xml:space="preserve">
+    <value>Tr for calc Ir</value>
+  </data>
+  <data name="ScratchP_UseActualEsr" xml:space="preserve">
+    <value>Use actual esr</value>
+  </data>
+  <data name="ScratchP_VFactorKv" xml:space="preserve">
+    <value>V Factor Kv</value>
+  </data>
+  <data name="ScratchP_WriteCatData" xml:space="preserve">
+    <value>Write Cat Data</value>
+  </data>
+  <data name="Global_Condition" xml:space="preserve">
+    <value>Condition</value>
+  </data>
+  <data name="Global_Customer" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="Global_Dimensions" xml:space="preserve">
+    <value>Dimensions</value>
+  </data>
+  <data name="Global_Distributor" xml:space="preserve">
+    <value>Distributor</value>
+  </data>
+  <data name="Global_English" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="Global_Parameter" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="Global_Spanish" xml:space="preserve">
+    <value>Spanish</value>
+  </data>
+  <data name="Global_Terminals" xml:space="preserve">
+    <value>Terminals</value>
+  </data>
+  <data name="Global_to" xml:space="preserve">
+    <value>to</value>
+  </data>
+  <data name="Global_Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="ScratchP_A1LC" xml:space="preserve">
+    <value>A1LC</value>
+  </data>
+  <data name="ScratchP_A2LC" xml:space="preserve">
+    <value>A2LC</value>
+  </data>
+  <data name="ScratchP_A3LC" xml:space="preserve">
+    <value>A3LC</value>
+  </data>
+  <data name="ScratchP_AAt" xml:space="preserve">
+    <value>A @</value>
+  </data>
+  <data name="ScratchP_ac" xml:space="preserve">
+    <value>ac</value>
+  </data>
+  <data name="ScratchP_An1" xml:space="preserve">
+    <value>An1</value>
+  </data>
+  <data name="ScratchP_An2" xml:space="preserve">
+    <value>An2</value>
+  </data>
+  <data name="ScratchP_An3" xml:space="preserve">
+    <value>An3</value>
+  </data>
+  <data name="ScratchP_Anytg" xml:space="preserve">
+    <value>Anytg</value>
+  </data>
+  <data name="ScratchP_Capacitance" xml:space="preserve">
+    <value>Capacitance</value>
+  </data>
+  <data name="ScratchP_CatalogueData" xml:space="preserve">
+    <value>Catalogue data</value>
+  </data>
+  <data name="ScratchP_CatData" xml:space="preserve">
+    <value>Cat. Data</value>
+  </data>
+  <data name="ScratchP_CaYC" xml:space="preserve">
+    <value>CaYC</value>
+  </data>
+  <data name="ScratchP_Caytg" xml:space="preserve">
+    <value>Caytg</value>
+  </data>
+  <data name="ScratchP_CLC" xml:space="preserve">
+    <value>CLC</value>
+  </data>
+  <data name="ScratchP_condy_eq" xml:space="preserve">
+    <value>condy_eq</value>
+  </data>
+  <data name="ScratchP_Cost" xml:space="preserve">
+    <value>Cost</value>
+  </data>
+  <data name="ScratchP_CustPNo" xml:space="preserve">
+    <value>Cust P/No</value>
+  </data>
+  <data name="ScratchP_Dep" xml:space="preserve">
+    <value>Dep</value>
+  </data>
+  <data name="ScratchP_EditFields" xml:space="preserve">
+    <value>Edit Fields</value>
+  </data>
+  <data name="ScratchP_ESRAt100HzAt20C" xml:space="preserve">
+    <value>ESR @ 100Hz @ 20ºC</value>
+  </data>
+  <data name="ScratchP_ExtraFields" xml:space="preserve">
+    <value>Extra Fields</value>
+  </data>
+  <data name="ScratchP_Fix" xml:space="preserve">
+    <value>Fix</value>
+  </data>
+  <data name="ScratchP_foil" xml:space="preserve">
+    <value>foil</value>
+  </data>
+  <data name="ScratchP_GetLimits" xml:space="preserve">
+    <value>Get Limits</value>
+  </data>
+  <data name="ScratchP_Gross" xml:space="preserve">
+    <value>Gross</value>
+  </data>
+  <data name="ScratchP_Group" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="ScratchP_HzAt" xml:space="preserve">
+    <value>Hz @</value>
+  </data>
+  <data name="ScratchP_IMPAt10000HzAt20C" xml:space="preserve">
+    <value>IMP @ 10000Hz @ 20ºC</value>
+  </data>
+  <data name="ScratchP_Ir" xml:space="preserve">
+    <value>Ir</value>
+  </data>
+  <data name="ScratchP_IrF" xml:space="preserve">
+    <value>Ir F</value>
+  </data>
+  <data name="ScratchP_IrT" xml:space="preserve">
+    <value>Ir T</value>
+  </data>
+  <data name="ScratchP_Lab" xml:space="preserve">
+    <value>Lab</value>
+  </data>
+  <data name="ScratchP_Labour" xml:space="preserve">
+    <value>Labour</value>
+  </data>
+  <data name="ScratchP_LabourCost" xml:space="preserve">
+    <value>Labour Cost</value>
+  </data>
+  <data name="ScratchP_Material" xml:space="preserve">
+    <value>Material</value>
+  </data>
+  <data name="ScratchP_NotesMax10escroutnotes" xml:space="preserve">
+    <value>Notes (max 10 excluding routing notes)</value>
+  </data>
+  <data name="ScratchP_OHCost" xml:space="preserve">
+    <value>O/H Cost</value>
+  </data>
+  <data name="ScratchP_OldTab" xml:space="preserve">
+    <value>Old</value>
+  </data>
+  <data name="ScratchP_OldTab2" xml:space="preserve">
+    <value>Old 2</value>
+  </data>
+  <data name="ScratchP_oxide_fi" xml:space="preserve">
+    <value>oxide_fi</value>
+  </data>
+  <data name="ScratchP_OY" xml:space="preserve">
+    <value>OY</value>
+  </data>
+  <data name="ScratchP_PartsCost" xml:space="preserve">
+    <value>Parts Cost</value>
+  </data>
+  <data name="ScratchP_PrintDetail" xml:space="preserve">
+    <value>Print Detail</value>
+  </data>
+  <data name="ScratchP_PrintDetailMax13Lines" xml:space="preserve">
+    <value>Print Detail  (max 13 lines )</value>
+  </data>
+  <data name="ScratchP_PrintDrawing" xml:space="preserve">
+    <value>Print Drawing</value>
+  </data>
+  <data name="ScratchP_RatedIr" xml:space="preserve">
+    <value>Rated Ir</value>
+  </data>
+  <data name="ScratchP_Rbo" xml:space="preserve">
+    <value>Rbo</value>
+  </data>
+  <data name="ScratchP_RCost" xml:space="preserve">
+    <value>RCost</value>
+  </data>
+  <data name="ScratchP_Rha" xml:space="preserve">
+    <value>Rha</value>
+  </data>
+  <data name="ScratchP_Rhw" xml:space="preserve">
+    <value>Rhw</value>
+  </data>
+  <data name="ScratchP_Rise_T" xml:space="preserve">
+    <value>Rise_T</value>
+  </data>
+  <data name="ScratchP_Rwb" xml:space="preserve">
+    <value>Rwb</value>
+  </data>
+  <data name="ScratchP_SEVtestvoltage" xml:space="preserve">
+    <value>SEV test voltage</value>
+  </data>
+  <data name="ScratchP_SMV" xml:space="preserve">
+    <value>SMV</value>
+  </data>
+  <data name="ScratchP_SpecDwg" xml:space="preserve">
+    <value>Spec/Dwg</value>
+  </data>
+  <data name="ScratchP_SpecificationDetails" xml:space="preserve">
+    <value>Specification Details</value>
+  </data>
+  <data name="ScratchP_StandardCost" xml:space="preserve">
+    <value>Standard Cost</value>
+  </data>
+  <data name="ScratchP_SurgeOrVDEvoltage" xml:space="preserve">
+    <value>Surge or VDE voltage</value>
+  </data>
+  <data name="ScratchP_T1LC" xml:space="preserve">
+    <value>T1LC</value>
+  </data>
+  <data name="ScratchP_T2LC" xml:space="preserve">
+    <value>T2LC</value>
+  </data>
+  <data name="ScratchP_T3LC" xml:space="preserve">
+    <value>T3LC</value>
+  </data>
+  <data name="ScratchP_tabbing" xml:space="preserve">
+    <value>tabbing</value>
+  </data>
+  <data name="ScratchP_TestParameters" xml:space="preserve">
+    <value>Test Parameters</value>
+  </data>
+  <data name="ScratchP_TestVolts" xml:space="preserve">
+    <value>Test Volts</value>
+  </data>
+  <data name="ScratchP_Ti1YC" xml:space="preserve">
+    <value>Ti1YC</value>
+  </data>
+  <data name="ScratchP_Ti2" xml:space="preserve">
+    <value>Ti2</value>
+  </data>
+  <data name="ScratchP_Ti3" xml:space="preserve">
+    <value>Ti3</value>
+  </data>
+  <data name="ScratchP_tissue_ti" xml:space="preserve">
+    <value>tissue_ti</value>
+  </data>
+  <data name="ScratchP_Tiytg" xml:space="preserve">
+    <value>Tiytg</value>
+  </data>
+  <data name="ScratchP_TotalCost" xml:space="preserve">
+    <value>Total Cost</value>
+  </data>
+  <data name="ScratchP_Var" xml:space="preserve">
+    <value>Var</value>
+  </data>
+  <data name="ScratchP_Variable" xml:space="preserve">
+    <value>Variable</value>
+  </data>
+  <data name="ScratchP_VariableCost" xml:space="preserve">
+    <value>Variable Cost</value>
+  </data>
+  <data name="ScratchP_ViewAllData" xml:space="preserve">
+    <value>View All Data</value>
+  </data>
+  <data name="ScratchP_ViewCentred" xml:space="preserve">
+    <value>View Centred</value>
+  </data>
+  <data name="ScratchP_WindCost" xml:space="preserve">
+    <value>Wind Cost</value>
+  </data>
+  <data name="ScratchP_WLC" xml:space="preserve">
+    <value>WLC</value>
+  </data>
+  <data name="ScratchP_Yield" xml:space="preserve">
+    <value>Yield</value>
+  </data>
+  <data name="DesignSummary_AssemblyNotes" xml:space="preserve">
+    <value>Assembly Notes:</value>
+  </data>
+  <data name="DesignSummary_At100Hz" xml:space="preserve">
+    <value>@100Hz</value>
+  </data>
+  <data name="DesignSummary_At10kHz" xml:space="preserve">
+    <value>@10kHz</value>
+  </data>
+  <data name="DesignSummary_AW" xml:space="preserve">
+    <value>A/W</value>
+  </data>
+  <data name="DesignSummary_CanIntTheta" xml:space="preserve">
+    <value>Can Int θ</value>
+  </data>
+  <data name="DesignSummary_CapAt" xml:space="preserve">
+    <value>Cap @ </value>
+  </data>
+  <data name="DesignSummary_CatalogueData" xml:space="preserve">
+    <value>Catalogue Data</value>
+  </data>
+  <data name="DesignSummary_CathExt" xml:space="preserve">
+    <value>Cath Ext</value>
+  </data>
+  <data name="DesignSummary_Center" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="DesignSummary_DesignNotes" xml:space="preserve">
+    <value>Design Notes:</value>
+  </data>
+  <data name="DesignSummary_Elyte" xml:space="preserve">
+    <value>E'lyte</value>
+  </data>
+  <data name="DesignSummary_ESR100Hz" xml:space="preserve">
+    <value>ESR 100Hz</value>
+  </data>
+  <data name="DesignSummary_ESRData" xml:space="preserve">
+    <value>ESR Data</value>
+  </data>
+  <data name="DesignSummary_ESRFoil" xml:space="preserve">
+    <value>Foil</value>
+  </data>
+  <data name="DesignSummary_ESRGraphForm" xml:space="preserve">
+    <value>ESR Graph Form</value>
+  </data>
+  <data name="DesignSummary_ESROxide" xml:space="preserve">
+    <value>Oxide</value>
+  </data>
+  <data name="DesignSummary_ESRTabbing" xml:space="preserve">
+    <value>Tabbing</value>
+  </data>
+  <data name="DesignSummary_ESRTissue" xml:space="preserve">
+    <value>Tissue</value>
+  </data>
+  <data name="DesignSummary_FilterRecords" xml:space="preserve">
+    <value>Filter Records</value>
+  </data>
+  <data name="DesignSummary_HideAllCriteria" xml:space="preserve">
+    <value>Hide All Criteria</value>
+  </data>
+  <data name="DesignSummary_HoleTheta" xml:space="preserve">
+    <value>Hole Ø</value>
+  </data>
+  <data name="DesignSummary_L1" xml:space="preserve">
+    <value>L1</value>
+  </data>
+  <data name="DesignSummary_L2" xml:space="preserve">
+    <value>L2</value>
+  </data>
+  <data name="DesignSummary_Labor" xml:space="preserve">
+    <value>Labor</value>
+  </data>
+  <data name="DesignSummary_Mandrel" xml:space="preserve">
+    <value>Mandrel</value>
+  </data>
+  <data name="DesignSummary_Material" xml:space="preserve">
+    <value>Material</value>
+  </data>
+  <data name="DesignSummary_MaxLength" xml:space="preserve">
+    <value>Max Length</value>
+  </data>
+  <data name="DesignSummary_Melinex" xml:space="preserve">
+    <value>Melinex</value>
+  </data>
+  <data name="DesignSummary_MelQty" xml:space="preserve">
+    <value>Mel Qty</value>
+  </data>
+  <data name="DesignSummary_No" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="DesignSummary_NoESRDataOnStyleDesign" xml:space="preserve">
+    <value>There is no ESR data for this style of design</value>
+  </data>
+  <data name="DesignSummary_NoLabData" xml:space="preserve">
+    <value>No Lab Data</value>
+  </data>
+  <data name="DesignSummary_OH" xml:space="preserve">
+    <value>O/H</value>
+  </data>
+  <data name="DesignSummary_PercentageFit" xml:space="preserve">
+    <value>% FIT</value>
+  </data>
+  <data name="DesignSummary_PreWrap" xml:space="preserve">
+    <value>Pre-wrap</value>
+  </data>
+  <data name="DesignSummary_PrintDrawing" xml:space="preserve">
+    <value>Print Drawing</value>
+  </data>
+  <data name="DesignSummary_PrintNotes" xml:space="preserve">
+    <value>Print Notes:</value>
+  </data>
+  <data name="DesignSummary_SampleCost" xml:space="preserve">
+    <value>Sample cost (no anode)</value>
+  </data>
+  <data name="DesignSummary_Scrollbar" xml:space="preserve">
+    <value>Scrollbar</value>
+  </data>
+  <data name="DesignSummary_SEV" xml:space="preserve">
+    <value>SEV</value>
+  </data>
+  <data name="DesignSummary_ShowAllCriteria" xml:space="preserve">
+    <value>Show All Criteria</value>
+  </data>
+  <data name="DesignSummary_ShowAllRecords" xml:space="preserve">
+    <value>Show All Records</value>
+  </data>
+  <data name="DesignSummary_Standard" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="DesignSummary_Swage" xml:space="preserve">
+    <value>Swage</value>
+  </data>
+  <data name="DesignSummary_Tab" xml:space="preserve">
+    <value>Tab.</value>
+  </data>
+  <data name="DesignSummary_TableCondy" xml:space="preserve">
+    <value>condy_eq</value>
+  </data>
+  <data name="DesignSummary_TableFoil" xml:space="preserve">
+    <value>foil</value>
+  </data>
+  <data name="DesignSummary_TableOxide" xml:space="preserve">
+    <value>oxide_fi</value>
+  </data>
+  <data name="DesignSummary_TableRbc" xml:space="preserve">
+    <value>Rbc</value>
+  </data>
+  <data name="DesignSummary_TableRhw" xml:space="preserve">
+    <value>Rhw</value>
+  </data>
+  <data name="DesignSummary_TableRiseT" xml:space="preserve">
+    <value>Rise_T</value>
+  </data>
+  <data name="DesignSummary_TableRwb" xml:space="preserve">
+    <value>Rwb</value>
+  </data>
+  <data name="DesignSummary_TableTabbing" xml:space="preserve">
+    <value>tabbing</value>
+  </data>
+  <data name="DesignSummary_TableTissue" xml:space="preserve">
+    <value>tissue_ti</value>
+  </data>
+  <data name="DesignSummary_TestParameteres" xml:space="preserve">
+    <value>Test Parameters</value>
+  </data>
+  <data name="DesignSummary_Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="DesignSummary_Variable" xml:space="preserve">
+    <value>Variable</value>
+  </data>
+  <data name="DesignSummary_WFactor" xml:space="preserve">
+    <value>W. Factor</value>
+  </data>
+  <data name="DesignSummary_Z10KHz" xml:space="preserve">
+    <value>Z 10KHz</value>
+  </data>
+  <data name="DesignSummary_NoLabData2" xml:space="preserve">
+    <value>No Lab Data</value>
+  </data>
+  <data name="Global_Note" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="Global_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="ScratchP_Sequence" xml:space="preserve">
+    <value>Seequence:</value>
+  </data>
+  <data name="ScratchP_VoidSpacecm3" xml:space="preserve">
+    <value>Void Space (cm³)</value>
+  </data>
+  <data name="AddExtraFields_ExtraFields" xml:space="preserve">
+    <value>Extra Fields</value>
+  </data>
+  <data name="AddExtraFields_FieldName" xml:space="preserve">
+    <value>ad_field_name</value>
+  </data>
+  <data name="AddExtraFields_Fields" xml:space="preserve">
+    <value>Fields...</value>
+  </data>
+  <data name="AddExtraFields_FieldType" xml:space="preserve">
+    <value>ad_field_type</value>
+  </data>
+  <data name="AddExtraFields_FieldValMsg" xml:space="preserve">
+    <value>ad_field_val_msg</value>
+  </data>
+  <data name="AddExtraFields_FieldValRule" xml:space="preserve">
+    <value>ad_field_val_rule</value>
+  </data>
+  <data name="AddExtraFields_ForTable" xml:space="preserve">
+    <value>For table</value>
+  </data>
+  <data name="AddExtraFields_PpiType" xml:space="preserve">
+    <value>ad_ppi_type</value>
+  </data>
+  <data name="AddExtraFields_RuleCode" xml:space="preserve">
+    <value>ad_rule_code</value>
+  </data>
+  <data name="AddExtraFields_TableName" xml:space="preserve">
+    <value>ad_table_name</value>
+  </data>
+  <data name="AddExtraFields_Title" xml:space="preserve">
+    <value>Add Extra Fields</value>
+  </data>
+  <data name="Evaluation_anodename" xml:space="preserve">
+    <value>anode name</value>
+  </data>
+  <data name="Evaluation_BestCost" xml:space="preserve">
+    <value>Best Cost</value>
+  </data>
+  <data name="Evaluation_BestCostCathodeName" xml:space="preserve">
+    <value>Cathode Name:</value>
+  </data>
+  <data name="Evaluation_BestCostTitle" xml:space="preserve">
+    <value>eval_summary query_cost</value>
+  </data>
+  <data name="Evaluation_BestESR" xml:space="preserve">
+    <value>Best ESR</value>
+  </data>
+  <data name="Evaluation_BestESRTitle" xml:space="preserve">
+    <value>eval_summary query_esr</value>
+  </data>
+  <data name="Evaluation_cathodename" xml:space="preserve">
+    <value>cathode name</value>
+  </data>
+  <data name="Evaluation_Counter" xml:space="preserve">
+    <value>Counter</value>
+  </data>
+  <data name="Evaluation_CurrentEvaluationstored" xml:space="preserve">
+    <value>Current Evaluation stored</value>
+  </data>
+  <data name="Evaluation_esr" xml:space="preserve">
+    <value>esr:</value>
+  </data>
+  <data name="Evaluation_Evaluate" xml:space="preserve">
+    <value>Evaluate</value>
+  </data>
+  <data name="Evaluation_FirstAnodeName" xml:space="preserve">
+    <value>First Anode Name:</value>
+  </data>
+  <data name="Evaluation_fit" xml:space="preserve">
+    <value>fit:</value>
+  </data>
+  <data name="Evaluation_FormingVoltage" xml:space="preserve">
+    <value>Forming Voltage</value>
+  </data>
+  <data name="Evaluation_id" xml:space="preserve">
+    <value>id</value>
+  </data>
+  <data name="Evaluation_NonSlotted" xml:space="preserve">
+    <value>Non Slotted</value>
+  </data>
+  <data name="Evaluation_saltotalcost" xml:space="preserve">
+    <value>sal_total_cost:</value>
+  </data>
+  <data name="Evaluation_Slotted" xml:space="preserve">
+    <value>Slotted</value>
+  </data>
+  <data name="Evaluation_stdtotalcost" xml:space="preserve">
+    <value>std_total_cost:</value>
+  </data>
+  <data name="Evaluation_Title" xml:space="preserve">
+    <value>Evaluation</value>
+  </data>
+  <data name="Global_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="Global_Anodes" xml:space="preserve">
+    <value>Anodes</value>
+  </data>
+  <data name="Global_Cathodes" xml:space="preserve">
+    <value>Cathodes</value>
+  </data>
+  <data name="Global_Checked" xml:space="preserve">
+    <value>Checked</value>
+  </data>
+  <data name="Global_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Global_DeleteQuestion" xml:space="preserve">
+    <value>Delete?</value>
+  </data>
+  <data name="Global_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Global_MarkAll" xml:space="preserve">
+    <value>Mark All</value>
+  </data>
+  <data name="Global_Notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="Global_of" xml:space="preserve">
+    <value>of</value>
+  </data>
+  <data name="Global_PartNumber" xml:space="preserve">
+    <value>Part Number</value>
+  </data>
+  <data name="Global_User" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="NewScratchDesign_Title" xml:space="preserve">
+    <value>Create New Scratch Design</value>
+  </data>
+  <data name="Override_Message" xml:space="preserve">
+    <value>You do not have clearance to authorise the design. You may override by entering the correct password below...</value>
+  </data>
+  <data name="Override_Title" xml:space="preserve">
+    <value>Override</value>
+  </data>
+  <data name="ScratchCleanup_Title" xml:space="preserve">
+    <value>Scratch Cleanup</value>
+  </data>
+  <data name="ScratchP_AutoWidth" xml:space="preserve">
+    <value>Auto Width</value>
+  </data>
+  <data name="ScratchP_GassingFailAt" xml:space="preserve">
+    <value>Gassing Fail @</value>
+  </data>
+  <data name="ScratchP_hrs120PSI" xml:space="preserve">
+    <value>hrs (120PSI)</value>
+  </data>
+  <data name="ScratchP_hrs70PSI" xml:space="preserve">
+    <value>hrs (70PSI)</value>
+  </data>
+  <data name="ScratchP_MaxAt" xml:space="preserve">
+    <value>Max @</value>
+  </data>
+  <data name="ScratchP_NoLABData" xml:space="preserve">
+    <value>No LAB Data</value>
+  </data>
+  <data name="ScratchP_UsePRMSCostReport" xml:space="preserve">
+    <value>Use PRMS
+Cost Report</value>
+  </data>
+  <data name="SummaryDesignComment_Instructions" xml:space="preserve">
+    <value>Enter any text required, and then click close...</value>
+  </data>
+  <data name="SummaryDesignComment_TitleWindow" xml:space="preserve">
+    <value>Design Comment</value>
+  </data>
+  <data name="ESRGraph_AmericanStyle" xml:space="preserve">
+    <value>'American' Style</value>
+  </data>
+  <data name="ESRGraph_PartNumber" xml:space="preserve">
+    <value>Part Number</value>
+  </data>
+  <data name="ESRGraph_PreviewReport" xml:space="preserve">
+    <value>Preview Report</value>
+  </data>
+  <data name="ESRGraph_PrintReport" xml:space="preserve">
+    <value>Print Report</value>
+  </data>
+  <data name="ESRGraph_RifaESRGrid" xml:space="preserve">
+    <value>Rifa ESR Grid</value>
+  </data>
+  <data name="ESRGraph_ScratchESR" xml:space="preserve">
+    <value>Scratch ESR</value>
+  </data>
+  <data name="ESRGraph_ShowData" xml:space="preserve">
+    <value>Show Data</value>
+  </data>
+  <data name="ESRGraph_Title" xml:space="preserve">
+    <value>ESR Graphing Form</value>
+  </data>
+  <data name="ESRGraph_TitleWindow" xml:space="preserve">
+    <value>ESR Graphing</value>
+  </data>
+  <data name="PartHistory_LatestIssue" xml:space="preserve">
+    <value>Latest Issue</value>
+  </data>
+  <data name="PartHistory_MicroWaveHistory" xml:space="preserve">
+    <value>µWave History</value>
+  </data>
+  <data name="PartHistory_PartNumber" xml:space="preserve">
+    <value>Part Number</value>
+  </data>
+  <data name="PartHistory_Title" xml:space="preserve">
+    <value>Part History</value>
+  </data>
+  <data name="PartHistory_TitleWindow" xml:space="preserve">
+    <value>Part History</value>
+  </data>
+  <data name="FileChooser_FileExt" xml:space="preserve">
+    <value>File Ext.</value>
+  </data>
+  <data name="FileChooser_Files" xml:space="preserve">
+    <value>Files</value>
+  </data>
+  <data name="FileChooser_FileToFind" xml:space="preserve">
+    <value>File To Find</value>
+  </data>
+  <data name="FileChooser_FileType" xml:space="preserve">
+    <value>File Type</value>
+  </data>
+  <data name="FileChooser_SearchPath" xml:space="preserve">
+    <value>Search Path</value>
+  </data>
+  <data name="FileChooser_Title" xml:space="preserve">
+    <value>File Chooser</value>
+  </data>
+  <data name="FileChooser_TitleWindow" xml:space="preserve">
+    <value>File Chooser</value>
+  </data>
+  <data name="FileChooser_TypeChooser" xml:space="preserve">
+    <value>Type Chooser</value>
+  </data>
+  <data name="PartsFiles_CopyAsNewRecord" xml:space="preserve">
+    <value>Copy as new record</value>
+  </data>
+  <data name="PartsFiles_Description" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="PartsFiles_PartsCost" xml:space="preserve">
+    <value>Parts Cost</value>
+  </data>
+  <data name="PartsFiles_PartsFile" xml:space="preserve">
+    <value>Parts File</value>
+  </data>
+  <data name="PartsFiles_PiecePartsForm" xml:space="preserve">
+    <value>Piece Parts Form</value>
+  </data>
+  <data name="PartsFiles_PrintPartsFile" xml:space="preserve">
+    <value>Print Parts File</value>
+  </data>
+  <data name="PartsFiles_ReOrder" xml:space="preserve">
+    <value>Re-Order</value>
+  </data>
+  <data name="PartsFiles_Title" xml:space="preserve">
+    <value>Parts Files</value>
+  </data>
+  <data name="PartsFiles_WhereUsed" xml:space="preserve">
+    <value>Where Used</value>
+  </data>
+  <data name="PictureThumbnail_All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="PictureThumbnail_Dims" xml:space="preserve">
+    <value>Dims</value>
+  </data>
+  <data name="PictureThumbnail_ReturnToPictures" xml:space="preserve">
+    <value>Return to Pictures</value>
+  </data>
+  <data name="PictureThumbnail_Spec" xml:space="preserve">
+    <value>Spec</value>
+  </data>
+  <data name="PictureThumbnail_Title" xml:space="preserve">
+    <value>Design Pictures</value>
+  </data>
+  <data name="PictureThumbnail_TitleWindow" xml:space="preserve">
+    <value>Thumbnails</value>
+  </data>
+  <data name="PictureThumbnail_Wind" xml:space="preserve">
+    <value>Wind</value>
+  </data>
+  <data name="PictureDrawings_Clip" xml:space="preserve">
+    <value>Clip</value>
+  </data>
+  <data name="PictureDrawings_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="PictureDrawings_DesignPicture" xml:space="preserve">
+    <value>Design Picture</value>
+  </data>
+  <data name="PictureDrawings_Dimensions" xml:space="preserve">
+    <value>Dimensions</value>
+  </data>
+  <data name="PictureDrawings_LimitScanToCurrentType" xml:space="preserve">
+    <value>Limit scan to current type</value>
+  </data>
+  <data name="PictureDrawings_Obsolete" xml:space="preserve">
+    <value>Obsolete</value>
+  </data>
+  <data name="PictureDrawings_Path" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="PictureDrawings_PictureMode" xml:space="preserve">
+    <value>Picture Mode</value>
+  </data>
+  <data name="PictureDrawings_PictureReference" xml:space="preserve">
+    <value>Picture Reference</value>
+  </data>
+  <data name="PictureDrawings_QuickScan" xml:space="preserve">
+    <value>Quick Scan</value>
+  </data>
+  <data name="PictureDrawings_Specification" xml:space="preserve">
+    <value>Specification</value>
+  </data>
+  <data name="PictureDrawings_Stretch" xml:space="preserve">
+    <value>Stretch</value>
+  </data>
+  <data name="PictureDrawings_Title" xml:space="preserve">
+    <value>Design Pictures</value>
+  </data>
+  <data name="PictureDrawings_TitleWindow" xml:space="preserve">
+    <value>Winding, Dimension and Specification Drawings</value>
+  </data>
+  <data name="PictureDrawings_ToThumbnails" xml:space="preserve">
+    <value>To Thumbnails</value>
+  </data>
+  <data name="PictureDrawings_TypeOfDrawing" xml:space="preserve">
+    <value>Type of drawing</value>
+  </data>
+  <data name="PictureDrawings_Winding" xml:space="preserve">
+    <value>Winding</value>
+  </data>
+  <data name="PictureDrawings_Zoom" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="PictureThumbnail_Description" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="PictureThumbnail_Path" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="PictureThumbnail_PictureReference" xml:space="preserve">
+    <value>Picture Reference:</value>
+  </data>
+  <data name="RoutingData_Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="RoutingData_Card" xml:space="preserve">
+    <value>Card</value>
+  </data>
+  <data name="RoutingData_Copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="RoutingData_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="RoutingData_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="RoutingData_DummyOps" xml:space="preserve">
+    <value>Dummy Ops</value>
+  </data>
+  <data name="RoutingData_Hide" xml:space="preserve">
+    <value>Hide</value>
+  </data>
+  <data name="RoutingData_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="RoutingData_NoOfOps" xml:space="preserve">
+    <value>No. of Ops</value>
+  </data>
+  <data name="RoutingData_ProductionLine" xml:space="preserve">
+    <value>Production Line</value>
+  </data>
+  <data name="RoutingData_ReOrder" xml:space="preserve">
+    <value>Re-Order</value>
+  </data>
+  <data name="RoutingData_RoutingID" xml:space="preserve">
+    <value>Routing ID</value>
+  </data>
+  <data name="RoutingData_Show" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="RoutingData_Template" xml:space="preserve">
+    <value>Template</value>
+  </data>
+  <data name="RoutingData_Title" xml:space="preserve">
+    <value>Routings</value>
+  </data>
+  <data name="RoutingData_TitleWindow" xml:space="preserve">
+    <value>Routing Data</value>
+  </data>
+  <data name="RoutingData_TotalSMV" xml:space="preserve">
+    <value>Total SMV</value>
+  </data>
+  <data name="RoutingData_WhereUsed" xml:space="preserve">
+    <value>Where Used</value>
+  </data>
+  <data name="RoutingOpcodes_BatchcardDesc" xml:space="preserve">
+    <value>Batchcard Desc.</value>
+  </data>
+  <data name="RoutingOpcodes_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="RoutingOpcodes_EnterRate" xml:space="preserve">
+    <value>Enter Rate</value>
+  </data>
+  <data name="RoutingOpcodes_Offline" xml:space="preserve">
+    <value>Offline?</value>
+  </data>
+  <data name="RoutingOpcodes_OperationCode" xml:space="preserve">
+    <value>Operation Code</value>
+  </data>
+  <data name="RoutingOpcodes_OracleDept" xml:space="preserve">
+    <value>Oracle Dept.</value>
+  </data>
+  <data name="RoutingOpcodes_PiecesPerHour" xml:space="preserve">
+    <value>Pieces/Hour</value>
+  </data>
+  <data name="RoutingOpcodes_Ref" xml:space="preserve">
+    <value>Ref</value>
+  </data>
+  <data name="RoutingOpcodes_SMV" xml:space="preserve">
+    <value>SMV</value>
+  </data>
+  <data name="RoutingOpcodes_SMVPiecesPerHour" xml:space="preserve">
+    <value>Pieces/Hour</value>
+  </data>
+  <data name="RoutingOpcodes_Title" xml:space="preserve">
+    <value>Operation Codes</value>
+  </data>
+  <data name="RoutingOpcodes_TitleWindow" xml:space="preserve">
+    <value>Operation Codes</value>
+  </data>
+  <data name="RoutingOpcodes_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="RoutingOpcodes_WhereUsed" xml:space="preserve">
+    <value>Where Used</value>
+  </data>
+  <data name="PiecePart_Active" xml:space="preserve">
+    <value>Active?</value>
+  </data>
+  <data name="PiecePart_AddAField" xml:space="preserve">
+    <value>Add a Field</value>
+  </data>
+  <data name="PiecePart_BackflushFlag" xml:space="preserve">
+    <value>Backflush Flag</value>
+  </data>
+  <data name="PiecePart_BackflushWarehouse" xml:space="preserve">
+    <value>Backflush Warehouse</value>
+  </data>
+  <data name="PiecePart_CopyAsNewRecord" xml:space="preserve">
+    <value>Copy as new record</value>
+  </data>
+  <data name="PiecePart_CurrentCost" xml:space="preserve">
+    <value>Current Cost</value>
+  </data>
+  <data name="PiecePart_Data" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="PiecePart_DeletePart" xml:space="preserve">
+    <value>Delete Part</value>
+  </data>
+  <data name="PiecePart_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="PiecePart_DrawingNumber" xml:space="preserve">
+    <value>Drawing Number</value>
+  </data>
+  <data name="PiecePart_ExampleNP" xml:space="preserve">
+    <value>(e.g. NP)</value>
+  </data>
+  <data name="PiecePart_FirstOp" xml:space="preserve">
+    <value>First Op</value>
+  </data>
+  <data name="PiecePart_Function" xml:space="preserve">
+    <value>Function GetFLSubInv controls FL W/H</value>
+  </data>
+  <data name="PiecePart_MSpecNo" xml:space="preserve">
+    <value>M-spec No.</value>
+  </data>
+  <data name="PiecePart_MultilevelBackflushFlag" xml:space="preserve">
+    <value>Multilevel Backflush Flag</value>
+  </data>
+  <data name="PiecePart_Obsolete" xml:space="preserve">
+    <value>Obsolete?</value>
+  </data>
+  <data name="PiecePart_OracleData" xml:space="preserve">
+    <value>Oracle Data</value>
+  </data>
+  <data name="PiecePart_PiecePartNo" xml:space="preserve">
+    <value>Piece Part No.</value>
+  </data>
+  <data name="PiecePart_PreviousCost" xml:space="preserve">
+    <value>Previous Cost</value>
+  </data>
+  <data name="PiecePart_ShortDesc" xml:space="preserve">
+    <value>Short Desc.</value>
+  </data>
+  <data name="PiecePart_Specification" xml:space="preserve">
+    <value>Specification</value>
+  </data>
+  <data name="PiecePart_StagingFlag" xml:space="preserve">
+    <value>Staging Flag</value>
+  </data>
+  <data name="PiecePart_StagingWarehouse" xml:space="preserve">
+    <value>Staging Warehouse</value>
+  </data>
+  <data name="PiecePart_Supplier" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="PiecePart_Title" xml:space="preserve">
+    <value>Piece Part Data</value>
+  </data>
+  <data name="PiecePart_TitleWindow" xml:space="preserve">
+    <value>Piece Part Data</value>
+  </data>
+  <data name="PiecePart_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="PiecePart_UnitOfMeasure" xml:space="preserve">
+    <value>Unit of Measure</value>
+  </data>
+  <data name="PiecePart_VendorDescription" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="PiecePart_WhereUsed" xml:space="preserve">
+    <value>Where Used</value>
+  </data>
+  <data name="RoutingOpcodes_CopyFaultsFromAboveOpcode" xml:space="preserve">
+    <value>Copy Faults from above opcode</value>
+  </data>
+  <data name="RoutingOpcodes_Dummy" xml:space="preserve">
+    <value>Dummy?</value>
+  </data>
+  <data name="RoutingOpcodes_Fault1" xml:space="preserve">
+    <value>Fault 1</value>
+  </data>
+  <data name="RoutingOpcodes_Fault2" xml:space="preserve">
+    <value>Fault 2</value>
+  </data>
+  <data name="RoutingOpcodes_Fault3" xml:space="preserve">
+    <value>Fault 3</value>
+  </data>
+  <data name="RoutingOpcodes_Fault4" xml:space="preserve">
+    <value>Fault 4</value>
+  </data>
+  <data name="RoutingOpcodes_IsSupplimentary" xml:space="preserve">
+    <value>Is Supplimentary?</value>
+  </data>
+  <data name="RoutingOpcodes_Opcode" xml:space="preserve">
+    <value>Opcode</value>
+  </data>
+  <data name="RoutingOpcodes_PayPointFlag" xml:space="preserve">
+    <value>Pay Point Flag</value>
+  </data>
+  <data name="RoutingOpcodes_PrimaryWorkCentre" xml:space="preserve">
+    <value>Primary Work Centre</value>
+  </data>
+  <data name="RoutingOpcodes_SecundaryWorkCentre" xml:space="preserve">
+    <value>Secondary Work Centre</value>
+  </data>
+  <data name="TabData_Active" xml:space="preserve">
+    <value>Active?</value>
+  </data>
+  <data name="TabData_BackflushFlag" xml:space="preserve">
+    <value>Backflush Flag</value>
+  </data>
+  <data name="TabData_BackflushWarehouse" xml:space="preserve">
+    <value>Backflush Warehouse</value>
+  </data>
+  <data name="TabData_CurrentCost" xml:space="preserve">
+    <value>Current Cost</value>
+  </data>
+  <data name="TabData_Density" xml:space="preserve">
+    <value>Density</value>
+  </data>
+  <data name="TabData_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="TabData_FirstOp" xml:space="preserve">
+    <value>First Op</value>
+  </data>
+  <data name="TabData_Formation" xml:space="preserve">
+    <value>Formation</value>
+  </data>
+  <data name="TabData_MatOnly" xml:space="preserve">
+    <value>Mat. Only</value>
+  </data>
+  <data name="TabData_MaxCurrent" xml:space="preserve">
+    <value>Max Current</value>
+  </data>
+  <data name="TabData_MSpecNo" xml:space="preserve">
+    <value>M-spec No.</value>
+  </data>
+  <data name="TabData_MultilevelBackflushFlag" xml:space="preserve">
+    <value>Multilevel Backflush Flag</value>
+  </data>
+  <data name="TabData_Obsolete" xml:space="preserve">
+    <value>Obsolete?</value>
+  </data>
+  <data name="TabData_OracleData" xml:space="preserve">
+    <value>Oracle Data</value>
+  </data>
+  <data name="TabData_PreviousCost" xml:space="preserve">
+    <value>Previous Cost</value>
+  </data>
+  <data name="TabData_Purity" xml:space="preserve">
+    <value>Purity</value>
+  </data>
+  <data name="TabData_Specification" xml:space="preserve">
+    <value>Specification</value>
+  </data>
+  <data name="TabData_StagingFlag" xml:space="preserve">
+    <value>Staging Flag</value>
+  </data>
+  <data name="TabData_StagingWarehouse" xml:space="preserve">
+    <value>Staging Warehouse</value>
+  </data>
+  <data name="TabData_Supplier" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="TabData_TabbingName" xml:space="preserve">
+    <value>Tabbing Name</value>
+  </data>
+  <data name="TabData_Thickness" xml:space="preserve">
+    <value>Thickness</value>
+  </data>
+  <data name="TabData_Title" xml:space="preserve">
+    <value>Tabbing Foil Data</value>
+  </data>
+  <data name="TabData_TitleWindow" xml:space="preserve">
+    <value>Tabbing Data</value>
+  </data>
+  <data name="TabData_WhereUsed" xml:space="preserve">
+    <value>Where Used</value>
+  </data>
+  <data name="TabData_Width" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="TissueData_Active" xml:space="preserve">
+    <value>Active?</value>
+  </data>
+  <data name="TissueData_BackflushFlag" xml:space="preserve">
+    <value>Backflush Flag</value>
+  </data>
+  <data name="TissueData_BackflushWarehouse" xml:space="preserve">
+    <value>Backflush Warehouse</value>
+  </data>
+  <data name="TissueData_Density" xml:space="preserve">
+    <value>Density</value>
+  </data>
+  <data name="TissueData_FirstOp" xml:space="preserve">
+    <value>First Op</value>
+  </data>
+  <data name="TissueData_MultilevelBackflushFlag" xml:space="preserve">
+    <value>Multilevel Backflush Flag</value>
+  </data>
+  <data name="TissueData_Obsolete" xml:space="preserve">
+    <value>Obsolete?</value>
+  </data>
+  <data name="TissueData_OracleData" xml:space="preserve">
+    <value>Oracle Data</value>
+  </data>
+  <data name="TissueData_PaperName" xml:space="preserve">
+    <value>Paper Name</value>
+  </data>
+  <data name="TissueData_ParticleDensity" xml:space="preserve">
+    <value>Particle Density</value>
+  </data>
+  <data name="TissueData_RateCode" xml:space="preserve">
+    <value>Rate Code</value>
+  </data>
+  <data name="TissueData_StagingFlag" xml:space="preserve">
+    <value>Staging Flag</value>
+  </data>
+  <data name="TissueData_StagingWarehouse" xml:space="preserve">
+    <value>Staging Warehouse</value>
+  </data>
+  <data name="TissueData_Thickness" xml:space="preserve">
+    <value>Thickness</value>
+  </data>
+  <data name="TissueData_Tissue" xml:space="preserve">
+    <value>Tissue</value>
+  </data>
+  <data name="TissueData_Title" xml:space="preserve">
+    <value>Paper Data</value>
+  </data>
+  <data name="TissueData_TitleWindow" xml:space="preserve">
+    <value>Tissue Data</value>
+  </data>
+  <data name="TissueData_VoidVolume" xml:space="preserve">
+    <value>Void Volume</value>
+  </data>
+  <data name="DisplayValues_Title" xml:space="preserve">
+    <value>Relative Values</value>
+  </data>
+  <data name="Global_ArchiveDesign" xml:space="preserve">
+    <value>Archive Design</value>
+  </data>
+  <data name="Global_Basic" xml:space="preserve">
+    <value>Basic</value>
+  </data>
+  <data name="Global_Design" xml:space="preserve">
+    <value>Design</value>
+  </data>
+  <data name="Global_Outlines" xml:space="preserve">
+    <value>Outlines</value>
+  </data>
+  <data name="Global_PartNumbers" xml:space="preserve">
+    <value>Part Numbers</value>
+  </data>
+  <data name="Global_Wizard" xml:space="preserve">
+    <value>Wizard</value>
+  </data>
+  <data name="NewScratchDesign_Header" xml:space="preserve">
+    <value>Create new design from...</value>
+  </data>
+  <data name="NewScratchDesign_UseArchive" xml:space="preserve">
+    <value>Use Archive</value>
+  </data>
+  <data name="DisplayValues_ActualValues" xml:space="preserve">
+    <value>Actual Values</value>
+  </data>
+  <data name="DisplayValues_Now" xml:space="preserve">
+    <value>Now</value>
+  </data>
+  <data name="DisplayValues_RelativeCost" xml:space="preserve">
+    <value>Relative Cost</value>
+  </data>
+  <data name="DisplayValues_ResetData" xml:space="preserve">
+    <value>Reset Data</value>
+  </data>
+  <data name="DisplayValues_StdCost" xml:space="preserve">
+    <value>Std. Cost</value>
+  </data>
+  <data name="DisplayValues_VarCost" xml:space="preserve">
+    <value>Var. Cost</value>
+  </data>
+  <data name="DisplayValues_Was" xml:space="preserve">
+    <value>Was</value>
+  </data>
+  <data name="Global_CanSize" xml:space="preserve">
+    <value>Can Size</value>
+  </data>
+  <data name="Global_Range" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="RenameScratch_cap" xml:space="preserve">
+    <value>cap:</value>
+  </data>
+  <data name="RenameScratch_NewDesign" xml:space="preserve">
+    <value>New Design...</value>
+  </data>
+  <data name="RenameScratch_SourceDesign" xml:space="preserve">
+    <value>Source Design...</value>
+  </data>
+  <data name="RenameScratch_Title" xml:space="preserve">
+    <value>Rename Scratch Design</value>
+  </data>
+  <data name="DCWizard_Title" xml:space="preserve">
+    <value>DC Design Wizard</value>
+  </data>
+  <data name="DesignWizard_Message" xml:space="preserve">
+    <value>Choose a wizard...</value>
+  </data>
+  <data name="DesignWizard_Title" xml:space="preserve">
+    <value>Design Wizard</value>
+  </data>
+  <data name="Global_AC" xml:space="preserve">
+    <value>AC</value>
+  </data>
+  <data name="Global_Can" xml:space="preserve">
+    <value>Can</value>
+  </data>
+  <data name="Global_Cap" xml:space="preserve">
+    <value>Cap</value>
+  </data>
+  <data name="Global_Capacitance" xml:space="preserve">
+    <value>Capacitance</value>
+  </data>
+  <data name="Global_Cost" xml:space="preserve">
+    <value>Cost</value>
+  </data>
+  <data name="Global_DC" xml:space="preserve">
+    <value>DC</value>
+  </data>
+  <data name="Global_ESR" xml:space="preserve">
+    <value>ESR</value>
+  </data>
+  <data name="Global_GoExclamation" xml:space="preserve">
+    <value>Go!</value>
+  </data>
+  <data name="Global_Length" xml:space="preserve">
+    <value>Length</value>
+  </data>
+  <data name="Global_MaxCap" xml:space="preserve">
+    <value>Max Cap</value>
+  </data>
+  <data name="Global_Message" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="Global_minvolts" xml:space="preserve">
+    <value>volts</value>
+  </data>
+  <data name="Global_Outline" xml:space="preserve">
+    <value>Outline</value>
+  </data>
+  <data name="Global_Results" xml:space="preserve">
+    <value>Results</value>
+  </data>
+  <data name="Global_Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Global_SelectAll" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="Global_SelectNone" xml:space="preserve">
+    <value>Select None</value>
+  </data>
+  <data name="Global_Submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="Global_Surge" xml:space="preserve">
+    <value>Surge</value>
+  </data>
+  <data name="Global_Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="Global_ViewReport" xml:space="preserve">
+    <value>View Report</value>
+  </data>
+  <data name="Global_Voltage" xml:space="preserve">
+    <value>Voltage</value>
+  </data>
+  <data name="Global_WorkingVoltage" xml:space="preserve">
+    <value>Working Voltage</value>
+  </data>
+  <data name="RenameScratch_AllocateNewName" xml:space="preserve">
+    <value>Allocate New Name</value>
+  </data>
+  <data name="RenameScratch_GetName" xml:space="preserve">
+    <value>Get Name</value>
+  </data>
+  <data name="RenameScratch_HelpGuideMessage" xml:space="preserve">
+    <value>Press shift and move mouse over button for help</value>
+  </data>
+  <data name="RenameScratch_RenameorCopy" xml:space="preserve">
+    <value>Rename or Copy</value>
+  </data>
+  <data name="RenameScratch_ReserveName" xml:space="preserve">
+    <value>Reserve Name</value>
+  </data>
+  <data name="ScratchList_Message" xml:space="preserve">
+    <value>Select a part number to open or press escape...</value>
+  </data>
+  <data name="ScratchList_OnlyShowMydesigns" xml:space="preserve">
+    <value>Only Show My designs</value>
+  </data>
+  <data name="ScratchList_Title" xml:space="preserve">
+    <value>Find a Scratch Record</value>
+  </data>
+  <data name="ScratchTransfer_NoOfDesigns" xml:space="preserve">
+    <value>No. Of Designs</value>
+  </data>
+  <data name="ScratchTransfer_Title" xml:space="preserve">
+    <value>Transfer to Main</value>
+  </data>
+  <data name="ScratchTransfer_UsersMessage" xml:space="preserve">
+    <value>The following users also have a copy of this design</value>
+  </data>
+  <data name="SpecSetup_AddAllDefaults" xml:space="preserve">
+    <value>Add All Defaults</value>
+  </data>
+  <data name="SpecSetup_AmbientTemp" xml:space="preserve">
+    <value>Ambient Temp (Ta)</value>
+  </data>
+  <data name="SpecSetup_CatData" xml:space="preserve">
+    <value>Cat Data</value>
+  </data>
+  <data name="SpecSetup_CoreRise" xml:space="preserve">
+    <value>Core Rise</value>
+  </data>
+  <data name="SpecSetup_ESRData" xml:space="preserve">
+    <value>ESR Data</value>
+  </data>
+  <data name="SpecSetup_ESRFF" xml:space="preserve">
+    <value>ESR/F F</value>
+  </data>
+  <data name="SpecSetup_ESRFreqData" xml:space="preserve">
+    <value>ESR/Freq Data</value>
+  </data>
+  <data name="SpecSetup_ESRFreqGraph" xml:space="preserve">
+    <value>ESR/Freq Graph</value>
+  </data>
+  <data name="SpecSetup_ESRFTemp" xml:space="preserve">
+    <value>ESR/F Temp</value>
+  </data>
+  <data name="SpecSetup_ExportstraighttoPDF" xml:space="preserve">
+    <value>Export straight to PDF</value>
+  </data>
+  <data name="SpecSetup_Header" xml:space="preserve">
+    <value>Header</value>
+  </data>
+  <data name="SpecSetup_InhibitSpec" xml:space="preserve">
+    <value>Inhibit Spec</value>
+  </data>
+  <data name="SpecSetup_IrMultiplier" xml:space="preserve">
+    <value>Ir Multiplier</value>
+  </data>
+  <data name="SpecSetup_KFData" xml:space="preserve">
+    <value>KF Data</value>
+  </data>
+  <data name="SpecSetup_KFFreq" xml:space="preserve">
+    <value>KF Freq</value>
+  </data>
+  <data name="SpecSetup_KFTemp" xml:space="preserve">
+    <value>KF Temp</value>
+  </data>
+  <data name="SpecSetup_KVDeratingData" xml:space="preserve">
+    <value>KV Derating Data</value>
+  </data>
+  <data name="SpecSetup_KVDeratingGraph" xml:space="preserve">
+    <value>KV Derating Graph</value>
+  </data>
+  <data name="SpecSetup_KVPercentage" xml:space="preserve">
+    <value>KV %</value>
+  </data>
+  <data name="SpecSetup_KVTemp" xml:space="preserve">
+    <value>KV Temp</value>
+  </data>
+  <data name="SpecSetup_LifeDefinitions" xml:space="preserve">
+    <value>Life Definitions</value>
+  </data>
+  <data name="SpecSetup_LifeExp" xml:space="preserve">
+    <value>Life Exp.</value>
+  </data>
+  <data name="SpecSetup_LopVsTaForM" xml:space="preserve">
+    <value>Lop Vs Ta For M</value>
+  </data>
+  <data name="SpecSetup_LopVsTaForMData" xml:space="preserve">
+    <value>Lop Vs Ta For M Data</value>
+  </data>
+  <data name="SpecSetup_LopVsTaForTrData" xml:space="preserve">
+    <value>Lop Vs Ta For Tr Data</value>
+  </data>
+  <data name="SpecSetup_LopVsTaForTrGraph" xml:space="preserve">
+    <value>Lop Vs Ta For Tr Graph</value>
+  </data>
+  <data name="SpecSetup_MVsTaForLop" xml:space="preserve">
+    <value>M Vs Ta For Lop</value>
+  </data>
+  <data name="SpecSetup_MVsTaForLopData" xml:space="preserve">
+    <value>M Vs Ta For Lop Data</value>
+  </data>
+  <data name="SpecSetup_OnePage" xml:space="preserve">
+    <value>'One Page'</value>
+  </data>
+  <data name="SpecSetup_PageBreak" xml:space="preserve">
+    <value>Page Break $i</value>
+  </data>
+  <data name="SpecSetup_PDFPath" xml:space="preserve">
+    <value>PDF Path</value>
+  </data>
+  <data name="SpecSetup_RHaDiag" xml:space="preserve">
+    <value>RHa Diag</value>
+  </data>
+  <data name="SpecSetup_RippleQuote" xml:space="preserve">
+    <value>Ripple Quote</value>
+  </data>
+  <data name="SpecSetup_ShowallRhaDiagData" xml:space="preserve">
+    <value>Show all Rha Diag Data</value>
+  </data>
+  <data name="SpecSetup_ShowLopEquation" xml:space="preserve">
+    <value>Show Lop Equation</value>
+  </data>
+  <data name="SpecSetup_ShowSampleDisclaimer" xml:space="preserve">
+    <value>Show Sample Disclaimer</value>
+  </data>
+  <data name="SpecSetup_Title" xml:space="preserve">
+    <value>Specification Setup</value>
+  </data>
+  <data name="SpecSetup_UsePN" xml:space="preserve">
+    <value>Use P/N</value>
+  </data>
+  <data name="TissueData_ElectrolyteData" xml:space="preserve">
+    <value>Electrolyte Data</value>
+  </data>
+  <data name="TissueData_Supplier" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="TissueData_VendorDescription" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="TissueData_Specification" xml:space="preserve">
+    <value>Specification</value>
+  </data>
+  <data name="TissueData_MSpecNo" xml:space="preserve">
+    <value>M-spec No.</value>
+  </data>
+  <data name="TissueData_CurrentCost" xml:space="preserve">
+    <value>Current Cost</value>
+  </data>
+  <data name="TissueData_PreviousCost" xml:space="preserve">
+    <value>Previous Cost</value>
+  </data>
+  <data name="TissueData_OkForBLO" xml:space="preserve">
+    <value>Ok For BLO?</value>
+  </data>
+  <data name="TissueData_OkForGlycol" xml:space="preserve">
+    <value>Ok For Glycol?</value>
+  </data>
+  <data name="TissueData_ResRatio1" xml:space="preserve">
+    <value>Res. Ratio 1:</value>
+  </data>
+  <data name="TissueData_ResRatio2" xml:space="preserve">
+    <value>Res. Ratio 2:</value>
+  </data>
+  <data name="TissueData_ResRatio3" xml:space="preserve">
+    <value>Res. Ratio 3:</value>
+  </data>
+  <data name="TissueData_ResRatio4" xml:space="preserve">
+    <value>Res. Ratio 4:</value>
+  </data>
+  <data name="TissueData_ResRatio5" xml:space="preserve">
+    <value>Res. Ratio 5:</value>
+  </data>
+  <data name="TissueData_ResRatio6" xml:space="preserve">
+    <value>Res. Ratio 6:</value>
+  </data>
+  <data name="Units_CubicCm" xml:space="preserve">
+    <value>cm³</value>
+  </data>
+  <data name="Units_OnePerCubicCm" xml:space="preserve">
+    <value>1/cm³</value>
+  </data>
+  <data name="AnodeData_Active" xml:space="preserve">
+    <value>Active?</value>
+  </data>
+  <data name="AnodeData_AddStdVals" xml:space="preserve">
+    <value>Add Std Vals</value>
+  </data>
+  <data name="AnodeData_Anode" xml:space="preserve">
+    <value>Anode</value>
+  </data>
+  <data name="AnodeData_AnodeName" xml:space="preserve">
+    <value>Anode Name</value>
+  </data>
+  <data name="AnodeData_AreaWeightRatio" xml:space="preserve">
+    <value>Area/Weight Ratio</value>
+  </data>
+  <data name="AnodeData_BackflushFlag" xml:space="preserve">
+    <value>Backflush Flag</value>
+  </data>
+  <data name="AnodeData_BackflushWarehouse" xml:space="preserve">
+    <value>Backflush Warehouse</value>
+  </data>
+  <data name="AnodeData_CurrentCost" xml:space="preserve">
+    <value>Current Cost</value>
+  </data>
+  <data name="AnodeData_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="AnodeData_FirstOp" xml:space="preserve">
+    <value>First Op</value>
+  </data>
+  <data name="AnodeData_Formation" xml:space="preserve">
+    <value>Formation</value>
+  </data>
+  <data name="AnodeData_Gain" xml:space="preserve">
+    <value>Gain</value>
+  </data>
+  <data name="AnodeData_GainVar" xml:space="preserve">
+    <value>Gain Var.</value>
+  </data>
+  <data name="AnodeData_JustThisFoilType" xml:space="preserve">
+    <value>Just This Foil Type</value>
+  </data>
+  <data name="AnodeData_JustThisVoltage" xml:space="preserve">
+    <value>Just This Voltage</value>
+  </data>
+  <data name="AnodeData_MatOnly" xml:space="preserve">
+    <value>Mat. Only</value>
+  </data>
+  <data name="AnodeData_MaxACPF" xml:space="preserve">
+    <value>Max. AC PF</value>
+  </data>
+  <data name="AnodeData_MaxACPFChange" xml:space="preserve">
+    <value>Max. AC PF Change</value>
+  </data>
+  <data name="AnodeData_MaxBoil" xml:space="preserve">
+    <value>Max. Boil</value>
+  </data>
+  <data name="AnodeData_MaxGain" xml:space="preserve">
+    <value>Max. Gain</value>
+  </data>
+  <data name="AnodeData_MaxRise" xml:space="preserve">
+    <value>Max. Rise</value>
+  </data>
+  <data name="AnodeData_MaxTD" xml:space="preserve">
+    <value>Max. TD</value>
+  </data>
+  <data name="AnodeData_MinFV" xml:space="preserve">
+    <value>Min. FV</value>
+  </data>
+  <data name="AnodeData_MinGain" xml:space="preserve">
+    <value>Min. Gain</value>
+  </data>
+  <data name="AnodeData_MSpecNo" xml:space="preserve">
+    <value>M-spec No.</value>
+  </data>
+  <data name="AnodeData_MultilevelBackflushFlag" xml:space="preserve">
+    <value>Multilevel Backflush Flag</value>
+  </data>
+  <data name="AnodeData_Obsolete" xml:space="preserve">
+    <value>Obsolete?</value>
+  </data>
+  <data name="AnodeData_OracleData" xml:space="preserve">
+    <value>Oracle Data</value>
+  </data>
+  <data name="AnodeData_OxideFactor" xml:space="preserve">
+    <value>Oxide factor</value>
+  </data>
+  <data name="AnodeData_PreviousCost" xml:space="preserve">
+    <value>Previous Cost</value>
+  </data>
+  <data name="AnodeData_Purchased" xml:space="preserve">
+    <value>Purchased?</value>
+  </data>
+  <data name="AnodeData_Purity" xml:space="preserve">
+    <value>Purity</value>
+  </data>
+  <data name="AnodeData_RateCode" xml:space="preserve">
+    <value>Rate Code</value>
+  </data>
+  <data name="AnodeData_Resistance" xml:space="preserve">
+    <value>Resistance</value>
+  </data>
+  <data name="AnodeData_ShowAllFoils" xml:space="preserve">
+    <value>Show All Foils</value>
+  </data>
+  <data name="AnodeData_ShrinkPercentage" xml:space="preserve">
+    <value>Shrink %</value>
+  </data>
+  <data name="AnodeData_Specification" xml:space="preserve">
+    <value>Specification</value>
+  </data>
+  <data name="AnodeData_StagingFlag" xml:space="preserve">
+    <value>Staging Flag</value>
+  </data>
+  <data name="AnodeData_StagingWarehouse" xml:space="preserve">
+    <value>Staging Warehouse</value>
+  </data>
+  <data name="AnodeData_Supplier" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="AnodeData_TestData" xml:space="preserve">
+    <value>Test Data</value>
+  </data>
+  <data name="AnodeData_Thickness" xml:space="preserve">
+    <value>Thickness</value>
+  </data>
+  <data name="AnodeData_Title" xml:space="preserve">
+    <value>Anode Data</value>
+  </data>
+  <data name="AnodeData_TitleWindow" xml:space="preserve">
+    <value>Anode Data</value>
+  </data>
+  <data name="AnodeData_WhereUsedThisFoil" xml:space="preserve">
+    <value>Where Used, this foil</value>
+  </data>
+  <data name="AnodeData_WhereUsedThisFoilAndVoltage" xml:space="preserve">
+    <value>Where Used, this foil and voltage</value>
+  </data>
+  <data name="CathodeData_Active" xml:space="preserve">
+    <value>Active?</value>
+  </data>
+  <data name="CathodeData_AreaWeightRatio" xml:space="preserve">
+    <value>Area/Weight Ratio</value>
+  </data>
+  <data name="CathodeData_BackflushFlag" xml:space="preserve">
+    <value>Backflush Flag</value>
+  </data>
+  <data name="CathodeData_BackflushWarehouse" xml:space="preserve">
+    <value>Backflush Warehouse</value>
+  </data>
+  <data name="CathodeData_Cathode" xml:space="preserve">
+    <value>Cathode</value>
+  </data>
+  <data name="CathodeData_CathodeName" xml:space="preserve">
+    <value>Cathode Name</value>
+  </data>
+  <data name="CathodeData_CurrentCost" xml:space="preserve">
+    <value>Current Cost</value>
+  </data>
+  <data name="CathodeData_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="CathodeData_FirstOp" xml:space="preserve">
+    <value>First Op</value>
+  </data>
+  <data name="CathodeData_Gain" xml:space="preserve">
+    <value>Gain</value>
+  </data>
+  <data name="CathodeData_MatOnly" xml:space="preserve">
+    <value>Mat. Only</value>
+  </data>
+  <data name="CathodeData_MSpecNo" xml:space="preserve">
+    <value>M-spec No.</value>
+  </data>
+  <data name="CathodeData_MultilevelBackflushFlag" xml:space="preserve">
+    <value>Multilevel Backflush Flag</value>
+  </data>
+  <data name="CathodeData_Obsolete" xml:space="preserve">
+    <value>Obsolete?</value>
+  </data>
+  <data name="CathodeData_OracleData" xml:space="preserve">
+    <value>Oracle Data</value>
+  </data>
+  <data name="CathodeData_PreviousCost" xml:space="preserve">
+    <value>Previous Cost</value>
+  </data>
+  <data name="CathodeData_Purity" xml:space="preserve">
+    <value>Purity</value>
+  </data>
+  <data name="CathodeData_Resistance" xml:space="preserve">
+    <value>Resistance</value>
+  </data>
+  <data name="CathodeData_ShowAllCathodes" xml:space="preserve">
+    <value>Show all Cathodes</value>
+  </data>
+  <data name="CathodeData_Specification" xml:space="preserve">
+    <value>Specification</value>
+  </data>
+  <data name="CathodeData_StagingFlag" xml:space="preserve">
+    <value>Staging Flag</value>
+  </data>
+  <data name="CathodeData_StagingWarehouse" xml:space="preserve">
+    <value>Staging Warehouse</value>
+  </data>
+  <data name="CathodeData_Supplier" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="CathodeData_Thickness" xml:space="preserve">
+    <value>Thickness</value>
+  </data>
+  <data name="CathodeData_Title" xml:space="preserve">
+    <value>Cathode Data</value>
+  </data>
+  <data name="CathodeData_TitleWindow" xml:space="preserve">
+    <value>Cathode Data</value>
+  </data>
+  <data name="CathodeData_WhereUsed" xml:space="preserve">
+    <value>Where Used</value>
+  </data>
+  <data name="ElecData_0CelsiusDegrees" xml:space="preserve">
+    <value>0ºC</value>
+  </data>
+  <data name="ElecData_105CelsiusDegrees" xml:space="preserve">
+    <value>105ºC</value>
+  </data>
+  <data name="ElecData_125CelsiusDegrees" xml:space="preserve">
+    <value>125ºC</value>
+  </data>
+  <data name="ElecData_20CelsiusDegrees" xml:space="preserve">
+    <value>20ºC</value>
+  </data>
+  <data name="ElecData_25CelsiusDegrees" xml:space="preserve">
+    <value>25ºC</value>
+  </data>
+  <data name="ElecData_45CelsiusDegrees" xml:space="preserve">
+    <value>45ºC</value>
+  </data>
+  <data name="ElecData_65CelsiusDegrees" xml:space="preserve">
+    <value>65ºC</value>
+  </data>
+  <data name="ElecData_85CelsiusDegrees" xml:space="preserve">
+    <value>85ºC</value>
+  </data>
+  <data name="ElecData_Active" xml:space="preserve">
+    <value>Active?</value>
+  </data>
+  <data name="ElecData_BackflushFlag" xml:space="preserve">
+    <value>Backflush Flag</value>
+  </data>
+  <data name="ElecData_BackflushWarehouse" xml:space="preserve">
+    <value>Backflush Warehouse</value>
+  </data>
+  <data name="ElecData_Class" xml:space="preserve">
+    <value>Class</value>
+  </data>
+  <data name="ElecData_CurrentCost" xml:space="preserve">
+    <value>Current Cost</value>
+  </data>
+  <data name="ElecData_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="ElecData_ElectrolyteName" xml:space="preserve">
+    <value>Electrolyte Name</value>
+  </data>
+  <data name="ElecData_FirstOpAC" xml:space="preserve">
+    <value>First Op (AC)</value>
+  </data>
+  <data name="ElecData_FirstOpDC" xml:space="preserve">
+    <value>First Op (DC)</value>
+  </data>
+  <data name="ElecData_Glycol" xml:space="preserve">
+    <value>Glycol?</value>
+  </data>
+  <data name="ElecData_MatOnly" xml:space="preserve">
+    <value>Mat. Only</value>
+  </data>
+  <data name="ElecData_MaxV105CelsiusDegrees" xml:space="preserve">
+    <value>105ºC</value>
+  </data>
+  <data name="ElecData_MaxV125CelsiusDegrees" xml:space="preserve">
+    <value>125ºC</value>
+  </data>
+  <data name="ElecData_MaxV65CelsiusDegrees" xml:space="preserve">
+    <value>65ºC</value>
+  </data>
+  <data name="ElecData_MaxV85CelsiusDegrees" xml:space="preserve">
+    <value>85ºC</value>
+  </data>
+  <data name="ElecData_MaxVoltageAtVolts" xml:space="preserve">
+    <value>Max Voltage @ V</value>
+  </data>
+  <data name="ElecData_Minus20CelsiusDegrees" xml:space="preserve">
+    <value>-20ºC</value>
+  </data>
+  <data name="ElecData_Minus40CelsiusDegrees" xml:space="preserve">
+    <value>-40ºC</value>
+  </data>
+  <data name="ElecData_Minus55CelsiusDegrees" xml:space="preserve">
+    <value>-55ºC</value>
+  </data>
+  <data name="ElecData_MSpecNo" xml:space="preserve">
+    <value>M-spec No.</value>
+  </data>
+  <data name="ElecData_MultilevelBackflushFlag" xml:space="preserve">
+    <value>Multilevel Backflush Flag</value>
+  </data>
+  <data name="ElecData_Obsolete" xml:space="preserve">
+    <value>Obsolete?</value>
+  </data>
+  <data name="ElecData_OracleData" xml:space="preserve">
+    <value>Oracle Data</value>
+  </data>
+  <data name="ElecData_PreviousCost" xml:space="preserve">
+    <value>Previous Cost</value>
+  </data>
+  <data name="ElecData_ResistivityAtTemperature" xml:space="preserve">
+    <value>Resistivity @ Temperature (ohm cm)</value>
+  </data>
+  <data name="ElecData_Specification" xml:space="preserve">
+    <value>Specification</value>
+  </data>
+  <data name="ElecData_SpecificGravity" xml:space="preserve">
+    <value>Specific Gravity</value>
+  </data>
+  <data name="ElecData_StagingFlag" xml:space="preserve">
+    <value>Staging Flag</value>
+  </data>
+  <data name="ElecData_StagingWarehouse" xml:space="preserve">
+    <value>Staging Warehouse</value>
+  </data>
+  <data name="ElecData_Supplier" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="ElecData_Title" xml:space="preserve">
+    <value>Electrolyte Data</value>
+  </data>
+  <data name="ElecData_TitleWindow" xml:space="preserve">
+    <value>Electrolyte Data</value>
+  </data>
+  <data name="ElecData_WhereUsed" xml:space="preserve">
+    <value>Where Used</value>
+  </data>
+  <data name="HistoryMain_ElectrolyticsHistory" xml:space="preserve">
+    <value>Electrolytics History</value>
+  </data>
+  <data name="HistoryMain_IssueSubformQueryForIssueDataEntry" xml:space="preserve">
+    <value>issue subform query for issue data entry</value>
+  </data>
+  <data name="HistoryMain_LatestIssue" xml:space="preserve">
+    <value>Latest Issue</value>
+  </data>
+  <data name="HistoryMain_PartNumber" xml:space="preserve">
+    <value>Part Number</value>
+  </data>
+  <data name="HistoryMain_TitleWindow" xml:space="preserve">
+    <value>Part History mw</value>
+  </data>
+  <data name="MwDesign_ActiveLength1" xml:space="preserve">
+    <value>Active Length 1</value>
+  </data>
+  <data name="MwDesign_ActiveTurns1" xml:space="preserve">
+    <value>Active Turns 1</value>
+  </data>
+  <data name="MwDesign_ActiveWidth" xml:space="preserve">
+    <value>Active Width</value>
+  </data>
+  <data name="MwDesign_AssemblyCharacteristics" xml:space="preserve">
+    <value>Assembly Characteristics</value>
+  </data>
+  <data name="MwDesign_BottomMargin" xml:space="preserve">
+    <value>Bottom Margin</value>
+  </data>
+  <data name="MwDesign_BreakFoilAtTurn" xml:space="preserve">
+    <value>Break Foil @ Turn</value>
+  </data>
+  <data name="MwDesign_Capacitance" xml:space="preserve">
+    <value>Capacitance</value>
+  </data>
+  <data name="MwDesign_CaseHeight" xml:space="preserve">
+    <value>Case Height:</value>
+  </data>
+  <data name="MwDesign_CaseShape" xml:space="preserve">
+    <value>Case Shape:</value>
+  </data>
+  <data name="MwDesign_CaseSize" xml:space="preserve">
+    <value>Case Size:</value>
+  </data>
+  <data name="MwDesign_Customer" xml:space="preserve">
+    <value>Customer:</value>
+  </data>
+  <data name="MwDesign_CustPNo" xml:space="preserve">
+    <value>Cust. P/No.</value>
+  </data>
+  <data name="MwDesign_Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="MwDesign_DesignApproval" xml:space="preserve">
+    <value>Design Approval:</value>
+  </data>
+  <data name="MwDesign_Dielectric" xml:space="preserve">
+    <value>Dielectric</value>
+  </data>
+  <data name="MwDesign_FinishTurns" xml:space="preserve">
+    <value>Finish Turns</value>
+  </data>
+  <data name="MwDesign_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="MwDesign_ImpregCycle" xml:space="preserve">
+    <value>Impreg Cycle:</value>
+  </data>
+  <data name="MwDesign_Impregnant" xml:space="preserve">
+    <value>Impregnant</value>
+  </data>
+  <data name="MwDesign_Issue" xml:space="preserve">
+    <value>Issue</value>
+  </data>
+  <data name="MwDesign_MandrelDia" xml:space="preserve">
+    <value>Mandrel Dia.</value>
+  </data>
+  <data name="MwDesign_PlaceTab1AtTurn" xml:space="preserve">
+    <value>Place Tab 1 @ Turn</value>
+  </data>
+  <data name="MwDesign_PlaceTab2AtTurn" xml:space="preserve">
+    <value>Place Tab 2 @ Turn</value>
+  </data>
+  <data name="MwDesign_QualityApproval" xml:space="preserve">
+    <value>Quality Approval:</value>
+  </data>
+  <data name="MwDesign_Rev" xml:space="preserve">
+    <value>Rev.</value>
+  </data>
+  <data name="MwDesign_SectionCharacteristics" xml:space="preserve">
+    <value>Section Characteristics</value>
+  </data>
+  <data name="MwDesign_SectionDia1" xml:space="preserve">
+    <value>Section Dia. 1</value>
+  </data>
+  <data name="MwDesign_SectionNotes" xml:space="preserve">
+    <value>Section Notes</value>
+  </data>
+  <data name="MwDesign_SpecDrawing" xml:space="preserve">
+    <value>Spec/Drawing</value>
+  </data>
+  <data name="MwDesign_StartCap1AtTurn" xml:space="preserve">
+    <value>Start Cap 1 @ Turn</value>
+  </data>
+  <data name="MwDesign_StartTurns" xml:space="preserve">
+    <value>Start Turns</value>
+  </data>
+  <data name="MwDesign_StressFilm" xml:space="preserve">
+    <value>Stress Film:</value>
+  </data>
+  <data name="MwDesign_StressKraft" xml:space="preserve">
+    <value>Stress Kraft:</value>
+  </data>
+  <data name="MwDesign_TabExt" xml:space="preserve">
+    <value>Tab Ext.</value>
+  </data>
+  <data name="MwDesign_TitleWindow" xml:space="preserve">
+    <value>Mw Design Data</value>
+  </data>
+  <data name="MwDesign_TopMargin" xml:space="preserve">
+    <value>Top Margin</value>
+  </data>
+  <data name="MwDesign_Vasqin" xml:space="preserve">
+    <value>Vasqin:</value>
+  </data>
+  <data name="MwDesign_WorkingVoltage" xml:space="preserve">
+    <value>Working Voltage</value>
+  </data>
+  <data name="RangeData_CopyThisRecordToNewRecord" xml:space="preserve">
+    <value>Copy this record to new record</value>
+  </data>
+  <data name="RangeData_CopyToHereFrom" xml:space="preserve">
+    <value>Copy to here from</value>
+  </data>
+  <data name="RangeData_CostingGroup" xml:space="preserve">
+    <value>Costing Group</value>
+  </data>
+  <data name="RangeData_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="RangeData_EndOfLifeRange" xml:space="preserve">
+    <value>End-Of-Life Range</value>
+  </data>
+  <data name="RangeData_EOL" xml:space="preserve">
+    <value>EOL</value>
+  </data>
+  <data name="RangeData_EOL_EOLRange" xml:space="preserve">
+    <value>End-Of-Life Range</value>
+  </data>
+  <data name="RangeData_Equation" xml:space="preserve">
+    <value>Equation</value>
+  </data>
+  <data name="RangeData_Leakage" xml:space="preserve">
+    <value>Leakage</value>
+  </data>
+  <data name="RangeData_Life" xml:space="preserve">
+    <value>Life</value>
+  </data>
+  <data name="RangeData_LifeRange" xml:space="preserve">
+    <value>Life Range</value>
+  </data>
+  <data name="RangeData_Life_EditLifeTable" xml:space="preserve">
+    <value>Edit Life Table</value>
+  </data>
+  <data name="RangeData_Life_LifeRange" xml:space="preserve">
+    <value>Life Range</value>
+  </data>
+  <data name="RangeData_Other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="RangeData_Other_CostingGroup" xml:space="preserve">
+    <value>Costing Group</value>
+  </data>
+  <data name="RangeData_Other_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="RangeData_Other_EditLeakTable" xml:space="preserve">
+    <value>Edit Leak Table</value>
+  </data>
+  <data name="RangeData_Other_Leakage" xml:space="preserve">
+    <value>Leakage</value>
+  </data>
+  <data name="RangeData_Other_MaxValue" xml:space="preserve">
+    <value>Max Value</value>
+  </data>
+  <data name="RangeData_Other_Multiplier" xml:space="preserve">
+    <value>Multiplier</value>
+  </data>
+  <data name="RangeData_Other_Std" xml:space="preserve">
+    <value>Std</value>
+  </data>
+  <data name="RangeData_Other_StdLabourRate" xml:space="preserve">
+    <value>Std. Labour Rate</value>
+  </data>
+  <data name="RangeData_Other_StdMaterialYield" xml:space="preserve">
+    <value>Std. Material Yield</value>
+  </data>
+  <data name="RangeData_Other_StdOHMultiplier" xml:space="preserve">
+    <value>Std. OH Multiplier</value>
+  </data>
+  <data name="RangeData_Other_StdShippingCost" xml:space="preserve">
+    <value>Std. Shipping Cost</value>
+  </data>
+  <data name="RangeData_Other_StdWindingYield" xml:space="preserve">
+    <value>Std. Winding Yield</value>
+  </data>
+  <data name="RangeData_Other_Var" xml:space="preserve">
+    <value>Var</value>
+  </data>
+  <data name="RangeData_ParameterRange" xml:space="preserve">
+    <value>Parameter Range</value>
+  </data>
+  <data name="RangeData_Parameters" xml:space="preserve">
+    <value>Parameters</value>
+  </data>
+  <data name="RangeData_Parameter_ParameterData" xml:space="preserve">
+    <value>Parameter Data</value>
+  </data>
+  <data name="RangeData_Parameter_ParameterRange" xml:space="preserve">
+    <value>Parameter Range</value>
+  </data>
+  <data name="RangeData_Range" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="RangeData_StdESRFreq" xml:space="preserve">
+    <value>Std. ESR Freq</value>
+  </data>
+  <data name="RangeData_StdESRTemp" xml:space="preserve">
+    <value>Std. ESR Temp.</value>
+  </data>
+  <data name="RangeData_StdImpFreq" xml:space="preserve">
+    <value>Std. Imp. Freq</value>
+  </data>
+  <data name="RangeData_StdOpTemp" xml:space="preserve">
+    <value>Std. Op. Temp</value>
+  </data>
+  <data name="RangeData_Thermal" xml:space="preserve">
+    <value>Thermal</value>
+  </data>
+  <data name="RangeData_ThermalRange" xml:space="preserve">
+    <value>Thermal Range</value>
+  </data>
+  <data name="RangeData_Thermal_CentigradeDegreeByWatt" xml:space="preserve">
+    <value>°C/W</value>
+  </data>
+  <data name="RangeData_Thermal_EditThermalTable" xml:space="preserve">
+    <value>Edit Thermal Table</value>
+  </data>
+  <data name="RangeData_Thermal_LensIn" xml:space="preserve">
+    <value>Lens in</value>
+  </data>
+  <data name="RangeData_Thermal_RHAIn" xml:space="preserve">
+    <value>RHA in</value>
+  </data>
+  <data name="RangeData_Thermal_ThermalRange" xml:space="preserve">
+    <value>Thermal Range</value>
+  </data>
+  <data name="RangeData_Title" xml:space="preserve">
+    <value>Range Data</value>
+  </data>
+  <data name="RangeData_TitleWindow" xml:space="preserve">
+    <value>Range Codes</value>
+  </data>
+  <data name="RangeData_YieldRange" xml:space="preserve">
+    <value>Yield Range</value>
+  </data>
+  <data name="SpecData_AddAllDefaults" xml:space="preserve">
+    <value>Add All Defaults</value>
+  </data>
+  <data name="SpecData_AmbientTempTa" xml:space="preserve">
+    <value>Ambient Temp (Ta)</value>
+  </data>
+  <data name="SpecData_CoreRise" xml:space="preserve">
+    <value>Core Rise</value>
+  </data>
+  <data name="SpecData_ESRData" xml:space="preserve">
+    <value>ESR Data</value>
+  </data>
+  <data name="SpecData_ESRFF" xml:space="preserve">
+    <value>ESR/F F</value>
+  </data>
+  <data name="SpecData_ESRFreqData" xml:space="preserve">
+    <value>ESR/Freq Data</value>
+  </data>
+  <data name="SpecData_ESRFreqGraph" xml:space="preserve">
+    <value>ESR/Freq Graph</value>
+  </data>
+  <data name="SpecData_ESRFTemp" xml:space="preserve">
+    <value>ESR/F Temp</value>
+  </data>
+  <data name="SpecData_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="SpecData_InhibitSpec" xml:space="preserve">
+    <value>Inhibit Spec</value>
+  </data>
+  <data name="SpecData_IrMultiplier" xml:space="preserve">
+    <value>Ir Multiplier</value>
+  </data>
+  <data name="SpecData_KFData" xml:space="preserve">
+    <value>KF Data</value>
+  </data>
+  <data name="SpecData_KFFreq" xml:space="preserve">
+    <value>KF Freq</value>
+  </data>
+  <data name="SpecData_KFTemp" xml:space="preserve">
+    <value>KF Temp</value>
+  </data>
+  <data name="SpecData_KVDeratingData" xml:space="preserve">
+    <value>KV Derating Data</value>
+  </data>
+  <data name="SpecData_KVDeratingGraph" xml:space="preserve">
+    <value>KV Derating Graph</value>
+  </data>
+  <data name="SpecData_KVPc" xml:space="preserve">
+    <value>KV Temp</value>
+  </data>
+  <data name="SpecData_KVTemp" xml:space="preserve">
+    <value>KV Temp</value>
+  </data>
+  <data name="SpecData_LifeDefinitions" xml:space="preserve">
+    <value>Life Definitions</value>
+  </data>
+  <data name="SpecData_LifeExp" xml:space="preserve">
+    <value>Life Exp.</value>
+  </data>
+  <data name="SpecData_LopVsTaForM" xml:space="preserve">
+    <value>Lop Vs Ta For M</value>
+  </data>
+  <data name="SpecData_LopVsTaForMData" xml:space="preserve">
+    <value>Lop Vs Ta For M Data</value>
+  </data>
+  <data name="SpecData_LopVsTaForTrData" xml:space="preserve">
+    <value>Lop Vs Ta For Tr Data</value>
+  </data>
+  <data name="SpecData_LopVsTaForTrGraph" xml:space="preserve">
+    <value>Lop Vs Ta For Tr Graph</value>
+  </data>
+  <data name="SpecData_MVsTaForLop" xml:space="preserve">
+    <value>M Vs Ta For Lop</value>
+  </data>
+  <data name="SpecData_MVsTaForLopData" xml:space="preserve">
+    <value>M Vs Ta For Lop Data</value>
+  </data>
+  <data name="SpecData_OnePage" xml:space="preserve">
+    <value>'One Page'</value>
+  </data>
+  <data name="SpecData_PageBreak1" xml:space="preserve">
+    <value>Page Break 1</value>
+  </data>
+  <data name="SpecData_PageBreak2" xml:space="preserve">
+    <value>Page Break 2</value>
+  </data>
+  <data name="SpecData_PageBreak3" xml:space="preserve">
+    <value>Page Break 3</value>
+  </data>
+  <data name="SpecData_PageBreak4" xml:space="preserve">
+    <value>Page Break 4</value>
+  </data>
+  <data name="SpecData_PageBreak5" xml:space="preserve">
+    <value>Page Break 5</value>
+  </data>
+  <data name="SpecData_PageBreak6" xml:space="preserve">
+    <value>Page Break 6</value>
+  </data>
+  <data name="SpecData_PageBreak7" xml:space="preserve">
+    <value>Page Break 7</value>
+  </data>
+  <data name="SpecData_PageBreak8" xml:space="preserve">
+    <value>Page Break 8</value>
+  </data>
+  <data name="SpecData_PageBreak9" xml:space="preserve">
+    <value>Page Break 9</value>
+  </data>
+  <data name="SpecData_RHaDiag" xml:space="preserve">
+    <value>RHa Diag</value>
+  </data>
+  <data name="SpecData_RippleQuote" xml:space="preserve">
+    <value>Ripple Quote</value>
+  </data>
+  <data name="SpecData_SelectAll" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="SpecData_SelectNone" xml:space="preserve">
+    <value>Select None</value>
+  </data>
+  <data name="SpecData_ShowAllRhaDiagData" xml:space="preserve">
+    <value>Show all Rha Diag data</value>
+  </data>
+  <data name="SpecData_ShowLopEquation" xml:space="preserve">
+    <value>Show Lop Equation</value>
+  </data>
+  <data name="SpecData_ShowSampleDisclaimer" xml:space="preserve">
+    <value>Show Sample Disclaimer</value>
+  </data>
+  <data name="SpecData_TitleWindow" xml:space="preserve">
+    <value>Subsf Summary Spec Data</value>
+  </data>
+  <data name="SpecData_ViewReport" xml:space="preserve">
+    <value>View Report</value>
+  </data>
+  <data name="TissueData_TissueIndexDataSubform" xml:space="preserve">
+    <value>tissue index data subform</value>
+  </data>
+  <data name="Units_GramPerSquareCm" xml:space="preserve">
+    <value>g/cm²</value>
+  </data>
+  <data name="Units_Ohm" xml:space="preserve">
+    <value>ohm</value>
+  </data>
+  <data name="Units_OhmSymbol" xml:space="preserve">
+    <value>Ω</value>
+  </data>
+  <data name="MwDesign_AssemblyNotesEntry" xml:space="preserve">
+    <value>Assembly Notes Entry</value>
+  </data>
+  <data name="MwDesign_Cost" xml:space="preserve">
+    <value>Cost</value>
+  </data>
+  <data name="MwDesign_CostFactorData" xml:space="preserve">
+    <value>Cost Factor Data</value>
+  </data>
+  <data name="MwDesign_CostingGroup" xml:space="preserve">
+    <value>Costing Group</value>
+  </data>
+  <data name="MwDesign_Costs" xml:space="preserve">
+    <value>Costs</value>
+  </data>
+  <data name="MwDesign_Design" xml:space="preserve">
+    <value>Design</value>
+  </data>
+  <data name="MwDesign_DesignNotes" xml:space="preserve">
+    <value>Design Notes:</value>
+  </data>
+  <data name="MwDesign_FileDescription" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="MwDesign_GridAssCost" xml:space="preserve">
+    <value>Ass. Cost</value>
+  </data>
+  <data name="MwDesign_GridWindCost" xml:space="preserve">
+    <value>Wind Cost</value>
+  </data>
+  <data name="MwDesign_LabourCost" xml:space="preserve">
+    <value>Labour Cost</value>
+  </data>
+  <data name="MwDesign_Length" xml:space="preserve">
+    <value>Length:</value>
+  </data>
+  <data name="MwDesign_LowerAssCost" xml:space="preserve">
+    <value>asscost</value>
+  </data>
+  <data name="MwDesign_LowerLabourCost" xml:space="preserve">
+    <value>Labour Cost</value>
+  </data>
+  <data name="MwDesign_LowerWindCost" xml:space="preserve">
+    <value>windcost</value>
+  </data>
+  <data name="MwDesign_OHCost" xml:space="preserve">
+    <value>O/H Cost</value>
+  </data>
+  <data name="MwDesign_PartsCost" xml:space="preserve">
+    <value>Parts Cost</value>
+  </data>
+  <data name="MwDesign_PartsFile" xml:space="preserve">
+    <value>Parts File</value>
+  </data>
+  <data name="MwDesign_Preview" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="MwDesign_PrintDetail" xml:space="preserve">
+    <value>Print Detail:</value>
+  </data>
+  <data name="MwDesign_ReOrder" xml:space="preserve">
+    <value>Re-order</value>
+  </data>
+  <data name="MwDesign_Routing" xml:space="preserve">
+    <value>Routing</value>
+  </data>
+  <data name="MwDesign_Sal" xml:space="preserve">
+    <value>Sal</value>
+  </data>
+  <data name="MwDesign_Section" xml:space="preserve">
+    <value>Section</value>
+  </data>
+  <data name="MwDesign_SectionOutline" xml:space="preserve">
+    <value>Section Outline</value>
+  </data>
+  <data name="MwDesign_Std" xml:space="preserve">
+    <value>Std</value>
+  </data>
+  <data name="MwDesign_TabSpacing" xml:space="preserve">
+    <value>Tab Spacing:</value>
+  </data>
+  <data name="MwDesign_Terminals" xml:space="preserve">
+    <value>Terminals:</value>
+  </data>
+  <data name="MwDesign_TestNotes" xml:space="preserve">
+    <value>Test Notes:</value>
+  </data>
+  <data name="MwDesign_Thickness" xml:space="preserve">
+    <value>Thickness:</value>
+  </data>
+  <data name="MwDesign_TotalCost" xml:space="preserve">
+    <value>Total Cost</value>
+  </data>
+  <data name="MwDesign_Width" xml:space="preserve">
+    <value>Width:</value>
+  </data>
+  <data name="MwDesign_WindCost" xml:space="preserve">
+    <value>Wind Cost</value>
+  </data>
+  <data name="TissueSel_Diam" xml:space="preserve">
+    <value>Diam.</value>
+  </data>
+  <data name="TissueSel_Elec" xml:space="preserve">
+    <value>Elec.</value>
+  </data>
+  <data name="TissueSel_NumberofTissues" xml:space="preserve">
+    <value>Number of Tissues</value>
+  </data>
+  <data name="TissueSel_RebuildTable" xml:space="preserve">
+    <value>Rebuild Table</value>
+  </data>
+  <data name="TissueSel_Sortforbest" xml:space="preserve">
+    <value>Sort for best...</value>
+  </data>
+  <data name="TissueSel_T1Part" xml:space="preserve">
+    <value>T1Part</value>
+  </data>
+  <data name="TissueSel_T2Part" xml:space="preserve">
+    <value>T2Part</value>
+  </data>
+  <data name="TissueSel_T3Part" xml:space="preserve">
+    <value>T3Part</value>
+  </data>
+  <data name="TissueSel_Temp" xml:space="preserve">
+    <value>Temp.</value>
+  </data>
+  <data name="TissueSel_Title" xml:space="preserve">
+    <value>Tissue Config</value>
+  </data>
+  <data name="TissueSel_TotalCost" xml:space="preserve">
+    <value>TotalCost</value>
+  </data>
+  <data name="TissueSel_TotalLayers" xml:space="preserve">
+    <value>TotalLayers</value>
+  </data>
+  <data name="TissueSel_TotalMass" xml:space="preserve">
+    <value>TotalMass</value>
+  </data>
+  <data name="TissueSel_TotalRR1" xml:space="preserve">
+    <value>TotalRR1</value>
+  </data>
+  <data name="TissueSel_TotalRR2" xml:space="preserve">
+    <value>TotalRR2</value>
+  </data>
+  <data name="TissueSel_TotalThick" xml:space="preserve">
+    <value>TotalThick</value>
+  </data>
+  <data name="TissueSel_TotalTissues" xml:space="preserve">
+    <value>TotalTissues</value>
+  </data>
+  <data name="TissueSel_UpdateScratch" xml:space="preserve">
+    <value>Update Scratch</value>
+  </data>
+  <data name="TrsfrToScratch_acopyatthemoment" xml:space="preserve">
+    <value>a copy at the moment.</value>
+  </data>
+  <data name="TrsfrToScratch_andthatisyourself" xml:space="preserve">
+    <value>and that is yourself</value>
+  </data>
+  <data name="TrsfrToScratch_includingyou" xml:space="preserve">
+    <value>including you</value>
+  </data>
+  <data name="TrsfrToScratch_MessageAboutToBeTransferred" xml:space="preserve">
+    <value>The following design is about to be transferred to the scratch pad...</value>
+  </data>
+  <data name="TrsfrToScratch_Noonehas" xml:space="preserve">
+    <value>Noone has</value>
+  </data>
+  <data name="TrsfrToScratch_Peoplehave" xml:space="preserve">
+    <value>People have</value>
+  </data>
+  <data name="TrsfrToScratch_Someonehas" xml:space="preserve">
+    <value>Someone has</value>
+  </data>
+  <data name="TrsfrToScratch_Title" xml:space="preserve">
+    <value>Transfer to Scratch</value>
+  </data>
+  <data name="TrsfrToScratch_Transferring" xml:space="preserve">
+    <value>Transferring...</value>
+  </data>
+  <data name="ScratchCat_dci_condy_eq" xml:space="preserve">
+    <value>dci_condy_eq</value>
+  </data>
+  <data name="ScratchCat_dci_de_id" xml:space="preserve">
+    <value>dci_de_id</value>
+  </data>
+  <data name="ScratchCat_dci_esr_foil" xml:space="preserve">
+    <value>dci_esr_foil</value>
+  </data>
+  <data name="ScratchCat_dci_esr_oxide_freqind" xml:space="preserve">
+    <value>dci_esr_oxide_freqind</value>
+  </data>
+  <data name="ScratchCat_dci_esr_tabbing" xml:space="preserve">
+    <value>dci_esr_tabbing</value>
+  </data>
+  <data name="ScratchCat_dci_IrFreq_Std" xml:space="preserve">
+    <value>dci_IrFreq_Std</value>
+  </data>
+  <data name="ScratchCat_dci_IrTemp_Std" xml:space="preserve">
+    <value>dci_IrTemp_Std</value>
+  </data>
+  <data name="ScratchCat_dci_IrVal_Std" xml:space="preserve">
+    <value>dci_IrVal_Std</value>
+  </data>
+  <data name="ScratchCat_dci_Rbc" xml:space="preserve">
+    <value>dci_Rbc</value>
+  </data>
+  <data name="ScratchCat_dci_Rha" xml:space="preserve">
+    <value>dci_Rha</value>
+  </data>
+  <data name="ScratchCat_dci_Rhw" xml:space="preserve">
+    <value>dci_Rhw</value>
+  </data>
+  <data name="ScratchCat_dci_ripple" xml:space="preserve">
+    <value>dci_ripple</value>
+  </data>
+  <data name="ScratchCat_dci_Rise_Temp" xml:space="preserve">
+    <value>dci_Rise_Temp</value>
+  </data>
+  <data name="ScratchCat_dci_Rwb" xml:space="preserve">
+    <value>dci_Rwb</value>
+  </data>
+  <data name="ScratchCat_dci_sr_tissue_tempind" xml:space="preserve">
+    <value>dci_sr_tissue_tempind</value>
+  </data>
+  <data name="ScratchCat_Title" xml:space="preserve">
+    <value>Scratch Catalogue Index</value>
+  </data>
+  <data name="Global_Copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="Global_Rename" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="RenCopyScratch_Title" xml:space="preserve">
+    <value>Rename or Copy Scratch</value>
+  </data>
+  <data name="ScratchCat_CoreRise" xml:space="preserve">
+    <value>Core Rise</value>
+  </data>
+  <data name="ScratchCat_dci_el_resist0" xml:space="preserve">
+    <value>dci_el_resist0</value>
+  </data>
+  <data name="ScratchCat_dci_el_resist105" xml:space="preserve">
+    <value>dci_el_resist105</value>
+  </data>
+  <data name="ScratchCat_dci_el_resist125" xml:space="preserve">
+    <value>dci_el_resist125</value>
+  </data>
+  <data name="ScratchCat_dci_el_resist20" xml:space="preserve">
+    <value>dci_el_resist20</value>
+  </data>
+  <data name="ScratchCat_dci_el_resist25" xml:space="preserve">
+    <value>dci_el_resist25</value>
+  </data>
+  <data name="ScratchCat_dci_el_resist45" xml:space="preserve">
+    <value>dci_el_resist45</value>
+  </data>
+  <data name="ScratchCat_dci_el_resist65" xml:space="preserve">
+    <value>dci_el_resist65</value>
+  </data>
+  <data name="ScratchCat_dci_el_resist85" xml:space="preserve">
+    <value>dci_el_resist85</value>
+  </data>
+  <data name="ScratchCat_dci_el_resistminus20" xml:space="preserve">
+    <value>dci_el_resist-20</value>
+  </data>
+  <data name="ScratchCat_dci_el_resistminus40" xml:space="preserve">
+    <value>dci_el_resist-40</value>
+  </data>
+  <data name="ScratchCat_dci_el_resistminus55" xml:space="preserve">
+    <value>dci_el_resist-55</value>
+  </data>
+  <data name="ScratchCat_dci_li_ambient" xml:space="preserve">
+    <value>dci_li_ambient</value>
+  </data>
+  <data name="ScratchCat_dci_li_Ex" xml:space="preserve">
+    <value>dci_li_Ex</value>
+  </data>
+  <data name="ScratchCat_dci_li_Le" xml:space="preserve">
+    <value>dci_li_Le</value>
+  </data>
+  <data name="ScratchCat_dci_li_RatedLife" xml:space="preserve">
+    <value>dci_li_RatedLife</value>
+  </data>
+  <data name="ScratchCat_dci_li_T2" xml:space="preserve">
+    <value>dci_li_T2</value>
+  </data>
+  <data name="ScratchCat_dci_li_Tm" xml:space="preserve">
+    <value>dci_li_Tm</value>
+  </data>
+  <data name="ScratchCat_dci_li_Tr" xml:space="preserve">
+    <value>dci_li_Tr</value>
+  </data>
+  <data name="ScratchCat_dci_li_Tx" xml:space="preserve">
+    <value>dci_li_Tx</value>
+  </data>
+  <data name="ScratchCat_FailureRate" xml:space="preserve">
+    <value>Failure Rate</value>
+  </data>
+  <data name="ScratchCat_LifeSpan" xml:space="preserve">
+    <value>Life Span</value>
+  </data>
+  <data name="ScratchCat_MaxCoreTemperature" xml:space="preserve">
+    <value>Max Core Temperature</value>
+  </data>
+  <data name="ScratchCat_MaxESRChange" xml:space="preserve">
+    <value>Max ESR Change</value>
+  </data>
+  <data name="ScratchCat_RatedTemp" xml:space="preserve">
+    <value>Rated Temp</value>
+  </data>
+  <data name="Global_CaseSize" xml:space="preserve">
+    <value>Case Size</value>
+  </data>
+  <data name="Global_Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Global_DateAllocated" xml:space="preserve">
+    <value>Date Allocated</value>
+  </data>
+  <data name="Global_NSNumber" xml:space="preserve">
+    <value>NS Number</value>
+  </data>
+  <data name="Global_Reserve" xml:space="preserve">
+    <value>Reserve</value>
+  </data>
+  <data name="Global_Specification" xml:space="preserve">
+    <value>Specification</value>
+  </data>
+  <data name="OracleRCosts_AvePos" xml:space="preserve">
+    <value>AvePos</value>
+  </data>
+  <data name="OracleRCosts_AverageMatch" xml:space="preserve">
+    <value>AverageMatch</value>
+  </data>
+  <data name="OracleRCosts_AvgL" xml:space="preserve">
+    <value>AvgL</value>
+  </data>
+  <data name="OracleRCosts_CachedData" xml:space="preserve">
+    <value>Cached Data</value>
+  </data>
+  <data name="OracleRCosts_CGroup" xml:space="preserve">
+    <value>CGroup</value>
+  </data>
+  <data name="OracleRCosts_Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="OracleRCosts_CompositeAve" xml:space="preserve">
+    <value>CompositeAve</value>
+  </data>
+  <data name="OracleRCosts_CostAuditReport" xml:space="preserve">
+    <value>Cost Audit Report</value>
+  </data>
+  <data name="OracleRCosts_CostingGroup" xml:space="preserve">
+    <value>Costing Group</value>
+  </data>
+  <data name="OracleRCosts_D" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="OracleRCosts_DESCRIPTION" xml:space="preserve">
+    <value>DESCRIPTION</value>
+  </data>
+  <data name="OracleRCosts_DevDivAve" xml:space="preserve">
+    <value>DevDivAve</value>
+  </data>
+  <data name="OracleRCosts_DevL" xml:space="preserve">
+    <value>DevL</value>
+  </data>
+  <data name="OracleRCosts_ExactMatch" xml:space="preserve">
+    <value>Exact Match</value>
+  </data>
+  <data name="OracleRCosts_FC" xml:space="preserve">
+    <value>FC</value>
+  </data>
+  <data name="OracleRCosts_FROZEN_ITEM_COST" xml:space="preserve">
+    <value>FROZEN_ITEM_COST</value>
+  </data>
+  <data name="OracleRCosts_FROZEN_MATERIAL_COST" xml:space="preserve">
+    <value>FROZEN_MATERIAL_COST</value>
+  </data>
+  <data name="OracleRCosts_FROZEN_OVERHEAD_COST" xml:space="preserve">
+    <value>FROZEN_OVERHEAD_COST</value>
+  </data>
+  <data name="OracleRCosts_FROZEN_RESOURCE_COST" xml:space="preserve">
+    <value>FROZEN_RESOURCE_COST</value>
+  </data>
+  <data name="OracleRCosts_Info1" xml:space="preserve">
+    <value>The calculation works as follows:</value>
+  </data>
+  <data name="OracleRCosts_Info10" xml:space="preserve">
+    <value>means the stored cost is different to the current one</value>
+  </data>
+  <data name="OracleRCosts_Info2" xml:space="preserve">
+    <value>If the part has a resource value already then that value is used
+
+If no value for the part is found, then the Cost Group, Diameter and Length is used to find a match in the averages table - if a match is found that is used.
+
+If no match with the averages is found then the nearest averages are used to form a composite average</value>
+  </data>
+  <data name="OracleRCosts_Info3" xml:space="preserve">
+    <value>The override works as follows:</value>
+  </data>
+  <data name="OracleRCosts_Info4" xml:space="preserve">
+    <value>If the particular combination of cost group, diameter &amp; length of the override already exists then the override value will replace it
+
+If the particular combination of cost group, diameter &amp; length of the override DOES NOT exist then the override value will be added to the existing list of values and used when calculating the cost.</value>
+  </data>
+  <data name="OracleRCosts_Info5" xml:space="preserve">
+    <value>The function that calculates the cost of an item is refreshed to reflect changes in this table whenever any of the following is opened:</value>
+  </data>
+  <data name="OracleRCosts_Info6" xml:space="preserve">
+    <value>Batch Printing Form
+Scratch Design Form
+Switchboard</value>
+  </data>
+  <data name="OracleRCosts_Info7" xml:space="preserve">
+    <value>...or when this form is closed.</value>
+  </data>
+  <data name="OracleRCosts_Info8" xml:space="preserve">
+    <value>Form Colours</value>
+  </data>
+  <data name="OracleRCosts_Info9" xml:space="preserve">
+    <value>Mismatch</value>
+  </data>
+  <data name="OracleRCosts_INVENTORY_ITEM_ID" xml:space="preserve">
+    <value>INVENTORY_ITEM_ID</value>
+  </data>
+  <data name="OracleRCosts_ITEM_TYPE" xml:space="preserve">
+    <value>ITEM_TYPE</value>
+  </data>
+  <data name="OracleRCosts_KEMET_PART_NUMBER" xml:space="preserve">
+    <value>KEMET_PART_NUMBER</value>
+  </data>
+  <data name="OracleRCosts_L" xml:space="preserve">
+    <value>L</value>
+  </data>
+  <data name="OracleRCosts_LabCost" xml:space="preserve">
+    <value>LabCost</value>
+  </data>
+  <data name="OracleRCosts_LabourCostAverages" xml:space="preserve">
+    <value>Labour Cost Averages</value>
+  </data>
+  <data name="OracleRCosts_MaxL" xml:space="preserve">
+    <value>MaxL</value>
+  </data>
+  <data name="OracleRCosts_MinL" xml:space="preserve">
+    <value>MinL</value>
+  </data>
+  <data name="OracleRCosts_NoCost" xml:space="preserve">
+    <value>No Cost</value>
+  </data>
+  <data name="OracleRCosts_NumRecs" xml:space="preserve">
+    <value>NumRecs</value>
+  </data>
+  <data name="OracleRCosts_ORGANIZATION_CODE" xml:space="preserve">
+    <value>ORGANIZATION_CODE</value>
+  </data>
+  <data name="OracleRCosts_Overrides" xml:space="preserve">
+    <value>Overrides</value>
+  </data>
+  <data name="OracleRCosts_OverridesMessage" xml:space="preserve">
+    <value>Overrides will supplement/replace the standard averages.
+
+See Overrides tab for special values &amp;&amp; more information.</value>
+  </data>
+  <data name="OracleRCosts_PartNumberGroups" xml:space="preserve">
+    <value>Part Number Groups</value>
+  </data>
+  <data name="OracleRCosts_Partsofselectedgroup" xml:space="preserve">
+    <value>Parts of selected group</value>
+  </data>
+  <data name="OracleRCosts_PENDING_ITEM_COST" xml:space="preserve">
+    <value>PENDING_ITEM_COST</value>
+  </data>
+  <data name="OracleRCosts_PENDING_MATERIAL_COST" xml:space="preserve">
+    <value>PENDING_MATERIAL_COST</value>
+  </data>
+  <data name="OracleRCosts_PENDING_OVERHEAD_COST" xml:space="preserve">
+    <value>PENDING_OVERHEAD_COST</value>
+  </data>
+  <data name="OracleRCosts_PENDING_RESOURCE_COST" xml:space="preserve">
+    <value>PENDING_RESOURCE_COST</value>
+  </data>
+  <data name="OracleRCosts_rci_cf_group" xml:space="preserve">
+    <value>rci_cf_group</value>
+  </data>
+  <data name="OracleRCosts_ThresholdPercentage" xml:space="preserve">
+    <value>Treshold (%)</value>
+  </data>
+  <data name="OracleRCosts_Title" xml:space="preserve">
+    <value>Oracle Routing Costs</value>
+  </data>
+  <data name="OracleRCosts_Warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="ReservePN_InnerTitle" xml:space="preserve">
+    <value>Design Index</value>
+  </data>
+  <data name="ReservePN_Title" xml:space="preserve">
+    <value>Reserve Part Number</value>
+  </data>
+  <data name="TissueData_WhereUsed" xml:space="preserve">
+    <value>Where Used</value>
+  </data>
+</root>

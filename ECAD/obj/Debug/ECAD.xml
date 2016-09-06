@@ -1,0 +1,4761 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ECAD
+</name>
+</assembly>
+<members>
+<member name="P:ECAD.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ECAD.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:ECAD.My.Resources.Resources.ECAD">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ECAD.My.Resources.Resources.Ecad_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ECAD.My.Resources.Resources.kemet_logo_small">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ECAD.My.Resources.Resources.preview_32">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ECAD.My.Resources.Resources.print_32">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ECAD.My.Resources.Resources.Splash">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:ECAD.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AddExtraFields_ExtraFields">
+	<summary>
+  Looks up a localized string similar to Extra Fields.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AddExtraFields_FieldName">
+	<summary>
+  Looks up a localized string similar to ad_field_name.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AddExtraFields_Fields">
+	<summary>
+  Looks up a localized string similar to Fields....
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AddExtraFields_FieldType">
+	<summary>
+  Looks up a localized string similar to ad_field_type.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AddExtraFields_FieldValMsg">
+	<summary>
+  Looks up a localized string similar to ad_field_val_msg.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AddExtraFields_FieldValRule">
+	<summary>
+  Looks up a localized string similar to ad_field_val_rule.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AddExtraFields_ForTable">
+	<summary>
+  Looks up a localized string similar to For table.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AddExtraFields_PpiType">
+	<summary>
+  Looks up a localized string similar to ad_ppi_type.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AddExtraFields_RuleCode">
+	<summary>
+  Looks up a localized string similar to ad_rule_code.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AddExtraFields_TableName">
+	<summary>
+  Looks up a localized string similar to ad_table_name.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AddExtraFields_Title">
+	<summary>
+  Looks up a localized string similar to Add Extra Fields.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AdditionalFields_Title">
+	<summary>
+  Looks up a localized string similar to Additional Fields.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AgeingData_Title">
+	<summary>
+  Looks up a localized string similar to Ageing Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_Active">
+	<summary>
+  Looks up a localized string similar to Active?.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_AddStdVals">
+	<summary>
+  Looks up a localized string similar to Add Std Vals.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_Anode">
+	<summary>
+  Looks up a localized string similar to Anode.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_AnodeName">
+	<summary>
+  Looks up a localized string similar to Anode Name.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_AreaWeightRatio">
+	<summary>
+  Looks up a localized string similar to Area/Weight Ratio.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_BackflushFlag">
+	<summary>
+  Looks up a localized string similar to Backflush Flag.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_BackflushWarehouse">
+	<summary>
+  Looks up a localized string similar to Backflush Warehouse.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_CurrentCost">
+	<summary>
+  Looks up a localized string similar to Current Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_Description">
+	<summary>
+  Looks up a localized string similar to Description.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_FirstOp">
+	<summary>
+  Looks up a localized string similar to First Op.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_Formation">
+	<summary>
+  Looks up a localized string similar to Formation.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_Gain">
+	<summary>
+  Looks up a localized string similar to Gain.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_GainVar">
+	<summary>
+  Looks up a localized string similar to Gain Var..
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_JustThisFoilType">
+	<summary>
+  Looks up a localized string similar to Just This Foil Type.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_JustThisVoltage">
+	<summary>
+  Looks up a localized string similar to Just This Voltage.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_MatOnly">
+	<summary>
+  Looks up a localized string similar to Mat. Only.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_MaxACPF">
+	<summary>
+  Looks up a localized string similar to Max. AC PF.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_MaxACPFChange">
+	<summary>
+  Looks up a localized string similar to Max. AC PF Change.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_MaxBoil">
+	<summary>
+  Looks up a localized string similar to Max. Boil.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_MaxGain">
+	<summary>
+  Looks up a localized string similar to Max. Gain.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_MaxRise">
+	<summary>
+  Looks up a localized string similar to Max. Rise.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_MaxTD">
+	<summary>
+  Looks up a localized string similar to Max. TD.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_MinFV">
+	<summary>
+  Looks up a localized string similar to Min. FV.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_MinGain">
+	<summary>
+  Looks up a localized string similar to Min. Gain.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_MSpecNo">
+	<summary>
+  Looks up a localized string similar to M-spec No..
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_MultilevelBackflushFlag">
+	<summary>
+  Looks up a localized string similar to Multilevel Backflush Flag.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_Obsolete">
+	<summary>
+  Looks up a localized string similar to Obsolete?.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_OracleData">
+	<summary>
+  Looks up a localized string similar to Oracle Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_OxideFactor">
+	<summary>
+  Looks up a localized string similar to Oxide factor.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_PreviousCost">
+	<summary>
+  Looks up a localized string similar to Previous Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_Purchased">
+	<summary>
+  Looks up a localized string similar to Purchased?.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_Purity">
+	<summary>
+  Looks up a localized string similar to Purity.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_RateCode">
+	<summary>
+  Looks up a localized string similar to Rate Code.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_Resistance">
+	<summary>
+  Looks up a localized string similar to Resistance.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_ShowAllFoils">
+	<summary>
+  Looks up a localized string similar to Show All Foils.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_ShrinkPercentage">
+	<summary>
+  Looks up a localized string similar to Shrink %.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_Specification">
+	<summary>
+  Looks up a localized string similar to Specification.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_StagingFlag">
+	<summary>
+  Looks up a localized string similar to Staging Flag.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_StagingWarehouse">
+	<summary>
+  Looks up a localized string similar to Staging Warehouse.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_Supplier">
+	<summary>
+  Looks up a localized string similar to Supplier.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_TestData">
+	<summary>
+  Looks up a localized string similar to Test Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_Thickness">
+	<summary>
+  Looks up a localized string similar to Thickness.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_Title">
+	<summary>
+  Looks up a localized string similar to Anode Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_TitleWindow">
+	<summary>
+  Looks up a localized string similar to Anode Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_WhereUsedThisFoil">
+	<summary>
+  Looks up a localized string similar to Where Used, this foil.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AnodeData_WhereUsedThisFoilAndVoltage">
+	<summary>
+  Looks up a localized string similar to Where Used, this foil and voltage.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Anodes_Title">
+	<summary>
+  Looks up a localized string similar to Anodes.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ASLog_Title">
+	<summary>
+  Looks up a localized string similar to AS Log.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AssemblyNotes_Title">
+	<summary>
+  Looks up a localized string similar to Assembly Notes.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.AutoExport_Title">
+	<summary>
+  Looks up a localized string similar to Auto-Export.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.BatchCards_Title">
+	<summary>
+  Looks up a localized string similar to Batch Cards.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.BlockCosts_Title">
+	<summary>
+  Looks up a localized string similar to Block Costs.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.CathodeData_Active">
+	<summary>
+  Looks up a localized string similar to Active?.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.CathodeData_AreaWeightRatio">
+	<summary>
+  Looks up a localized string similar to Area/Weight Ratio.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.CathodeData_BackflushFlag">
+	<summary>
+  Looks up a localized string similar to Backflush Flag.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.CathodeData_BackflushWarehouse">
+	<summary>
+  Looks up a localized string similar to Backflush Warehouse.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.CathodeData_Cathode">
+	<summary>
+  Looks up a localized string similar to Cathode.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.CathodeData_CathodeName">
+	<summary>
+  Looks up a localized string similar to Cathode Name.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.CathodeData_CurrentCost">
+	<summary>
+  Looks up a localized string similar to Current Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.CathodeData_Description">
+	<summary>
+  Looks up a localized string similar to Description.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.CathodeData_FirstOp">
+	<summary>
+  Looks up a localized string similar to First Op.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.CathodeData_Gain">
+	<summary>
+  Looks up a localized string similar to Gain.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.CathodeData_MatOnly">
+	<summary>
+  Looks up a localized string similar to Mat. Only.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.CathodeData_MSpecNo">
+	<summary>
+  Looks up a localized string similar to M-spec No..
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.CathodeData_MultilevelBackflushFlag">
+	<summary>
+  Looks up a localized string similar to Multilevel Backflush Flag.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.CathodeData_Obsolete">
+	<summary>
+  Looks up a localized string similar to Obsolete?.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.CathodeData_OracleData">
+	<summary>
+  Looks up a localized string similar to Oracle Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.CathodeData_PreviousCost">
+	<summary>
+  Looks up a localized string similar to Previous Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.CathodeData_Purity">
+	<summary>
+  Looks up a localized string similar to Purity.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.CathodeData_Resistance">
+	<summary>
+  Looks up a localized string similar to Resistance.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.CathodeData_ShowAllCathodes">
+	<summary>
+  Looks up a localized string similar to Show all Cathodes.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.CathodeData_Specification">
+	<summary>
+  Looks up a localized string similar to Specification.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.CathodeData_StagingFlag">
+	<summary>
+  Looks up a localized string similar to Staging Flag.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.CathodeData_StagingWarehouse">
+	<summary>
+  Looks up a localized string similar to Staging Warehouse.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.CathodeData_Supplier">
+	<summary>
+  Looks up a localized string similar to Supplier.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.CathodeData_Thickness">
+	<summary>
+  Looks up a localized string similar to Thickness.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.CathodeData_Title">
+	<summary>
+  Looks up a localized string similar to Cathode Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.CathodeData_TitleWindow">
+	<summary>
+  Looks up a localized string similar to Cathode Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.CathodeData_WhereUsed">
+	<summary>
+  Looks up a localized string similar to Where Used.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Cathodes_Title">
+	<summary>
+  Looks up a localized string similar to Cathodes.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ChangeNotes_Title">
+	<summary>
+  Looks up a localized string similar to Change Notes.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Customers_Active">
+	<summary>
+  Looks up a localized string similar to Active?.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Customers_Addr1">
+	<summary>
+  Looks up a localized string similar to Addr1.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Customers_Addr2">
+	<summary>
+  Looks up a localized string similar to Addr2.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Customers_Addr3">
+	<summary>
+  Looks up a localized string similar to Addr3.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Customers_Addr4">
+	<summary>
+  Looks up a localized string similar to Addr4.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Customers_Contact">
+	<summary>
+  Looks up a localized string similar to Contact.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Customers_CustomerID">
+	<summary>
+  Looks up a localized string similar to Customer ID.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Customers_Fax">
+	<summary>
+  Looks up a localized string similar to Fax.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Customers_Name">
+	<summary>
+  Looks up a localized string similar to Name.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Customers_Phone">
+	<summary>
+  Looks up a localized string similar to Phone.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Customers_PostCode">
+	<summary>
+  Looks up a localized string similar to PostCode.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Customers_RefreshPRMS">
+	<summary>
+  Looks up a localized string similar to Refresh PRMS Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Customers_Title">
+	<summary>
+  Looks up a localized string similar to Customers.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.CustomersData_Title">
+	<summary>
+  Looks up a localized string similar to Customer Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.CustomersData_WindowTitle">
+	<summary>
+  Looks up a localized string similar to PRMS_Customer_Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DCWizard_Title">
+	<summary>
+  Looks up a localized string similar to DC Design Wizard.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignIndex_Title">
+	<summary>
+  Looks up a localized string similar to Design Index.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_ac">
+	<summary>
+  Looks up a localized string similar to ac.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_AddToList">
+	<summary>
+  Looks up a localized string similar to Add To List.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Amount">
+	<summary>
+  Looks up a localized string similar to Amount.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_AnodeNone">
+	<summary>
+  Looks up a localized string similar to None.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Anodes">
+	<summary>
+  Looks up a localized string similar to Anodes.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_ASNo">
+	<summary>
+  Looks up a localized string similar to AS No..
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_AssemblyNotes">
+	<summary>
+  Looks up a localized string similar to Assembly Notes:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_At100Hz">
+	<summary>
+  Looks up a localized string similar to @100Hz.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_At10kHz">
+	<summary>
+  Looks up a localized string similar to @10kHz.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_AW">
+	<summary>
+  Looks up a localized string similar to A/W.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_CanIntTheta">
+	<summary>
+  Looks up a localized string similar to Can Int θ.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_CapAt">
+	<summary>
+  Looks up a localized string similar to Cap @ .
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_CatalogueData">
+	<summary>
+  Looks up a localized string similar to Catalogue Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Cath">
+	<summary>
+  Looks up a localized string similar to Cath..
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_CathExt">
+	<summary>
+  Looks up a localized string similar to Cath Ext.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Center">
+	<summary>
+  Looks up a localized string similar to Center.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_ClearApps">
+	<summary>
+  Looks up a localized string similar to Clear Apps.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Cost">
+	<summary>
+  Looks up a localized string similar to Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Customer">
+	<summary>
+  Looks up a localized string similar to Customer.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_CustPNo">
+	<summary>
+  Looks up a localized string similar to Cust P/No.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Date">
+	<summary>
+  Looks up a localized string similar to Date.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Delete">
+	<summary>
+  Looks up a localized string similar to Delete.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_DesApp">
+	<summary>
+  Looks up a localized string similar to Des App.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_DesignChecked">
+	<summary>
+  Looks up a localized string similar to Design Checked.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_DesignNotes">
+	<summary>
+  Looks up a localized string similar to Design Notes:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Detail">
+	<summary>
+  Looks up a localized string similar to Detail.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Dia">
+	<summary>
+  Looks up a localized string similar to Dia.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_DimensionDWG">
+	<summary>
+  Looks up a localized string similar to Dimension Dwg.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Dimensions">
+	<summary>
+  Looks up a localized string similar to Dimensions.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Distributor">
+	<summary>
+  Looks up a localized string similar to Distributor.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Elyte">
+	<summary>
+  Looks up a localized string similar to E'lyte.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_ESR100Hz">
+	<summary>
+  Looks up a localized string similar to ESR 100Hz.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_ESRData">
+	<summary>
+  Looks up a localized string similar to ESR Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_ESRFoil">
+	<summary>
+  Looks up a localized string similar to Foil.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_ESRGraphForm">
+	<summary>
+  Looks up a localized string similar to ESR Graph Form.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_ESROxide">
+	<summary>
+  Looks up a localized string similar to Oxide.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_ESRTabbing">
+	<summary>
+  Looks up a localized string similar to Tabbing.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_ESRTissue">
+	<summary>
+  Looks up a localized string similar to Tissue.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_FilterRecords">
+	<summary>
+  Looks up a localized string similar to Filter Records.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_FV">
+	<summary>
+  Looks up a localized string similar to FV.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Gain">
+	<summary>
+  Looks up a localized string similar to Gain.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_GoToScratchPad">
+	<summary>
+  Looks up a localized string similar to Go To Scratch Pad.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_HideAllCriteria">
+	<summary>
+  Looks up a localized string similar to Hide All Criteria.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Hold">
+	<summary>
+  Looks up a localized string similar to Hold.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_HoleTheta">
+	<summary>
+  Looks up a localized string similar to Hole Ø.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Issue">
+	<summary>
+  Looks up a localized string similar to Issue.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_L1">
+	<summary>
+  Looks up a localized string similar to L1.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_L2">
+	<summary>
+  Looks up a localized string similar to L2.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Labor">
+	<summary>
+  Looks up a localized string similar to Labor.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Len">
+	<summary>
+  Looks up a localized string similar to Len.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_LengthsETC">
+	<summary>
+  Looks up a localized string similar to Lengths etc..
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Live">
+	<summary>
+  Looks up a localized string similar to Live.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Mandrel">
+	<summary>
+  Looks up a localized string similar to Mandrel.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Material">
+	<summary>
+  Looks up a localized string similar to Material.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_MaxLength">
+	<summary>
+  Looks up a localized string similar to Max Length.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Melinex">
+	<summary>
+  Looks up a localized string similar to Melinex.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_MelQty">
+	<summary>
+  Looks up a localized string similar to Mel Qty.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Name">
+	<summary>
+  Looks up a localized string similar to Name.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_NewSpec">
+	<summary>
+  Looks up a localized string similar to New Spec.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_No">
+	<summary>
+  Looks up a localized string similar to No..
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_NoESRDataOnStyleDesign">
+	<summary>
+  Looks up a localized string similar to There is no ESR data for this style of design.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_NoLabData">
+	<summary>
+  Looks up a localized string similar to No Lab Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_NoLabData2">
+	<summary>
+  Looks up a localized string similar to No Lab Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Obs">
+	<summary>
+  Looks up a localized string similar to Obs..
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_OH">
+	<summary>
+  Looks up a localized string similar to O/H.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Outline">
+	<summary>
+  Looks up a localized string similar to Outline.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_PartsFile">
+	<summary>
+  Looks up a localized string similar to Parts File.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_PercentageFit">
+	<summary>
+  Looks up a localized string similar to % FIT.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_pgeAddData">
+	<summary>
+  Looks up a localized string similar to pgeAddData.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_pgeCatData">
+	<summary>
+  Looks up a localized string similar to pgeCatData.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_PreWrap">
+	<summary>
+  Looks up a localized string similar to Pre-wrap.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_PrintDrawing">
+	<summary>
+  Looks up a localized string similar to Print Drawing.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_PrintNotes">
+	<summary>
+  Looks up a localized string similar to Print Notes:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_QAApp">
+	<summary>
+  Looks up a localized string similar to QA App.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Range">
+	<summary>
+  Looks up a localized string similar to Range.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_RatedIR">
+	<summary>
+  Looks up a localized string similar to Rated Ir:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Routing">
+	<summary>
+  Looks up a localized string similar to Routing.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_SampleCost">
+	<summary>
+  Looks up a localized string similar to Sample cost (no anode).
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Scrollbar">
+	<summary>
+  Looks up a localized string similar to Scrollbar.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_SEV">
+	<summary>
+  Looks up a localized string similar to SEV.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_ShowAllCriteria">
+	<summary>
+  Looks up a localized string similar to Show All Criteria.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_ShowAllRecords">
+	<summary>
+  Looks up a localized string similar to Show All Records.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_SpecDrawing">
+	<summary>
+  Looks up a localized string similar to Spec. Drawing.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_SpecificationsDetails">
+	<summary>
+  Looks up a localized string similar to Specification Details.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_SpecNotes">
+	<summary>
+  Looks up a localized string similar to Spec. Notes.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Standard">
+	<summary>
+  Looks up a localized string similar to Standard.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_StockOrders">
+	<summary>
+  Looks up a localized string similar to Stock / Orders.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Style">
+	<summary>
+  Looks up a localized string similar to Style.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_SurgeVoltage">
+	<summary>
+  Looks up a localized string similar to Surge Voltage.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Swage">
+	<summary>
+  Looks up a localized string similar to Swage.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Tab">
+	<summary>
+  Looks up a localized string similar to Tab..
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_TableCondy">
+	<summary>
+  Looks up a localized string similar to condy_eq.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_TableFoil">
+	<summary>
+  Looks up a localized string similar to foil.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_TableOxide">
+	<summary>
+  Looks up a localized string similar to oxide_fi.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_TableRbc">
+	<summary>
+  Looks up a localized string similar to Rbc.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_TableRhw">
+	<summary>
+  Looks up a localized string similar to Rhw.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_TableRiseT">
+	<summary>
+  Looks up a localized string similar to Rise_T.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_TableRwb">
+	<summary>
+  Looks up a localized string similar to Rwb.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_TableTabbing">
+	<summary>
+  Looks up a localized string similar to tabbing.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_TableTissue">
+	<summary>
+  Looks up a localized string similar to tissue_ti.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Terminals">
+	<summary>
+  Looks up a localized string similar to Terminals.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_TestParameteres">
+	<summary>
+  Looks up a localized string similar to Test Parameters.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_TestVoltage">
+	<summary>
+  Looks up a localized string similar to Test Voltage.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Thick">
+	<summary>
+  Looks up a localized string similar to Thick.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Tissues">
+	<summary>
+  Looks up a localized string similar to Tissues.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Title">
+	<summary>
+  Looks up a localized string similar to Design Summary.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Total">
+	<summary>
+  Looks up a localized string similar to Total.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Transfer">
+	<summary>
+  Looks up a localized string similar to Transfer.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_UnitCost">
+	<summary>
+  Looks up a localized string similar to Unit Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Variable">
+	<summary>
+  Looks up a localized string similar to Variable.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_WFactor">
+	<summary>
+  Looks up a localized string similar to W. Factor.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Width">
+	<summary>
+  Looks up a localized string similar to Width.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_WindingMaterials">
+	<summary>
+  Looks up a localized string similar to Winding Materials.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_WindingPicture">
+	<summary>
+  Looks up a localized string similar to Winding Picture.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_WorkingVoltage">
+	<summary>
+  Looks up a localized string similar to Working Voltage.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignSummary_Z10KHz">
+	<summary>
+  Looks up a localized string similar to Z 10KHz.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignWizard_Message">
+	<summary>
+  Looks up a localized string similar to Choose a wizard....
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DesignWizard_Title">
+	<summary>
+  Looks up a localized string similar to Design Wizard.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DisplayValues_ActualValues">
+	<summary>
+  Looks up a localized string similar to Actual Values.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DisplayValues_Now">
+	<summary>
+  Looks up a localized string similar to Now.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DisplayValues_RelativeCost">
+	<summary>
+  Looks up a localized string similar to Relative Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DisplayValues_ResetData">
+	<summary>
+  Looks up a localized string similar to Reset Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DisplayValues_StdCost">
+	<summary>
+  Looks up a localized string similar to Std. Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DisplayValues_Title">
+	<summary>
+  Looks up a localized string similar to Relative Values.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DisplayValues_VarCost">
+	<summary>
+  Looks up a localized string similar to Var. Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.DisplayValues_Was">
+	<summary>
+  Looks up a localized string similar to Was.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_0CelsiusDegrees">
+	<summary>
+  Looks up a localized string similar to 0ºC.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_105CelsiusDegrees">
+	<summary>
+  Looks up a localized string similar to 105ºC.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_125CelsiusDegrees">
+	<summary>
+  Looks up a localized string similar to 125ºC.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_20CelsiusDegrees">
+	<summary>
+  Looks up a localized string similar to 20ºC.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_25CelsiusDegrees">
+	<summary>
+  Looks up a localized string similar to 25ºC.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_45CelsiusDegrees">
+	<summary>
+  Looks up a localized string similar to 45ºC.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_65CelsiusDegrees">
+	<summary>
+  Looks up a localized string similar to 65ºC.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_85CelsiusDegrees">
+	<summary>
+  Looks up a localized string similar to 85ºC.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_Active">
+	<summary>
+  Looks up a localized string similar to Active?.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_BackflushFlag">
+	<summary>
+  Looks up a localized string similar to Backflush Flag.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_BackflushWarehouse">
+	<summary>
+  Looks up a localized string similar to Backflush Warehouse.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_Class">
+	<summary>
+  Looks up a localized string similar to Class.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_CurrentCost">
+	<summary>
+  Looks up a localized string similar to Current Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_Description">
+	<summary>
+  Looks up a localized string similar to Description.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_ElectrolyteName">
+	<summary>
+  Looks up a localized string similar to Electrolyte Name.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_FirstOpAC">
+	<summary>
+  Looks up a localized string similar to First Op (AC).
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_FirstOpDC">
+	<summary>
+  Looks up a localized string similar to First Op (DC).
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_Glycol">
+	<summary>
+  Looks up a localized string similar to Glycol?.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_MatOnly">
+	<summary>
+  Looks up a localized string similar to Mat. Only.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_MaxV105CelsiusDegrees">
+	<summary>
+  Looks up a localized string similar to 105ºC.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_MaxV125CelsiusDegrees">
+	<summary>
+  Looks up a localized string similar to 125ºC.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_MaxV65CelsiusDegrees">
+	<summary>
+  Looks up a localized string similar to 65ºC.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_MaxV85CelsiusDegrees">
+	<summary>
+  Looks up a localized string similar to 85ºC.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_MaxVoltageAtVolts">
+	<summary>
+  Looks up a localized string similar to Max Voltage @ V.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_Minus20CelsiusDegrees">
+	<summary>
+  Looks up a localized string similar to -20ºC.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_Minus40CelsiusDegrees">
+	<summary>
+  Looks up a localized string similar to -40ºC.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_Minus55CelsiusDegrees">
+	<summary>
+  Looks up a localized string similar to -55ºC.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_MSpecNo">
+	<summary>
+  Looks up a localized string similar to M-spec No..
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_MultilevelBackflushFlag">
+	<summary>
+  Looks up a localized string similar to Multilevel Backflush Flag.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_Obsolete">
+	<summary>
+  Looks up a localized string similar to Obsolete?.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_OracleData">
+	<summary>
+  Looks up a localized string similar to Oracle Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_PreviousCost">
+	<summary>
+  Looks up a localized string similar to Previous Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_ResistivityAtTemperature">
+	<summary>
+  Looks up a localized string similar to Resistivity @ Temperature (ohm cm).
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_Specification">
+	<summary>
+  Looks up a localized string similar to Specification.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_SpecificGravity">
+	<summary>
+  Looks up a localized string similar to Specific Gravity.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_StagingFlag">
+	<summary>
+  Looks up a localized string similar to Staging Flag.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_StagingWarehouse">
+	<summary>
+  Looks up a localized string similar to Staging Warehouse.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_Supplier">
+	<summary>
+  Looks up a localized string similar to Supplier.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_Title">
+	<summary>
+  Looks up a localized string similar to Electrolyte Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_TitleWindow">
+	<summary>
+  Looks up a localized string similar to Electrolyte Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ElecData_WhereUsed">
+	<summary>
+  Looks up a localized string similar to Where Used.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Electrolytes_Title">
+	<summary>
+  Looks up a localized string similar to Electrolytes.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ESRGraph_AmericanStyle">
+	<summary>
+  Looks up a localized string similar to 'American' Style.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ESRGraph_PartNumber">
+	<summary>
+  Looks up a localized string similar to Part Number.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ESRGraph_PreviewReport">
+	<summary>
+  Looks up a localized string similar to Preview Report.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ESRGraph_PrintReport">
+	<summary>
+  Looks up a localized string similar to Print Report.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ESRGraph_RifaESRGrid">
+	<summary>
+  Looks up a localized string similar to Rifa ESR Grid.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ESRGraph_ScratchESR">
+	<summary>
+  Looks up a localized string similar to Scratch ESR.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ESRGraph_ShowData">
+	<summary>
+  Looks up a localized string similar to Show Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ESRGraph_Title">
+	<summary>
+  Looks up a localized string similar to ESR Graphing Form.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ESRGraph_TitleWindow">
+	<summary>
+  Looks up a localized string similar to ESR Graphing.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Evaluation_anodename">
+	<summary>
+  Looks up a localized string similar to anode name.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Evaluation_BestCost">
+	<summary>
+  Looks up a localized string similar to Best Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Evaluation_BestCostCathodeName">
+	<summary>
+  Looks up a localized string similar to Cathode Name:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Evaluation_BestCostTitle">
+	<summary>
+  Looks up a localized string similar to eval_summary query_cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Evaluation_BestESR">
+	<summary>
+  Looks up a localized string similar to Best ESR.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Evaluation_BestESRTitle">
+	<summary>
+  Looks up a localized string similar to eval_summary query_esr.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Evaluation_cathodename">
+	<summary>
+  Looks up a localized string similar to cathode name.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Evaluation_Counter">
+	<summary>
+  Looks up a localized string similar to Counter.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Evaluation_CurrentEvaluationstored">
+	<summary>
+  Looks up a localized string similar to Current Evaluation stored.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Evaluation_esr">
+	<summary>
+  Looks up a localized string similar to esr:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Evaluation_Evaluate">
+	<summary>
+  Looks up a localized string similar to Evaluate.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Evaluation_FirstAnodeName">
+	<summary>
+  Looks up a localized string similar to First Anode Name:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Evaluation_fit">
+	<summary>
+  Looks up a localized string similar to fit:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Evaluation_FormingVoltage">
+	<summary>
+  Looks up a localized string similar to Forming Voltage.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Evaluation_id">
+	<summary>
+  Looks up a localized string similar to id.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Evaluation_NonSlotted">
+	<summary>
+  Looks up a localized string similar to Non Slotted.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Evaluation_saltotalcost">
+	<summary>
+  Looks up a localized string similar to sal_total_cost:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Evaluation_Slotted">
+	<summary>
+  Looks up a localized string similar to Slotted.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Evaluation_stdtotalcost">
+	<summary>
+  Looks up a localized string similar to std_total_cost:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Evaluation_Title">
+	<summary>
+  Looks up a localized string similar to Evaluation.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.FileChooser_FileExt">
+	<summary>
+  Looks up a localized string similar to File Ext..
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.FileChooser_Files">
+	<summary>
+  Looks up a localized string similar to Files.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.FileChooser_FileToFind">
+	<summary>
+  Looks up a localized string similar to File To Find.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.FileChooser_FileType">
+	<summary>
+  Looks up a localized string similar to File Type.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.FileChooser_SearchPath">
+	<summary>
+  Looks up a localized string similar to Search Path.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.FileChooser_Title">
+	<summary>
+  Looks up a localized string similar to File Chooser.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.FileChooser_TitleWindow">
+	<summary>
+  Looks up a localized string similar to File Chooser.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.FileChooser_TypeChooser">
+	<summary>
+  Looks up a localized string similar to Type Chooser.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_1">
+	<summary>
+  Looks up a localized string similar to 1.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_2">
+	<summary>
+  Looks up a localized string similar to 2.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_3">
+	<summary>
+  Looks up a localized string similar to 3.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Abort">
+	<summary>
+  Looks up a localized string similar to Abort.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_AC">
+	<summary>
+  Looks up a localized string similar to AC.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_All">
+	<summary>
+  Looks up a localized string similar to All.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Ampere">
+	<summary>
+  Looks up a localized string similar to A.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Anodes">
+	<summary>
+  Looks up a localized string similar to Anodes.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_ArchiveDesign">
+	<summary>
+  Looks up a localized string similar to Archive Design.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Basic">
+	<summary>
+  Looks up a localized string similar to Basic.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Build">
+	<summary>
+  Looks up a localized string similar to Build.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Can">
+	<summary>
+  Looks up a localized string similar to Can.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Cancel">
+	<summary>
+  Looks up a localized string similar to Cancel.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_CanSize">
+	<summary>
+  Looks up a localized string similar to Can Size.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Cap">
+	<summary>
+  Looks up a localized string similar to Cap.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Capacitance">
+	<summary>
+  Looks up a localized string similar to Capacitance.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_CaseSize">
+	<summary>
+  Looks up a localized string similar to Case Size.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Cathodes">
+	<summary>
+  Looks up a localized string similar to Cathodes.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_CelsiusDegrees">
+	<summary>
+  Looks up a localized string similar to ºC.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Checked">
+	<summary>
+  Looks up a localized string similar to Checked.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Comments">
+	<summary>
+  Looks up a localized string similar to Comments.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Condition">
+	<summary>
+  Looks up a localized string similar to Condition.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Copy">
+	<summary>
+  Looks up a localized string similar to Copy.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Cost">
+	<summary>
+  Looks up a localized string similar to Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Customer">
+	<summary>
+  Looks up a localized string similar to Customer.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_DateAllocated">
+	<summary>
+  Looks up a localized string similar to Date Allocated.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_DC">
+	<summary>
+  Looks up a localized string similar to DC.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Delete">
+	<summary>
+  Looks up a localized string similar to Delete.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_DeleteQuestion">
+	<summary>
+  Looks up a localized string similar to Delete?.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Design">
+	<summary>
+  Looks up a localized string similar to Design.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Dimensions">
+	<summary>
+  Looks up a localized string similar to Dimensions.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Distributor">
+	<summary>
+  Looks up a localized string similar to Distributor.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_English">
+	<summary>
+  Looks up a localized string similar to English.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Error">
+	<summary>
+  Looks up a localized string similar to Error.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_ESR">
+	<summary>
+  Looks up a localized string similar to ESR.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_GoExclamation">
+	<summary>
+  Looks up a localized string similar to Go!.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Hz">
+	<summary>
+  Looks up a localized string similar to Hz.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_ID">
+	<summary>
+  Looks up a localized string similar to ID.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Ignore">
+	<summary>
+  Looks up a localized string similar to Ignore.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Length">
+	<summary>
+  Looks up a localized string similar to Length.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_MarkAll">
+	<summary>
+  Looks up a localized string similar to Mark All.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_MaxCap">
+	<summary>
+  Looks up a localized string similar to Max Cap.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Message">
+	<summary>
+  Looks up a localized string similar to Message.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_minvolts">
+	<summary>
+  Looks up a localized string similar to volts.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Negative">
+	<summary>
+  Looks up a localized string similar to -.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_No">
+	<summary>
+  Looks up a localized string similar to No.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Note">
+	<summary>
+  Looks up a localized string similar to Note.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Notes">
+	<summary>
+  Looks up a localized string similar to Notes.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_NSNumber">
+	<summary>
+  Looks up a localized string similar to NS Number.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_of">
+	<summary>
+  Looks up a localized string similar to of.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_OK">
+	<summary>
+  Looks up a localized string similar to OK.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Outline">
+	<summary>
+  Looks up a localized string similar to Outline.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Outlines">
+	<summary>
+  Looks up a localized string similar to Outlines.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Parameter">
+	<summary>
+  Looks up a localized string similar to Parameter.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_PartNumber">
+	<summary>
+  Looks up a localized string similar to Part Number.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_PartNumbers">
+	<summary>
+  Looks up a localized string similar to Part Numbers.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Percentage">
+	<summary>
+  Looks up a localized string similar to %.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Positive">
+	<summary>
+  Looks up a localized string similar to +.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_R">
+	<summary>
+  Looks up a localized string similar to R.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Range">
+	<summary>
+  Looks up a localized string similar to Range.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Rename">
+	<summary>
+  Looks up a localized string similar to Rename.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Reserve">
+	<summary>
+  Looks up a localized string similar to Reserve.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Results">
+	<summary>
+  Looks up a localized string similar to Results.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Retry">
+	<summary>
+  Looks up a localized string similar to Retry.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Search">
+	<summary>
+  Looks up a localized string similar to Search.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_SelectAll">
+	<summary>
+  Looks up a localized string similar to Select All.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_SelectNone">
+	<summary>
+  Looks up a localized string similar to Select None.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Show">
+	<summary>
+  Looks up a localized string similar to Show.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Spanish">
+	<summary>
+  Looks up a localized string similar to Spanish.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Specification">
+	<summary>
+  Looks up a localized string similar to Specification.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Store">
+	<summary>
+  Looks up a localized string similar to Store.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Submit">
+	<summary>
+  Looks up a localized string similar to Submit.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Surge">
+	<summary>
+  Looks up a localized string similar to Surge.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Terminals">
+	<summary>
+  Looks up a localized string similar to Terminals.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Text">
+	<summary>
+  Looks up a localized string similar to Text.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_to">
+	<summary>
+  Looks up a localized string similar to to.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Type">
+	<summary>
+  Looks up a localized string similar to Type.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_U">
+	<summary>
+  Looks up a localized string similar to U.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_User">
+	<summary>
+  Looks up a localized string similar to User.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_V">
+	<summary>
+  Looks up a localized string similar to V.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Value">
+	<summary>
+  Looks up a localized string similar to Value.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Version">
+	<summary>
+  Looks up a localized string similar to Version.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_ViewReport">
+	<summary>
+  Looks up a localized string similar to View Report.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Voltage">
+	<summary>
+  Looks up a localized string similar to Voltage.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Volts">
+	<summary>
+  Looks up a localized string similar to Volts.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Width">
+	<summary>
+  Looks up a localized string similar to Width.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Wizard">
+	<summary>
+  Looks up a localized string similar to Wizard.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_WorkingVoltage">
+	<summary>
+  Looks up a localized string similar to Working Voltage.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Global_Yes">
+	<summary>
+  Looks up a localized string similar to Yes.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.HistoryMain_ElectrolyticsHistory">
+	<summary>
+  Looks up a localized string similar to Electrolytics History.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.HistoryMain_IssueSubformQueryForIssueDataEntry">
+	<summary>
+  Looks up a localized string similar to issue subform query for issue data entry.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.HistoryMain_LatestIssue">
+	<summary>
+  Looks up a localized string similar to Latest Issue.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.HistoryMain_PartNumber">
+	<summary>
+  Looks up a localized string similar to Part Number.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.HistoryMain_TitleWindow">
+	<summary>
+  Looks up a localized string similar to Part History mw.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.HistoryViewer_Title">
+	<summary>
+  Looks up a localized string similar to History Viewer.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Home_CapacitorDesign">
+	<summary>
+  Looks up a localized string similar to Capacitor Design.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Home_Copyright">
+	<summary>
+  Looks up a localized string similar to © Kemet Electronics Ltd 2007 (Originally BHC Aerovox Ltd 1998)
+The content of this program and accompanying manuals is confidential.
+Its use is restricted to employees of the KEMET Corporation and associated companies..
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Home_DataProcessing">
+	<summary>
+  Looks up a localized string similar to Data Processing.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Home_DesignData">
+	<summary>
+  Looks up a localized string similar to Design Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Home_DesignMaterials">
+	<summary>
+  Looks up a localized string similar to Design Materials.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Home_EcadWelcomes">
+	<summary>
+  Looks up a localized string similar to Ecad welcomes $ADUserFullName.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Home_GlobalSystem">
+	<summary>
+  Looks up a localized string similar to Global System.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Home_LogOut">
+	<summary>
+  Looks up a localized string similar to Log Out.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Home_Quit">
+	<summary>
+  Looks up a localized string similar to Are you sure you want to quit ECAD?.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Home_Quit_Title">
+	<summary>
+  Looks up a localized string similar to Quit ECAD.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Home_Title">
+	<summary>
+  Looks up a localized string similar to ECAD.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ImportDesigns_Title">
+	<summary>
+  Looks up a localized string similar to Import Scratch Designs.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.InitDb_Title">
+	<summary>
+  Looks up a localized string similar to Init Db.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.InputPartMasters_Title">
+	<summary>
+  Looks up a localized string similar to Input Part Masters.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Login_Error">
+	<summary>
+  Looks up a localized string similar to Incorrect login data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Login_Name">
+	<summary>
+  Looks up a localized string similar to Name:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Login_Password">
+	<summary>
+  Looks up a localized string similar to Password:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Login_Title">
+	<summary>
+  Looks up a localized string similar to Log In to ECAD.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_ActiveLength1">
+	<summary>
+  Looks up a localized string similar to Active Length 1.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_ActiveTurns1">
+	<summary>
+  Looks up a localized string similar to Active Turns 1.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_ActiveWidth">
+	<summary>
+  Looks up a localized string similar to Active Width.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_AssemblyCharacteristics">
+	<summary>
+  Looks up a localized string similar to Assembly Characteristics.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_AssemblyNotesEntry">
+	<summary>
+  Looks up a localized string similar to Assembly Notes Entry.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_BottomMargin">
+	<summary>
+  Looks up a localized string similar to Bottom Margin.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_BreakFoilAtTurn">
+	<summary>
+  Looks up a localized string similar to Break Foil @ Turn.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_Capacitance">
+	<summary>
+  Looks up a localized string similar to Capacitance.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_CaseHeight">
+	<summary>
+  Looks up a localized string similar to Case Height:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_CaseShape">
+	<summary>
+  Looks up a localized string similar to Case Shape:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_CaseSize">
+	<summary>
+  Looks up a localized string similar to Case Size:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_Cost">
+	<summary>
+  Looks up a localized string similar to Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_CostFactorData">
+	<summary>
+  Looks up a localized string similar to Cost Factor Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_CostingGroup">
+	<summary>
+  Looks up a localized string similar to Costing Group.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_Costs">
+	<summary>
+  Looks up a localized string similar to Costs.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_Customer">
+	<summary>
+  Looks up a localized string similar to Customer:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_CustPNo">
+	<summary>
+  Looks up a localized string similar to Cust. P/No..
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_Date">
+	<summary>
+  Looks up a localized string similar to Date.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_Design">
+	<summary>
+  Looks up a localized string similar to Design.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_DesignApproval">
+	<summary>
+  Looks up a localized string similar to Design Approval:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_DesignNotes">
+	<summary>
+  Looks up a localized string similar to Design Notes:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_Dielectric">
+	<summary>
+  Looks up a localized string similar to Dielectric.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_FileDescription">
+	<summary>
+  Looks up a localized string similar to Description:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_FinishTurns">
+	<summary>
+  Looks up a localized string similar to Finish Turns.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_GridAssCost">
+	<summary>
+  Looks up a localized string similar to Ass. Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_GridWindCost">
+	<summary>
+  Looks up a localized string similar to Wind Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_ID">
+	<summary>
+  Looks up a localized string similar to ID.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_ImpregCycle">
+	<summary>
+  Looks up a localized string similar to Impreg Cycle:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_Impregnant">
+	<summary>
+  Looks up a localized string similar to Impregnant.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_Issue">
+	<summary>
+  Looks up a localized string similar to Issue.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_LabourCost">
+	<summary>
+  Looks up a localized string similar to Labour Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_Length">
+	<summary>
+  Looks up a localized string similar to Length:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_LowerAssCost">
+	<summary>
+  Looks up a localized string similar to asscost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_LowerLabourCost">
+	<summary>
+  Looks up a localized string similar to Labour Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_LowerWindCost">
+	<summary>
+  Looks up a localized string similar to windcost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_MandrelDia">
+	<summary>
+  Looks up a localized string similar to Mandrel Dia..
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_OHCost">
+	<summary>
+  Looks up a localized string similar to O/H Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_PartsCost">
+	<summary>
+  Looks up a localized string similar to Parts Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_PartsFile">
+	<summary>
+  Looks up a localized string similar to Parts File.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_PlaceTab1AtTurn">
+	<summary>
+  Looks up a localized string similar to Place Tab 1 @ Turn.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_PlaceTab2AtTurn">
+	<summary>
+  Looks up a localized string similar to Place Tab 2 @ Turn.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_Preview">
+	<summary>
+  Looks up a localized string similar to Preview.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_PrintDetail">
+	<summary>
+  Looks up a localized string similar to Print Detail:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_QualityApproval">
+	<summary>
+  Looks up a localized string similar to Quality Approval:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_ReOrder">
+	<summary>
+  Looks up a localized string similar to Re-order.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_Rev">
+	<summary>
+  Looks up a localized string similar to Rev..
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_Routing">
+	<summary>
+  Looks up a localized string similar to Routing.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_Sal">
+	<summary>
+  Looks up a localized string similar to Sal.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_Section">
+	<summary>
+  Looks up a localized string similar to Section.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_SectionCharacteristics">
+	<summary>
+  Looks up a localized string similar to Section Characteristics.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_SectionDia1">
+	<summary>
+  Looks up a localized string similar to Section Dia. 1.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_SectionNotes">
+	<summary>
+  Looks up a localized string similar to Section Notes.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_SectionOutline">
+	<summary>
+  Looks up a localized string similar to Section Outline.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_SpecDrawing">
+	<summary>
+  Looks up a localized string similar to Spec/Drawing.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_StartCap1AtTurn">
+	<summary>
+  Looks up a localized string similar to Start Cap 1 @ Turn.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_StartTurns">
+	<summary>
+  Looks up a localized string similar to Start Turns.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_Std">
+	<summary>
+  Looks up a localized string similar to Std.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_StressFilm">
+	<summary>
+  Looks up a localized string similar to Stress Film:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_StressKraft">
+	<summary>
+  Looks up a localized string similar to Stress Kraft:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_TabExt">
+	<summary>
+  Looks up a localized string similar to Tab Ext..
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_TabSpacing">
+	<summary>
+  Looks up a localized string similar to Tab Spacing:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_Terminals">
+	<summary>
+  Looks up a localized string similar to Terminals:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_TestNotes">
+	<summary>
+  Looks up a localized string similar to Test Notes:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_Thickness">
+	<summary>
+  Looks up a localized string similar to Thickness:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_TitleWindow">
+	<summary>
+  Looks up a localized string similar to Mw Design Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_TopMargin">
+	<summary>
+  Looks up a localized string similar to Top Margin.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_TotalCost">
+	<summary>
+  Looks up a localized string similar to Total Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_Vasqin">
+	<summary>
+  Looks up a localized string similar to Vasqin:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_Width">
+	<summary>
+  Looks up a localized string similar to Width:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_WindCost">
+	<summary>
+  Looks up a localized string similar to Wind Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.MwDesign_WorkingVoltage">
+	<summary>
+  Looks up a localized string similar to Working Voltage.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.NewScratchDesign_Header">
+	<summary>
+  Looks up a localized string similar to Create new design from....
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.NewScratchDesign_Title">
+	<summary>
+  Looks up a localized string similar to Create New Scratch Design.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.NewScratchDesign_UseArchive">
+	<summary>
+  Looks up a localized string similar to Use Archive.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleExport_Title">
+	<summary>
+  Looks up a localized string similar to Oracle Export.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_AvePos">
+	<summary>
+  Looks up a localized string similar to AvePos.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_AverageMatch">
+	<summary>
+  Looks up a localized string similar to AverageMatch.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_AvgL">
+	<summary>
+  Looks up a localized string similar to AvgL.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_CachedData">
+	<summary>
+  Looks up a localized string similar to Cached Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_CGroup">
+	<summary>
+  Looks up a localized string similar to CGroup.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_Comment">
+	<summary>
+  Looks up a localized string similar to Comment.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_CompositeAve">
+	<summary>
+  Looks up a localized string similar to CompositeAve.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_CostAuditReport">
+	<summary>
+  Looks up a localized string similar to Cost Audit Report.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_CostingGroup">
+	<summary>
+  Looks up a localized string similar to Costing Group.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_D">
+	<summary>
+  Looks up a localized string similar to D.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_DESCRIPTION">
+	<summary>
+  Looks up a localized string similar to DESCRIPTION.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_DevDivAve">
+	<summary>
+  Looks up a localized string similar to DevDivAve.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_DevL">
+	<summary>
+  Looks up a localized string similar to DevL.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_ExactMatch">
+	<summary>
+  Looks up a localized string similar to Exact Match.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_FC">
+	<summary>
+  Looks up a localized string similar to FC.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_FROZEN_ITEM_COST">
+	<summary>
+  Looks up a localized string similar to FROZEN_ITEM_COST.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_FROZEN_MATERIAL_COST">
+	<summary>
+  Looks up a localized string similar to FROZEN_MATERIAL_COST.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_FROZEN_OVERHEAD_COST">
+	<summary>
+  Looks up a localized string similar to FROZEN_OVERHEAD_COST.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_FROZEN_RESOURCE_COST">
+	<summary>
+  Looks up a localized string similar to FROZEN_RESOURCE_COST.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_Info1">
+	<summary>
+  Looks up a localized string similar to The calculation works as follows:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_Info10">
+	<summary>
+  Looks up a localized string similar to means the stored cost is different to the current one.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_Info2">
+	<summary>
+  Looks up a localized string similar to If the part has a resource value already then that value is used
+
+If no value for the part is found, then the Cost Group, Diameter and Length is used to find a match in the averages table - if a match is found that is used.
+
+If no match with the averages is found then the nearest averages are used to form a composite average.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_Info3">
+	<summary>
+  Looks up a localized string similar to The override works as follows:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_Info4">
+	<summary>
+  Looks up a localized string similar to If the particular combination of cost group, diameter &amp; length of the override already exists then the override value will replace it
+
+If the particular combination of cost group, diameter &amp; length of the override DOES NOT exist then the override value will be added to the existing list of values and used when calculating the cost..
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_Info5">
+	<summary>
+  Looks up a localized string similar to The function that calculates the cost of an item is refreshed to reflect changes in this table whenever any of the following is opened:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_Info6">
+	<summary>
+  Looks up a localized string similar to Batch Printing Form
+Scratch Design Form
+Switchboard.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_Info7">
+	<summary>
+  Looks up a localized string similar to ...or when this form is closed..
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_Info8">
+	<summary>
+  Looks up a localized string similar to Form Colours.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_Info9">
+	<summary>
+  Looks up a localized string similar to Mismatch.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_INVENTORY_ITEM_ID">
+	<summary>
+  Looks up a localized string similar to INVENTORY_ITEM_ID.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_ITEM_TYPE">
+	<summary>
+  Looks up a localized string similar to ITEM_TYPE.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_KEMET_PART_NUMBER">
+	<summary>
+  Looks up a localized string similar to KEMET_PART_NUMBER.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_L">
+	<summary>
+  Looks up a localized string similar to L.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_LabCost">
+	<summary>
+  Looks up a localized string similar to LabCost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_LabourCostAverages">
+	<summary>
+  Looks up a localized string similar to Labour Cost Averages.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_MaxL">
+	<summary>
+  Looks up a localized string similar to MaxL.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_MinL">
+	<summary>
+  Looks up a localized string similar to MinL.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_NoCost">
+	<summary>
+  Looks up a localized string similar to No Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_NumRecs">
+	<summary>
+  Looks up a localized string similar to NumRecs.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_ORGANIZATION_CODE">
+	<summary>
+  Looks up a localized string similar to ORGANIZATION_CODE.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_Overrides">
+	<summary>
+  Looks up a localized string similar to Overrides.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_OverridesMessage">
+	<summary>
+  Looks up a localized string similar to Overrides will supplement/replace the standard averages.
+
+See Overrides tab for special values &amp;&amp; more information..
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_PartNumberGroups">
+	<summary>
+  Looks up a localized string similar to Part Number Groups.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_Partsofselectedgroup">
+	<summary>
+  Looks up a localized string similar to Parts of selected group.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_PENDING_ITEM_COST">
+	<summary>
+  Looks up a localized string similar to PENDING_ITEM_COST.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_PENDING_MATERIAL_COST">
+	<summary>
+  Looks up a localized string similar to PENDING_MATERIAL_COST.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_PENDING_OVERHEAD_COST">
+	<summary>
+  Looks up a localized string similar to PENDING_OVERHEAD_COST.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_PENDING_RESOURCE_COST">
+	<summary>
+  Looks up a localized string similar to PENDING_RESOURCE_COST.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_rci_cf_group">
+	<summary>
+  Looks up a localized string similar to rci_cf_group.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_ThresholdPercentage">
+	<summary>
+  Looks up a localized string similar to Treshold (%).
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_Title">
+	<summary>
+  Looks up a localized string similar to Oracle Routing Costs.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.OracleRCosts_Warning">
+	<summary>
+  Looks up a localized string similar to Warning.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Override_Message">
+	<summary>
+  Looks up a localized string similar to You do not have clearance to authorise the design. You may override by entering the correct password below....
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Override_Title">
+	<summary>
+  Looks up a localized string similar to Override.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Parameters_Title">
+	<summary>
+  Looks up a localized string similar to Parameters.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PartHistory_LatestIssue">
+	<summary>
+  Looks up a localized string similar to Latest Issue.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PartHistory_MicroWaveHistory">
+	<summary>
+  Looks up a localized string similar to µWave History.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PartHistory_PartNumber">
+	<summary>
+  Looks up a localized string similar to Part Number.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PartHistory_Title">
+	<summary>
+  Looks up a localized string similar to Part History.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PartHistory_TitleWindow">
+	<summary>
+  Looks up a localized string similar to Part History.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PartsFiles_CopyAsNewRecord">
+	<summary>
+  Looks up a localized string similar to Copy as new record.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PartsFiles_Description">
+	<summary>
+  Looks up a localized string similar to Description:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PartsFiles_PartsCost">
+	<summary>
+  Looks up a localized string similar to Parts Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PartsFiles_PartsFile">
+	<summary>
+  Looks up a localized string similar to Parts File.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PartsFiles_PiecePartsForm">
+	<summary>
+  Looks up a localized string similar to Piece Parts Form.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PartsFiles_PrintPartsFile">
+	<summary>
+  Looks up a localized string similar to Print Parts File.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PartsFiles_ReOrder">
+	<summary>
+  Looks up a localized string similar to Re-Order.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PartsFiles_Title">
+	<summary>
+  Looks up a localized string similar to Parts Files.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PartsFiles_TitleWindow">
+	<summary>
+  Looks up a localized string similar to Parts Files.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PartsFiles_WhereUsed">
+	<summary>
+  Looks up a localized string similar to Where Used.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PictureDrawings_Clip">
+	<summary>
+  Looks up a localized string similar to Clip.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PictureDrawings_Description">
+	<summary>
+  Looks up a localized string similar to Description.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PictureDrawings_DesignPicture">
+	<summary>
+  Looks up a localized string similar to Design Picture.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PictureDrawings_Dimensions">
+	<summary>
+  Looks up a localized string similar to Dimensions.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PictureDrawings_LimitScanToCurrentType">
+	<summary>
+  Looks up a localized string similar to Limit scan to current type.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PictureDrawings_Obsolete">
+	<summary>
+  Looks up a localized string similar to Obsolete.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PictureDrawings_Path">
+	<summary>
+  Looks up a localized string similar to Path.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PictureDrawings_PictureMode">
+	<summary>
+  Looks up a localized string similar to Picture Mode.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PictureDrawings_PictureReference">
+	<summary>
+  Looks up a localized string similar to Picture Reference.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PictureDrawings_QuickScan">
+	<summary>
+  Looks up a localized string similar to Quick Scan.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PictureDrawings_Specification">
+	<summary>
+  Looks up a localized string similar to Specification.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PictureDrawings_Stretch">
+	<summary>
+  Looks up a localized string similar to Stretch.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PictureDrawings_Title">
+	<summary>
+  Looks up a localized string similar to Design Pictures.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PictureDrawings_TitleWindow">
+	<summary>
+  Looks up a localized string similar to Winding, Dimension and Specification Drawings.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PictureDrawings_ToThumbnails">
+	<summary>
+  Looks up a localized string similar to To Thumbnails.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PictureDrawings_TypeOfDrawing">
+	<summary>
+  Looks up a localized string similar to Type of drawing.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PictureDrawings_Winding">
+	<summary>
+  Looks up a localized string similar to Winding.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PictureDrawings_Zoom">
+	<summary>
+  Looks up a localized string similar to Zoom.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Pictures_Title">
+	<summary>
+  Looks up a localized string similar to Pictures.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PictureThumbnail_All">
+	<summary>
+  Looks up a localized string similar to All.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PictureThumbnail_Description">
+	<summary>
+  Looks up a localized string similar to Description:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PictureThumbnail_Dims">
+	<summary>
+  Looks up a localized string similar to Dims.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PictureThumbnail_Path">
+	<summary>
+  Looks up a localized string similar to Path.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PictureThumbnail_PictureReference">
+	<summary>
+  Looks up a localized string similar to Picture Reference:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PictureThumbnail_ReturnToPictures">
+	<summary>
+  Looks up a localized string similar to Return to Pictures.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PictureThumbnail_Spec">
+	<summary>
+  Looks up a localized string similar to Spec.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PictureThumbnail_Title">
+	<summary>
+  Looks up a localized string similar to Design Pictures.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PictureThumbnail_TitleWindow">
+	<summary>
+  Looks up a localized string similar to Thumbnails.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PictureThumbnail_Wind">
+	<summary>
+  Looks up a localized string similar to Wind.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PiecePart_Active">
+	<summary>
+  Looks up a localized string similar to Active?.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PiecePart_AddAField">
+	<summary>
+  Looks up a localized string similar to Add a Field.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PiecePart_BackflushFlag">
+	<summary>
+  Looks up a localized string similar to Backflush Flag.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PiecePart_BackflushWarehouse">
+	<summary>
+  Looks up a localized string similar to Backflush Warehouse.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PiecePart_CopyAsNewRecord">
+	<summary>
+  Looks up a localized string similar to Copy as new record.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PiecePart_CurrentCost">
+	<summary>
+  Looks up a localized string similar to Current Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PiecePart_Data">
+	<summary>
+  Looks up a localized string similar to Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PiecePart_DeletePart">
+	<summary>
+  Looks up a localized string similar to Delete Part.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PiecePart_Description">
+	<summary>
+  Looks up a localized string similar to Description.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PiecePart_DrawingNumber">
+	<summary>
+  Looks up a localized string similar to Drawing Number.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PiecePart_ExampleNP">
+	<summary>
+  Looks up a localized string similar to (e.g. NP).
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PiecePart_FirstOp">
+	<summary>
+  Looks up a localized string similar to First Op.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PiecePart_Function">
+	<summary>
+  Looks up a localized string similar to Function GetFLSubInv controls FL W/H.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PiecePart_MSpecNo">
+	<summary>
+  Looks up a localized string similar to M-spec No..
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PiecePart_MultilevelBackflushFlag">
+	<summary>
+  Looks up a localized string similar to Multilevel Backflush Flag.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PiecePart_Obsolete">
+	<summary>
+  Looks up a localized string similar to Obsolete?.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PiecePart_OracleData">
+	<summary>
+  Looks up a localized string similar to Oracle Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PiecePart_PiecePartNo">
+	<summary>
+  Looks up a localized string similar to Piece Part No..
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PiecePart_PreviousCost">
+	<summary>
+  Looks up a localized string similar to Previous Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PiecePart_ShortDesc">
+	<summary>
+  Looks up a localized string similar to Short Desc..
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PiecePart_Specification">
+	<summary>
+  Looks up a localized string similar to Specification.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PiecePart_StagingFlag">
+	<summary>
+  Looks up a localized string similar to Staging Flag.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PiecePart_StagingWarehouse">
+	<summary>
+  Looks up a localized string similar to Staging Warehouse.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PiecePart_Supplier">
+	<summary>
+  Looks up a localized string similar to Supplier.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PiecePart_Title">
+	<summary>
+  Looks up a localized string similar to Piece Part Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PiecePart_TitleWindow">
+	<summary>
+  Looks up a localized string similar to Piece Part Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PiecePart_Type">
+	<summary>
+  Looks up a localized string similar to Type.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PiecePart_UnitOfMeasure">
+	<summary>
+  Looks up a localized string similar to Unit of Measure.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PiecePart_VendorDescription">
+	<summary>
+  Looks up a localized string similar to Description.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PiecePart_WhereUsed">
+	<summary>
+  Looks up a localized string similar to Where Used.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.PieceParts_Title">
+	<summary>
+  Looks up a localized string similar to Piece Parts.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Print_Title">
+	<summary>
+  Looks up a localized string similar to Print.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ProductSelector_Title">
+	<summary>
+  Looks up a localized string similar to Product Selector.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_CopyThisRecordToNewRecord">
+	<summary>
+  Looks up a localized string similar to Copy this record to new record.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_CopyToHereFrom">
+	<summary>
+  Looks up a localized string similar to Copy to here from.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_CostingGroup">
+	<summary>
+  Looks up a localized string similar to Costing Group.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_Description">
+	<summary>
+  Looks up a localized string similar to Description.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_EndOfLifeRange">
+	<summary>
+  Looks up a localized string similar to End-Of-Life Range.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_EOL">
+	<summary>
+  Looks up a localized string similar to EOL.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_EOL_EOLRange">
+	<summary>
+  Looks up a localized string similar to End-Of-Life Range.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_Equation">
+	<summary>
+  Looks up a localized string similar to Equation.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_Leakage">
+	<summary>
+  Looks up a localized string similar to Leakage.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_Life">
+	<summary>
+  Looks up a localized string similar to Life.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_Life_EditLifeTable">
+	<summary>
+  Looks up a localized string similar to Edit Life Table.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_Life_LifeRange">
+	<summary>
+  Looks up a localized string similar to Life Range.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_LifeRange">
+	<summary>
+  Looks up a localized string similar to Life Range.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_Other">
+	<summary>
+  Looks up a localized string similar to Other.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_Other_CostingGroup">
+	<summary>
+  Looks up a localized string similar to Costing Group.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_Other_Description">
+	<summary>
+  Looks up a localized string similar to Description.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_Other_EditLeakTable">
+	<summary>
+  Looks up a localized string similar to Edit Leak Table.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_Other_Leakage">
+	<summary>
+  Looks up a localized string similar to Leakage.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_Other_MaxValue">
+	<summary>
+  Looks up a localized string similar to Max Value.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_Other_Multiplier">
+	<summary>
+  Looks up a localized string similar to Multiplier.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_Other_Std">
+	<summary>
+  Looks up a localized string similar to Std.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_Other_StdLabourRate">
+	<summary>
+  Looks up a localized string similar to Std. Labour Rate.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_Other_StdMaterialYield">
+	<summary>
+  Looks up a localized string similar to Std. Material Yield.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_Other_StdOHMultiplier">
+	<summary>
+  Looks up a localized string similar to Std. OH Multiplier.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_Other_StdShippingCost">
+	<summary>
+  Looks up a localized string similar to Std. Shipping Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_Other_StdWindingYield">
+	<summary>
+  Looks up a localized string similar to Std. Winding Yield.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_Other_Var">
+	<summary>
+  Looks up a localized string similar to Var.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_Parameter_ParameterData">
+	<summary>
+  Looks up a localized string similar to Parameter Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_Parameter_ParameterRange">
+	<summary>
+  Looks up a localized string similar to Parameter Range.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_ParameterRange">
+	<summary>
+  Looks up a localized string similar to Parameter Range.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_Parameters">
+	<summary>
+  Looks up a localized string similar to Parameters.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_Range">
+	<summary>
+  Looks up a localized string similar to Range.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_StdESRFreq">
+	<summary>
+  Looks up a localized string similar to Std. ESR Freq.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_StdESRTemp">
+	<summary>
+  Looks up a localized string similar to Std. ESR Temp..
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_StdImpFreq">
+	<summary>
+  Looks up a localized string similar to Std. Imp. Freq.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_StdOpTemp">
+	<summary>
+  Looks up a localized string similar to Std. Op. Temp.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_Thermal">
+	<summary>
+  Looks up a localized string similar to Thermal.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_Thermal_CentigradeDegreeByWatt">
+	<summary>
+  Looks up a localized string similar to °C/W.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_Thermal_EditThermalTable">
+	<summary>
+  Looks up a localized string similar to Edit Thermal Table.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_Thermal_LensIn">
+	<summary>
+  Looks up a localized string similar to Lens in.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_Thermal_RHAIn">
+	<summary>
+  Looks up a localized string similar to RHA in.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_Thermal_ThermalRange">
+	<summary>
+  Looks up a localized string similar to Thermal Range.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_ThermalRange">
+	<summary>
+  Looks up a localized string similar to Thermal Range.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_Title">
+	<summary>
+  Looks up a localized string similar to Range Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_TitleWindow">
+	<summary>
+  Looks up a localized string similar to Range Codes.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RangeData_YieldRange">
+	<summary>
+  Looks up a localized string similar to Yield Range.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Ranges_Title">
+	<summary>
+  Looks up a localized string similar to Ranges.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RecreateSummary_Title">
+	<summary>
+  Looks up a localized string similar to Recreate Summary.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RenameScratch_AllocateNewName">
+	<summary>
+  Looks up a localized string similar to Allocate New Name.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RenameScratch_cap">
+	<summary>
+  Looks up a localized string similar to cap:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RenameScratch_GetName">
+	<summary>
+  Looks up a localized string similar to Get Name.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RenameScratch_HelpGuideMessage">
+	<summary>
+  Looks up a localized string similar to Press shift and move mouse over button for help.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RenameScratch_NewDesign">
+	<summary>
+  Looks up a localized string similar to New Design....
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RenameScratch_RenameorCopy">
+	<summary>
+  Looks up a localized string similar to Rename or Copy.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RenameScratch_ReserveName">
+	<summary>
+  Looks up a localized string similar to Reserve Name.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RenameScratch_SourceDesign">
+	<summary>
+  Looks up a localized string similar to Source Design....
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RenameScratch_Title">
+	<summary>
+  Looks up a localized string similar to Rename Scratch Design.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RenCopyScratch_Title">
+	<summary>
+  Looks up a localized string similar to Rename or Copy Scratch.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ReservePN_InnerTitle">
+	<summary>
+  Looks up a localized string similar to Design Index.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ReservePN_Title">
+	<summary>
+  Looks up a localized string similar to Reserve Part Number.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RifaCadData_Title">
+	<summary>
+  Looks up a localized string similar to RifaCad Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingData_Add">
+	<summary>
+  Looks up a localized string similar to Add.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingData_Card">
+	<summary>
+  Looks up a localized string similar to Card.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingData_Copy">
+	<summary>
+  Looks up a localized string similar to Copy.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingData_Delete">
+	<summary>
+  Looks up a localized string similar to Delete.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingData_Description">
+	<summary>
+  Looks up a localized string similar to Description.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingData_DummyOps">
+	<summary>
+  Looks up a localized string similar to Dummy Ops.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingData_Hide">
+	<summary>
+  Looks up a localized string similar to Hide.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingData_ID">
+	<summary>
+  Looks up a localized string similar to ID.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingData_NoOfOps">
+	<summary>
+  Looks up a localized string similar to No. of Ops.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingData_ProductionLine">
+	<summary>
+  Looks up a localized string similar to Production Line.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingData_ReOrder">
+	<summary>
+  Looks up a localized string similar to Re-Order.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingData_RoutingID">
+	<summary>
+  Looks up a localized string similar to Routing ID.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingData_Show">
+	<summary>
+  Looks up a localized string similar to Show.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingData_Template">
+	<summary>
+  Looks up a localized string similar to Template.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingData_Title">
+	<summary>
+  Looks up a localized string similar to Routings.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingData_TitleWindow">
+	<summary>
+  Looks up a localized string similar to Routing Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingData_TotalSMV">
+	<summary>
+  Looks up a localized string similar to Total SMV.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingData_WhereUsed">
+	<summary>
+  Looks up a localized string similar to Where Used.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingOpcodes_BatchcardDesc">
+	<summary>
+  Looks up a localized string similar to Batchcard Desc..
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingOpcodes_CopyFaultsFromAboveOpcode">
+	<summary>
+  Looks up a localized string similar to Copy Faults from above opcode.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingOpcodes_Description">
+	<summary>
+  Looks up a localized string similar to Description.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingOpcodes_Dummy">
+	<summary>
+  Looks up a localized string similar to Dummy?.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingOpcodes_EnterRate">
+	<summary>
+  Looks up a localized string similar to Enter Rate.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingOpcodes_Fault1">
+	<summary>
+  Looks up a localized string similar to Fault 1.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingOpcodes_Fault2">
+	<summary>
+  Looks up a localized string similar to Fault 2.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingOpcodes_Fault3">
+	<summary>
+  Looks up a localized string similar to Fault 3.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingOpcodes_Fault4">
+	<summary>
+  Looks up a localized string similar to Fault 4.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingOpcodes_IsSupplimentary">
+	<summary>
+  Looks up a localized string similar to Is Supplimentary?.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingOpcodes_Offline">
+	<summary>
+  Looks up a localized string similar to Offline?.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingOpcodes_Opcode">
+	<summary>
+  Looks up a localized string similar to Opcode.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingOpcodes_OperationCode">
+	<summary>
+  Looks up a localized string similar to Operation Code.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingOpcodes_OracleDept">
+	<summary>
+  Looks up a localized string similar to Oracle Dept..
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingOpcodes_PayPointFlag">
+	<summary>
+  Looks up a localized string similar to Pay Point Flag.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingOpcodes_PiecesPerHour">
+	<summary>
+  Looks up a localized string similar to Pieces/Hour.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingOpcodes_PrimaryWorkCentre">
+	<summary>
+  Looks up a localized string similar to Primary Work Centre.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingOpcodes_Ref">
+	<summary>
+  Looks up a localized string similar to Ref.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingOpcodes_SecundaryWorkCentre">
+	<summary>
+  Looks up a localized string similar to Secondary Work Centre.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingOpcodes_SMV">
+	<summary>
+  Looks up a localized string similar to SMV.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingOpcodes_SMVPiecesPerHour">
+	<summary>
+  Looks up a localized string similar to Pieces/Hour.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingOpcodes_Title">
+	<summary>
+  Looks up a localized string similar to Operation Codes.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingOpcodes_TitleWindow">
+	<summary>
+  Looks up a localized string similar to Operation Codes.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingOpcodes_Type">
+	<summary>
+  Looks up a localized string similar to Type.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.RoutingOpcodes_WhereUsed">
+	<summary>
+  Looks up a localized string similar to Where Used.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_CoreRise">
+	<summary>
+  Looks up a localized string similar to Core Rise.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_dci_condy_eq">
+	<summary>
+  Looks up a localized string similar to dci_condy_eq.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_dci_de_id">
+	<summary>
+  Looks up a localized string similar to dci_de_id.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_dci_el_resist0">
+	<summary>
+  Looks up a localized string similar to dci_el_resist0.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_dci_el_resist105">
+	<summary>
+  Looks up a localized string similar to dci_el_resist105.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_dci_el_resist125">
+	<summary>
+  Looks up a localized string similar to dci_el_resist125.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_dci_el_resist20">
+	<summary>
+  Looks up a localized string similar to dci_el_resist20.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_dci_el_resist25">
+	<summary>
+  Looks up a localized string similar to dci_el_resist25.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_dci_el_resist45">
+	<summary>
+  Looks up a localized string similar to dci_el_resist45.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_dci_el_resist65">
+	<summary>
+  Looks up a localized string similar to dci_el_resist65.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_dci_el_resist85">
+	<summary>
+  Looks up a localized string similar to dci_el_resist85.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_dci_el_resistminus20">
+	<summary>
+  Looks up a localized string similar to dci_el_resist-20.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_dci_el_resistminus40">
+	<summary>
+  Looks up a localized string similar to dci_el_resist-40.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_dci_el_resistminus55">
+	<summary>
+  Looks up a localized string similar to dci_el_resist-55.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_dci_esr_foil">
+	<summary>
+  Looks up a localized string similar to dci_esr_foil.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_dci_esr_oxide_freqind">
+	<summary>
+  Looks up a localized string similar to dci_esr_oxide_freqind.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_dci_esr_tabbing">
+	<summary>
+  Looks up a localized string similar to dci_esr_tabbing.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_dci_IrFreq_Std">
+	<summary>
+  Looks up a localized string similar to dci_IrFreq_Std.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_dci_IrTemp_Std">
+	<summary>
+  Looks up a localized string similar to dci_IrTemp_Std.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_dci_IrVal_Std">
+	<summary>
+  Looks up a localized string similar to dci_IrVal_Std.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_dci_li_ambient">
+	<summary>
+  Looks up a localized string similar to dci_li_ambient.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_dci_li_Ex">
+	<summary>
+  Looks up a localized string similar to dci_li_Ex.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_dci_li_Le">
+	<summary>
+  Looks up a localized string similar to dci_li_Le.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_dci_li_RatedLife">
+	<summary>
+  Looks up a localized string similar to dci_li_RatedLife.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_dci_li_T2">
+	<summary>
+  Looks up a localized string similar to dci_li_T2.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_dci_li_Tm">
+	<summary>
+  Looks up a localized string similar to dci_li_Tm.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_dci_li_Tr">
+	<summary>
+  Looks up a localized string similar to dci_li_Tr.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_dci_li_Tx">
+	<summary>
+  Looks up a localized string similar to dci_li_Tx.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_dci_Rbc">
+	<summary>
+  Looks up a localized string similar to dci_Rbc.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_dci_Rha">
+	<summary>
+  Looks up a localized string similar to dci_Rha.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_dci_Rhw">
+	<summary>
+  Looks up a localized string similar to dci_Rhw.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_dci_ripple">
+	<summary>
+  Looks up a localized string similar to dci_ripple.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_dci_Rise_Temp">
+	<summary>
+  Looks up a localized string similar to dci_Rise_Temp.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_dci_Rwb">
+	<summary>
+  Looks up a localized string similar to dci_Rwb.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_dci_sr_tissue_tempind">
+	<summary>
+  Looks up a localized string similar to dci_sr_tissue_tempind.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_FailureRate">
+	<summary>
+  Looks up a localized string similar to Failure Rate.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_LifeSpan">
+	<summary>
+  Looks up a localized string similar to Life Span.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_MaxCoreTemperature">
+	<summary>
+  Looks up a localized string similar to Max Core Temperature.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_MaxESRChange">
+	<summary>
+  Looks up a localized string similar to Max ESR Change.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_RatedTemp">
+	<summary>
+  Looks up a localized string similar to Rated Temp.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCat_Title">
+	<summary>
+  Looks up a localized string similar to Scratch Catalogue Index.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchCleanup_Title">
+	<summary>
+  Looks up a localized string similar to Scratch Cleanup.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchList_Message">
+	<summary>
+  Looks up a localized string similar to Select a part number to open or press escape....
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchList_OnlyShowMydesigns">
+	<summary>
+  Looks up a localized string similar to Only Show My designs.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchList_Title">
+	<summary>
+  Looks up a localized string similar to Find a Scratch Record.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_A1LC">
+	<summary>
+  Looks up a localized string similar to A1LC.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_A2LC">
+	<summary>
+  Looks up a localized string similar to A2LC.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_A3LC">
+	<summary>
+  Looks up a localized string similar to A3LC.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_AAt">
+	<summary>
+  Looks up a localized string similar to A @.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_ac">
+	<summary>
+  Looks up a localized string similar to ac.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_ActEsrTemp">
+	<summary>
+  Looks up a localized string similar to Act esr temp.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_ActTrxAtEOLTx">
+	<summary>
+  Looks up a localized string similar to Arc Tr x @ EOL Tx.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_AfterWrap">
+	<summary>
+  Looks up a localized string similar to After-wrap.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_AirflowMs">
+	<summary>
+  Looks up a localized string similar to Airflow m/s.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_AmbientTa">
+	<summary>
+  Looks up a localized string similar to Ambient Ta.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Amount">
+	<summary>
+  Looks up a localized string similar to Amount.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_An1">
+	<summary>
+  Looks up a localized string similar to An1.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_An2">
+	<summary>
+  Looks up a localized string similar to An2.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_An3">
+	<summary>
+  Looks up a localized string similar to An3.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Anode_Vertical">
+	<summary>
+  Looks up a localized string similar to A
+N
+O
+D
+E
+.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Anytg">
+	<summary>
+  Looks up a localized string similar to Anytg.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_ArrheniusT2">
+	<summary>
+  Looks up a localized string similar to Arrhenius T2.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_ASNo">
+	<summary>
+  Looks up a localized string similar to AS No..
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_ATc">
+	<summary>
+  Looks up a localized string similar to A Tc.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_AutoWidth">
+	<summary>
+  Looks up a localized string similar to Auto Width.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_AverageTh">
+	<summary>
+  Looks up a localized string similar to Average Th.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_CanCode">
+	<summary>
+  Looks up a localized string similar to Can Code.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_CanInt">
+	<summary>
+  Looks up a localized string similar to Can Int Ø.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Cap">
+	<summary>
+  Looks up a localized string similar to Cap.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Capacitance">
+	<summary>
+  Looks up a localized string similar to Capacitance.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_CatalogueData">
+	<summary>
+  Looks up a localized string similar to Catalogue data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_CatData">
+	<summary>
+  Looks up a localized string similar to Cat. Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Cath">
+	<summary>
+  Looks up a localized string similar to CATH..
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_CathExtension">
+	<summary>
+  Looks up a localized string similar to Cath extension.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_CaYC">
+	<summary>
+  Looks up a localized string similar to CaYC.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Caytg">
+	<summary>
+  Looks up a localized string similar to Caytg.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_CLC">
+	<summary>
+  Looks up a localized string similar to CLC.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_ClearApps">
+	<summary>
+  Looks up a localized string similar to Clear Apps.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_condy_eq">
+	<summary>
+  Looks up a localized string similar to condy_eq.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Cost">
+	<summary>
+  Looks up a localized string similar to Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Ctl">
+	<summary>
+  Looks up a localized string similar to Ctl.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_CurrentPaths">
+	<summary>
+  Looks up a localized string similar to Current paths.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_CustPNo">
+	<summary>
+  Looks up a localized string similar to Cust P/No.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Date">
+	<summary>
+  Looks up a localized string similar to Date.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_DefaultFreqs">
+	<summary>
+  Looks up a localized string similar to Default freqs.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_DeleteScratch">
+	<summary>
+  Looks up a localized string similar to Delete Scratch.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Dep">
+	<summary>
+  Looks up a localized string similar to Dep.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_DesApp">
+	<summary>
+  Looks up a localized string similar to Des App.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_DesignNotes">
+	<summary>
+  Looks up a localized string similar to Design Notes:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Dia">
+	<summary>
+  Looks up a localized string similar to Dia.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_DimensionDwg">
+	<summary>
+  Looks up a localized string similar to Dimension Dwg.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_DisplayCosts">
+	<summary>
+  Looks up a localized string similar to Display costs.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_EditFields">
+	<summary>
+  Looks up a localized string similar to Edit Fields.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_EDType">
+	<summary>
+  Looks up a localized string similar to ED Type.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Elyte">
+	<summary>
+  Looks up a localized string similar to E'LYTE.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_ESR">
+	<summary>
+  Looks up a localized string similar to ESR.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_ESRAt100HzAt20C">
+	<summary>
+  Looks up a localized string similar to ESR @ 100Hz @ 20ºC.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_ESRFactorKe">
+	<summary>
+  Looks up a localized string similar to ESR Factor Ke.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Evaluate">
+	<summary>
+  Looks up a localized string similar to Evaluate.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_ExtraFields">
+	<summary>
+  Looks up a localized string similar to Extra Fields.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Factor">
+	<summary>
+  Looks up a localized string similar to Factor.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_FailMode">
+	<summary>
+  Looks up a localized string similar to Fail mode.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Fix">
+	<summary>
+  Looks up a localized string similar to Fix.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_foil">
+	<summary>
+  Looks up a localized string similar to foil.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_GassingFailAt">
+	<summary>
+  Looks up a localized string similar to Gassing Fail @.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_GetData">
+	<summary>
+  Looks up a localized string similar to Get Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_GetLimits">
+	<summary>
+  Looks up a localized string similar to Get Limits.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_GoToSummary">
+	<summary>
+  Looks up a localized string similar to Go To Summary.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Gross">
+	<summary>
+  Looks up a localized string similar to Gross.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Group">
+	<summary>
+  Looks up a localized string similar to Group.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Hold">
+	<summary>
+  Looks up a localized string similar to Hold.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Hole">
+	<summary>
+  Looks up a localized string similar to Hole Ø.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_hrs120PSI">
+	<summary>
+  Looks up a localized string similar to hrs (120PSI).
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_hrs70PSI">
+	<summary>
+  Looks up a localized string similar to hrs (70PSI).
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_HSink">
+	<summary>
+  Looks up a localized string similar to H/Sink.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_HzAt">
+	<summary>
+  Looks up a localized string similar to Hz @.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_IMPAt10000HzAt20C">
+	<summary>
+  Looks up a localized string similar to IMP @ 10000Hz @ 20ºC.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Ir">
+	<summary>
+  Looks up a localized string similar to Ir.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_IrF">
+	<summary>
+  Looks up a localized string similar to Ir F.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_IrT">
+	<summary>
+  Looks up a localized string similar to Ir T.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Issue">
+	<summary>
+  Looks up a localized string similar to Issue.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_L1">
+	<summary>
+  Looks up a localized string similar to L1.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_L2">
+	<summary>
+  Looks up a localized string similar to L2.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Lab">
+	<summary>
+  Looks up a localized string similar to Lab.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Labour">
+	<summary>
+  Looks up a localized string similar to Labour.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_LabourCost">
+	<summary>
+  Looks up a localized string similar to Labour Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Len">
+	<summary>
+  Looks up a localized string similar to Len.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_LifeCalc">
+	<summary>
+  Looks up a localized string similar to Life Calc.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_LifeFactorLe">
+	<summary>
+  Looks up a localized string similar to Life Factor Le.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_LifeLop">
+	<summary>
+  Looks up a localized string similar to Life Lop.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Live">
+	<summary>
+  Looks up a localized string similar to Live.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Mandrel">
+	<summary>
+  Looks up a localized string similar to Mandrel.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Material">
+	<summary>
+  Looks up a localized string similar to Material.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_MaxAt">
+	<summary>
+  Looks up a localized string similar to Max @.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_MaxCapAt90Fit">
+	<summary>
+  Looks up a localized string similar to Max cap @ 90% fit.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_MaxCoreTm">
+	<summary>
+  Looks up a localized string similar to Max core Tm.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_MaxESRx">
+	<summary>
+  Looks up a localized string similar to Max ESR (x).
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_MaxLen">
+	<summary>
+  Looks up a localized string similar to Max len..
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Melinex">
+	<summary>
+  Looks up a localized string similar to Melinex.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_MinGain">
+	<summary>
+  Looks up a localized string similar to Min gain.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_MoreDetail">
+	<summary>
+  Looks up a localized string similar to More detail.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_NewDesign">
+	<summary>
+  Looks up a localized string similar to New Design.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_NoDot">
+	<summary>
+  Looks up a localized string similar to No..
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_NoLABData">
+	<summary>
+  Looks up a localized string similar to No LAB Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_NotesMax10escroutnotes">
+	<summary>
+  Looks up a localized string similar to Notes (max 10 excluding routing notes).
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Obs">
+	<summary>
+  Looks up a localized string similar to Obs,.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_OHCost">
+	<summary>
+  Looks up a localized string similar to O/H Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_old">
+	<summary>
+  Looks up a localized string similar to old.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_OldTab">
+	<summary>
+  Looks up a localized string similar to Old.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_OldTab2">
+	<summary>
+  Looks up a localized string similar to Old 2.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_OpVop">
+	<summary>
+  Looks up a localized string similar to Op. Vop.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Outline">
+	<summary>
+  Looks up a localized string similar to Outline.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_oxide_fi">
+	<summary>
+  Looks up a localized string similar to oxide_fi.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_OY">
+	<summary>
+  Looks up a localized string similar to OY.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_PartsCost">
+	<summary>
+  Looks up a localized string similar to Parts Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_PartsFile">
+	<summary>
+  Looks up a localized string similar to Parts File.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_PercentageFit">
+	<summary>
+  Looks up a localized string similar to % FIT.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_PhysicalCaseFill">
+	<summary>
+  Looks up a localized string similar to Physical case fill.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_PrevSpec">
+	<summary>
+  Looks up a localized string similar to Prev. Spec.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_PreWrapLength">
+	<summary>
+  Looks up a localized string similar to Pre-wrap length.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_PreWrapTurns">
+	<summary>
+  Looks up a localized string similar to Pre-wrap turns.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_PrintCost">
+	<summary>
+  Looks up a localized string similar to Print Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_PrintDesign">
+	<summary>
+  Looks up a localized string similar to Print Design.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_PrintDetail">
+	<summary>
+  Looks up a localized string similar to Print Detail.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_PrintDetailMax13Lines">
+	<summary>
+  Looks up a localized string similar to Print Detail  (max 13 lines ).
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_PrintDrawing">
+	<summary>
+  Looks up a localized string similar to Print Drawing.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_PrintEsr">
+	<summary>
+  Looks up a localized string similar to Print Esr.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_QAApp">
+	<summary>
+  Looks up a localized string similar to QA App.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_RatedIr">
+	<summary>
+  Looks up a localized string similar to Rated Ir.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Rbo">
+	<summary>
+  Looks up a localized string similar to Rbo.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_RCost">
+	<summary>
+  Looks up a localized string similar to RCost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Refresh">
+	<summary>
+  Looks up a localized string similar to Refresh.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_RelForm">
+	<summary>
+  Looks up a localized string similar to Rel. Form.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Rename">
+	<summary>
+  Looks up a localized string similar to Rename.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Rha">
+	<summary>
+  Looks up a localized string similar to Rha.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_RHaCperWatt">
+	<summary>
+  Looks up a localized string similar to RHa ºC/Watt.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Rhw">
+	<summary>
+  Looks up a localized string similar to Rhw.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Rise_T">
+	<summary>
+  Looks up a localized string similar to Rise_T.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Routing">
+	<summary>
+  Looks up a localized string similar to Routing.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Rwb">
+	<summary>
+  Looks up a localized string similar to Rwb.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Scrollbar">
+	<summary>
+  Looks up a localized string similar to Scrollbar.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_SDApp">
+	<summary>
+  Looks up a localized string similar to SDApp.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Sequence">
+	<summary>
+  Looks up a localized string similar to Seequence:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_SEVtestvoltage">
+	<summary>
+  Looks up a localized string similar to SEV test voltage.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_ShowAllRecs">
+	<summary>
+  Looks up a localized string similar to Show All Recs.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_ShowSpec">
+	<summary>
+  Looks up a localized string similar to Show Spec.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_SMV">
+	<summary>
+  Looks up a localized string similar to SMV.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_SpecDrawing">
+	<summary>
+  Looks up a localized string similar to Spec. Drawing.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_SpecDwg">
+	<summary>
+  Looks up a localized string similar to Spec/Dwg.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_SpecificationDetails">
+	<summary>
+  Looks up a localized string similar to Specification Details.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_SQApp">
+	<summary>
+  Looks up a localized string similar to SQApp.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_StandardCost">
+	<summary>
+  Looks up a localized string similar to Standard Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_StdLength">
+	<summary>
+  Looks up a localized string similar to Std. Length.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_StdVfs">
+	<summary>
+  Looks up a localized string similar to Std. Vfs.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Summary">
+	<summary>
+  Looks up a localized string similar to Summary.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_SurgeOrVDEvoltage">
+	<summary>
+  Looks up a localized string similar to Surge or VDE voltage.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Swage">
+	<summary>
+  Looks up a localized string similar to Swage.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_T1LC">
+	<summary>
+  Looks up a localized string similar to T1LC.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_T2LC">
+	<summary>
+  Looks up a localized string similar to T2LC.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_T3LC">
+	<summary>
+  Looks up a localized string similar to T3LC.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Tab">
+	<summary>
+  Looks up a localized string similar to TAB..
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_tabbing">
+	<summary>
+  Looks up a localized string similar to tabbing.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_TestParameters">
+	<summary>
+  Looks up a localized string similar to Test Parameters.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_TestVolts">
+	<summary>
+  Looks up a localized string similar to Test Volts.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Ti1YC">
+	<summary>
+  Looks up a localized string similar to Ti1YC.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Ti2">
+	<summary>
+  Looks up a localized string similar to Ti2.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Ti3">
+	<summary>
+  Looks up a localized string similar to Ti3.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_tissue_ti">
+	<summary>
+  Looks up a localized string similar to tissue_ti.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Tissue_Vertical">
+	<summary>
+  Looks up a localized string similar to T
+ I
+S
+S
+U
+E
+.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Tiytg">
+	<summary>
+  Looks up a localized string similar to Tiytg.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_TotalCost">
+	<summary>
+  Looks up a localized string similar to Total Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_TrCoreRise">
+	<summary>
+  Looks up a localized string similar to Tr (core rise).
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_TrForCalcIr">
+	<summary>
+  Looks up a localized string similar to Tr for calc Ir.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_UpdateMain">
+	<summary>
+  Looks up a localized string similar to Update Main.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_UseActualEsr">
+	<summary>
+  Looks up a localized string similar to Use actual esr.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_UsePRMSCostReport">
+	<summary>
+  Looks up a localized string similar to Use PRMS
+Cost Report.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_UserGain">
+	<summary>
+  Looks up a localized string similar to User Gain.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Var">
+	<summary>
+  Looks up a localized string similar to Var.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Variable">
+	<summary>
+  Looks up a localized string similar to Variable.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_VariableCost">
+	<summary>
+  Looks up a localized string similar to Variable Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Vf">
+	<summary>
+  Looks up a localized string similar to Vf.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_VFactorKv">
+	<summary>
+  Looks up a localized string similar to V Factor Kv.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_ViewAllData">
+	<summary>
+  Looks up a localized string similar to View All Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_ViewCentred">
+	<summary>
+  Looks up a localized string similar to View Centred.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_VoidSpacecm3">
+	<summary>
+  Looks up a localized string similar to Void Space (cm³).
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_WindCost">
+	<summary>
+  Looks up a localized string similar to Wind Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_WindingDetails">
+	<summary>
+  Looks up a localized string similar to Winding Details.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_WindingPicture">
+	<summary>
+  Looks up a localized string similar to Winding Picture.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_WLC">
+	<summary>
+  Looks up a localized string similar to WLC.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_WriteCatData">
+	<summary>
+  Looks up a localized string similar to Write Cat Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchP_Yield">
+	<summary>
+  Looks up a localized string similar to Yield.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchPad_Title">
+	<summary>
+  Looks up a localized string similar to Scratch Pad.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchTransfer_NoOfDesigns">
+	<summary>
+  Looks up a localized string similar to No. Of Designs.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchTransfer_Title">
+	<summary>
+  Looks up a localized string similar to Transfer to Main.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.ScratchTransfer_UsersMessage">
+	<summary>
+  Looks up a localized string similar to The following users also have a copy of this design.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_AddAllDefaults">
+	<summary>
+  Looks up a localized string similar to Add All Defaults.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_AmbientTempTa">
+	<summary>
+  Looks up a localized string similar to Ambient Temp (Ta).
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_CoreRise">
+	<summary>
+  Looks up a localized string similar to Core Rise.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_ESRData">
+	<summary>
+  Looks up a localized string similar to ESR Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_ESRFF">
+	<summary>
+  Looks up a localized string similar to ESR/F F.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_ESRFreqData">
+	<summary>
+  Looks up a localized string similar to ESR/Freq Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_ESRFreqGraph">
+	<summary>
+  Looks up a localized string similar to ESR/Freq Graph.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_ESRFTemp">
+	<summary>
+  Looks up a localized string similar to ESR/F Temp.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_ID">
+	<summary>
+  Looks up a localized string similar to ID.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_InhibitSpec">
+	<summary>
+  Looks up a localized string similar to Inhibit Spec.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_IrMultiplier">
+	<summary>
+  Looks up a localized string similar to Ir Multiplier.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_KFData">
+	<summary>
+  Looks up a localized string similar to KF Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_KFFreq">
+	<summary>
+  Looks up a localized string similar to KF Freq.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_KFTemp">
+	<summary>
+  Looks up a localized string similar to KF Temp.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_KVDeratingData">
+	<summary>
+  Looks up a localized string similar to KV Derating Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_KVDeratingGraph">
+	<summary>
+  Looks up a localized string similar to KV Derating Graph.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_KVPc">
+	<summary>
+  Looks up a localized string similar to KV Temp.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_KVTemp">
+	<summary>
+  Looks up a localized string similar to KV Temp.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_LifeDefinitions">
+	<summary>
+  Looks up a localized string similar to Life Definitions.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_LifeExp">
+	<summary>
+  Looks up a localized string similar to Life Exp..
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_LopVsTaForM">
+	<summary>
+  Looks up a localized string similar to Lop Vs Ta For M.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_LopVsTaForMData">
+	<summary>
+  Looks up a localized string similar to Lop Vs Ta For M Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_LopVsTaForTrData">
+	<summary>
+  Looks up a localized string similar to Lop Vs Ta For Tr Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_LopVsTaForTrGraph">
+	<summary>
+  Looks up a localized string similar to Lop Vs Ta For Tr Graph.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_MVsTaForLop">
+	<summary>
+  Looks up a localized string similar to M Vs Ta For Lop.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_MVsTaForLopData">
+	<summary>
+  Looks up a localized string similar to M Vs Ta For Lop Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_OnePage">
+	<summary>
+  Looks up a localized string similar to 'One Page'.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_PageBreak1">
+	<summary>
+  Looks up a localized string similar to Page Break 1.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_PageBreak2">
+	<summary>
+  Looks up a localized string similar to Page Break 2.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_PageBreak3">
+	<summary>
+  Looks up a localized string similar to Page Break 3.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_PageBreak4">
+	<summary>
+  Looks up a localized string similar to Page Break 4.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_PageBreak5">
+	<summary>
+  Looks up a localized string similar to Page Break 5.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_PageBreak6">
+	<summary>
+  Looks up a localized string similar to Page Break 6.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_PageBreak7">
+	<summary>
+  Looks up a localized string similar to Page Break 7.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_PageBreak8">
+	<summary>
+  Looks up a localized string similar to Page Break 8.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_PageBreak9">
+	<summary>
+  Looks up a localized string similar to Page Break 9.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_RHaDiag">
+	<summary>
+  Looks up a localized string similar to RHa Diag.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_RippleQuote">
+	<summary>
+  Looks up a localized string similar to Ripple Quote.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_SelectAll">
+	<summary>
+  Looks up a localized string similar to Select All.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_SelectNone">
+	<summary>
+  Looks up a localized string similar to Select None.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_ShowAllRhaDiagData">
+	<summary>
+  Looks up a localized string similar to Show all Rha Diag data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_ShowLopEquation">
+	<summary>
+  Looks up a localized string similar to Show Lop Equation.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_ShowSampleDisclaimer">
+	<summary>
+  Looks up a localized string similar to Show Sample Disclaimer.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_TitleWindow">
+	<summary>
+  Looks up a localized string similar to Subsf Summary Spec Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecData_ViewReport">
+	<summary>
+  Looks up a localized string similar to View Report.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecSetup_AddAllDefaults">
+	<summary>
+  Looks up a localized string similar to Add All Defaults.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecSetup_AmbientTemp">
+	<summary>
+  Looks up a localized string similar to Ambient Temp (Ta).
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecSetup_CatData">
+	<summary>
+  Looks up a localized string similar to Cat Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecSetup_CoreRise">
+	<summary>
+  Looks up a localized string similar to Core Rise.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecSetup_ESRData">
+	<summary>
+  Looks up a localized string similar to ESR Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecSetup_ESRFF">
+	<summary>
+  Looks up a localized string similar to ESR/F F.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecSetup_ESRFreqData">
+	<summary>
+  Looks up a localized string similar to ESR/Freq Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecSetup_ESRFreqGraph">
+	<summary>
+  Looks up a localized string similar to ESR/Freq Graph.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecSetup_ESRFTemp">
+	<summary>
+  Looks up a localized string similar to ESR/F Temp.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecSetup_ExportstraighttoPDF">
+	<summary>
+  Looks up a localized string similar to Export straight to PDF.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecSetup_Header">
+	<summary>
+  Looks up a localized string similar to Header.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecSetup_InhibitSpec">
+	<summary>
+  Looks up a localized string similar to Inhibit Spec.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecSetup_IrMultiplier">
+	<summary>
+  Looks up a localized string similar to Ir Multiplier.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecSetup_KFData">
+	<summary>
+  Looks up a localized string similar to KF Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecSetup_KFFreq">
+	<summary>
+  Looks up a localized string similar to KF Freq.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecSetup_KFTemp">
+	<summary>
+  Looks up a localized string similar to KF Temp.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecSetup_KVDeratingData">
+	<summary>
+  Looks up a localized string similar to KV Derating Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecSetup_KVDeratingGraph">
+	<summary>
+  Looks up a localized string similar to KV Derating Graph.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecSetup_KVPercentage">
+	<summary>
+  Looks up a localized string similar to KV %.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecSetup_KVTemp">
+	<summary>
+  Looks up a localized string similar to KV Temp.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecSetup_LifeDefinitions">
+	<summary>
+  Looks up a localized string similar to Life Definitions.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecSetup_LifeExp">
+	<summary>
+  Looks up a localized string similar to Life Exp..
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecSetup_LopVsTaForM">
+	<summary>
+  Looks up a localized string similar to Lop Vs Ta For M.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecSetup_LopVsTaForMData">
+	<summary>
+  Looks up a localized string similar to Lop Vs Ta For M Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecSetup_LopVsTaForTrData">
+	<summary>
+  Looks up a localized string similar to Lop Vs Ta For Tr Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecSetup_LopVsTaForTrGraph">
+	<summary>
+  Looks up a localized string similar to Lop Vs Ta For Tr Graph.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecSetup_MVsTaForLop">
+	<summary>
+  Looks up a localized string similar to M Vs Ta For Lop.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecSetup_MVsTaForLopData">
+	<summary>
+  Looks up a localized string similar to M Vs Ta For Lop Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecSetup_OnePage">
+	<summary>
+  Looks up a localized string similar to 'One Page'.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecSetup_PageBreak">
+	<summary>
+  Looks up a localized string similar to Page Break $i.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecSetup_PDFPath">
+	<summary>
+  Looks up a localized string similar to PDF Path.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecSetup_RHaDiag">
+	<summary>
+  Looks up a localized string similar to RHa Diag.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecSetup_RippleQuote">
+	<summary>
+  Looks up a localized string similar to Ripple Quote.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecSetup_ShowallRhaDiagData">
+	<summary>
+  Looks up a localized string similar to Show all Rha Diag Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecSetup_ShowLopEquation">
+	<summary>
+  Looks up a localized string similar to Show Lop Equation.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecSetup_ShowSampleDisclaimer">
+	<summary>
+  Looks up a localized string similar to Show Sample Disclaimer.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecSetup_Title">
+	<summary>
+  Looks up a localized string similar to Specification Setup.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SpecSetup_UsePN">
+	<summary>
+  Looks up a localized string similar to Use P/N.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.StandardWidths_Title">
+	<summary>
+  Looks up a localized string similar to Standard Widths.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SummaryDesignComment_Instructions">
+	<summary>
+  Looks up a localized string similar to Enter any text required, and then click close....
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SummaryDesignComment_TitleWindow">
+	<summary>
+  Looks up a localized string similar to Design Comment.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.SystemData_Title">
+	<summary>
+  Looks up a localized string similar to System Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Tabbing_Title">
+	<summary>
+  Looks up a localized string similar to Tabbing.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TabData_Active">
+	<summary>
+  Looks up a localized string similar to Active?.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TabData_BackflushFlag">
+	<summary>
+  Looks up a localized string similar to Backflush Flag.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TabData_BackflushWarehouse">
+	<summary>
+  Looks up a localized string similar to Backflush Warehouse.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TabData_CurrentCost">
+	<summary>
+  Looks up a localized string similar to Current Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TabData_Density">
+	<summary>
+  Looks up a localized string similar to Density.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TabData_Description">
+	<summary>
+  Looks up a localized string similar to Description.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TabData_FirstOp">
+	<summary>
+  Looks up a localized string similar to First Op.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TabData_Formation">
+	<summary>
+  Looks up a localized string similar to Formation.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TabData_MatOnly">
+	<summary>
+  Looks up a localized string similar to Mat. Only.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TabData_MaxCurrent">
+	<summary>
+  Looks up a localized string similar to Max Current.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TabData_MSpecNo">
+	<summary>
+  Looks up a localized string similar to M-spec No..
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TabData_MultilevelBackflushFlag">
+	<summary>
+  Looks up a localized string similar to Multilevel Backflush Flag.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TabData_Obsolete">
+	<summary>
+  Looks up a localized string similar to Obsolete?.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TabData_OracleData">
+	<summary>
+  Looks up a localized string similar to Oracle Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TabData_PreviousCost">
+	<summary>
+  Looks up a localized string similar to Previous Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TabData_Purity">
+	<summary>
+  Looks up a localized string similar to Purity.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TabData_Specification">
+	<summary>
+  Looks up a localized string similar to Specification.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TabData_StagingFlag">
+	<summary>
+  Looks up a localized string similar to Staging Flag.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TabData_StagingWarehouse">
+	<summary>
+  Looks up a localized string similar to Staging Warehouse.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TabData_Supplier">
+	<summary>
+  Looks up a localized string similar to Supplier.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TabData_TabbingName">
+	<summary>
+  Looks up a localized string similar to Tabbing Name.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TabData_Thickness">
+	<summary>
+  Looks up a localized string similar to Thickness.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TabData_Title">
+	<summary>
+  Looks up a localized string similar to Tabbing Foil Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TabData_TitleWindow">
+	<summary>
+  Looks up a localized string similar to Tabbing Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TabData_WhereUsed">
+	<summary>
+  Looks up a localized string similar to Where Used.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TabData_Width">
+	<summary>
+  Looks up a localized string similar to Width.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueData_Active">
+	<summary>
+  Looks up a localized string similar to Active?.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueData_BackflushFlag">
+	<summary>
+  Looks up a localized string similar to Backflush Flag.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueData_BackflushWarehouse">
+	<summary>
+  Looks up a localized string similar to Backflush Warehouse.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueData_CurrentCost">
+	<summary>
+  Looks up a localized string similar to Current Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueData_Density">
+	<summary>
+  Looks up a localized string similar to Density.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueData_ElectrolyteData">
+	<summary>
+  Looks up a localized string similar to Electrolyte Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueData_FirstOp">
+	<summary>
+  Looks up a localized string similar to First Op.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueData_MSpecNo">
+	<summary>
+  Looks up a localized string similar to M-spec No..
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueData_MultilevelBackflushFlag">
+	<summary>
+  Looks up a localized string similar to Multilevel Backflush Flag.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueData_Obsolete">
+	<summary>
+  Looks up a localized string similar to Obsolete?.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueData_OkForBLO">
+	<summary>
+  Looks up a localized string similar to Ok For BLO?.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueData_OkForGlycol">
+	<summary>
+  Looks up a localized string similar to Ok For Glycol?.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueData_OracleData">
+	<summary>
+  Looks up a localized string similar to Oracle Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueData_PaperName">
+	<summary>
+  Looks up a localized string similar to Paper Name.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueData_ParticleDensity">
+	<summary>
+  Looks up a localized string similar to Particle Density.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueData_PreviousCost">
+	<summary>
+  Looks up a localized string similar to Previous Cost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueData_RateCode">
+	<summary>
+  Looks up a localized string similar to Rate Code.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueData_ResRatio1">
+	<summary>
+  Looks up a localized string similar to Res. Ratio 1:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueData_ResRatio2">
+	<summary>
+  Looks up a localized string similar to Res. Ratio 2:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueData_ResRatio3">
+	<summary>
+  Looks up a localized string similar to Res. Ratio 3:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueData_ResRatio4">
+	<summary>
+  Looks up a localized string similar to Res. Ratio 4:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueData_ResRatio5">
+	<summary>
+  Looks up a localized string similar to Res. Ratio 5:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueData_ResRatio6">
+	<summary>
+  Looks up a localized string similar to Res. Ratio 6:.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueData_Specification">
+	<summary>
+  Looks up a localized string similar to Specification.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueData_StagingFlag">
+	<summary>
+  Looks up a localized string similar to Staging Flag.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueData_StagingWarehouse">
+	<summary>
+  Looks up a localized string similar to Staging Warehouse.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueData_Supplier">
+	<summary>
+  Looks up a localized string similar to Supplier.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueData_Thickness">
+	<summary>
+  Looks up a localized string similar to Thickness.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueData_Tissue">
+	<summary>
+  Looks up a localized string similar to Tissue.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueData_TissueIndexDataSubform">
+	<summary>
+  Looks up a localized string similar to tissue index data subform.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueData_Title">
+	<summary>
+  Looks up a localized string similar to Paper Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueData_TitleWindow">
+	<summary>
+  Looks up a localized string similar to Tissue Data.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueData_VendorDescription">
+	<summary>
+  Looks up a localized string similar to Description.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueData_VoidVolume">
+	<summary>
+  Looks up a localized string similar to Void Volume.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueData_WhereUsed">
+	<summary>
+  Looks up a localized string similar to Where Used.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Tissues_Title">
+	<summary>
+  Looks up a localized string similar to Tissues.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueSel_Diam">
+	<summary>
+  Looks up a localized string similar to Diam..
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueSel_Elec">
+	<summary>
+  Looks up a localized string similar to Elec..
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueSel_NumberofTissues">
+	<summary>
+  Looks up a localized string similar to Number of Tissues.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueSel_RebuildTable">
+	<summary>
+  Looks up a localized string similar to Rebuild Table.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueSel_Sortforbest">
+	<summary>
+  Looks up a localized string similar to Sort for best....
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueSel_T1Part">
+	<summary>
+  Looks up a localized string similar to T1Part.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueSel_T2Part">
+	<summary>
+  Looks up a localized string similar to T2Part.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueSel_T3Part">
+	<summary>
+  Looks up a localized string similar to T3Part.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueSel_Temp">
+	<summary>
+  Looks up a localized string similar to Temp..
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueSel_Title">
+	<summary>
+  Looks up a localized string similar to Tissue Config.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueSel_TotalCost">
+	<summary>
+  Looks up a localized string similar to TotalCost.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueSel_TotalLayers">
+	<summary>
+  Looks up a localized string similar to TotalLayers.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueSel_TotalMass">
+	<summary>
+  Looks up a localized string similar to TotalMass.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueSel_TotalRR1">
+	<summary>
+  Looks up a localized string similar to TotalRR1.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueSel_TotalRR2">
+	<summary>
+  Looks up a localized string similar to TotalRR2.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueSel_TotalThick">
+	<summary>
+  Looks up a localized string similar to TotalThick.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueSel_TotalTissues">
+	<summary>
+  Looks up a localized string similar to TotalTissues.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TissueSel_UpdateScratch">
+	<summary>
+  Looks up a localized string similar to Update Scratch.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TrsfrToScratch_acopyatthemoment">
+	<summary>
+  Looks up a localized string similar to a copy at the moment..
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TrsfrToScratch_andthatisyourself">
+	<summary>
+  Looks up a localized string similar to and that is yourself.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TrsfrToScratch_includingyou">
+	<summary>
+  Looks up a localized string similar to including you.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TrsfrToScratch_MessageAboutToBeTransferred">
+	<summary>
+  Looks up a localized string similar to The following design is about to be transferred to the scratch pad....
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TrsfrToScratch_Noonehas">
+	<summary>
+  Looks up a localized string similar to Noone has.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TrsfrToScratch_Peoplehave">
+	<summary>
+  Looks up a localized string similar to People have.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TrsfrToScratch_Someonehas">
+	<summary>
+  Looks up a localized string similar to Someone has.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TrsfrToScratch_Title">
+	<summary>
+  Looks up a localized string similar to Transfer to Scratch.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.TrsfrToScratch_Transferring">
+	<summary>
+  Looks up a localized string similar to Transferring....
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.UniMicroFaradPerCm">
+	<summary>
+  Looks up a localized string similar to µF/cm.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Unis_MicroFarad">
+	<summary>
+  Looks up a localized string similar to µF.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Unit_GramPerCubicCm">
+	<summary>
+  Looks up a localized string similar to g/cm³.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Units_CubicCm">
+	<summary>
+  Looks up a localized string similar to cm³.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Units_GramPerSquareCm">
+	<summary>
+  Looks up a localized string similar to g/cm².
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Units_MeterSquarePerKilogram">
+	<summary>
+  Looks up a localized string similar to m²/Kg.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Units_MicroFarad">
+	<summary>
+  Looks up a localized string similar to µF.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Units_MicroFaradPerSquareCm">
+	<summary>
+  Looks up a localized string similar to µF/cm².
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Units_MicroMeter">
+	<summary>
+  Looks up a localized string similar to µm.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Units_Mm">
+	<summary>
+  Looks up a localized string similar to mm.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Units_Ohm">
+	<summary>
+  Looks up a localized string similar to ohm.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Units_OhmSymbol">
+	<summary>
+  Looks up a localized string similar to Ω.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Units_OnePerCubicCm">
+	<summary>
+  Looks up a localized string similar to 1/cm³.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Units_PerKg">
+	<summary>
+  Looks up a localized string similar to /Kg.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.Units_PerMeterSquare">
+	<summary>
+  Looks up a localized string similar to /m².
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.UpdateCosts_Title">
+	<summary>
+  Looks up a localized string similar to Update Costs.
+</summary>
+</member><member name="P:ECAD.My.Resources.ECADFormStrings.UsersApprovals_Title">
+	<summary>
+  Looks up a localized string similar to Users / Approvals.
+</summary>
+</member><member name="T:ECAD.My.Resources.ECADFormStrings">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
